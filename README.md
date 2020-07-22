@@ -16,13 +16,14 @@
 
 > Hope this repo is helpful and best of luck to you!
 
-# A bit more about myself
+
+## A bit more about myself and this repo
 
 I was graduated from a traditional Electrical Engineering program (Yes I don't have a CS/CE degree)
 and after that I finished a graduate degree in nano-photonics. 
 
-The only programming courses I took in school was a C++ introductory course in my first year of 
-undergrad, and an assembly language course on my third year (EE mandatory). I learnt all the other 
+The only programming courses I took in school was a C++ introductory course in my first year 
+undergrad, and an assembly language course in my third year (EE mandatory). I learnt all the other 
 programming languages and more all by myself and I understand how painful or missing direction this
 could be. 
 
@@ -38,7 +39,8 @@ Most importantly, learning is a life long journey, and I'm still learning everyd
 Hopefully you can learn with me, and I can help people getting into the field more easily
 or improve their technical abilities.
 
-# Before get started, REMEMBER the following facts
+
+## Before get started, REMEMBER the following facts
 
 - **Programming is about writing the code, not reading**. So don't just read, IMPLEMENT it!
 - **You can't memorize everything at the first time**. So keep repeating and practicing, and WRITE them down!
@@ -49,3 +51,30 @@ or improve their technical abilities.
 Above points are really really important, keep these in mind and they'll help you in your career.
 
 Now let's get started!
+
+
+## Table of Content
+
+- [The Coding Interview Guide](#the-coding-interview-guide)
+  - [A bit more about myself and this repo](#a-bit-more-about-myself-and-this-repo)
+  - [Before get started, REMEMBER the following facts](#before-get-started-remember-the-following-facts)
+  - [Table of Content](#table-of-content)
+  - [Question & Answer](#question--answer)
+    - [Large Company VS Small Company](#large-company-vs-small-company)
+    - [What's the interview process look like](#whats-the-interview-process-look-like)
+    - [How to use LeetCode as a beginner](#how-to-use-leetcode-as-a-beginner)
+
+
+## Question & Answer
+
+### Large Company VS Small Company
+
+pass
+
+### What's the interview process look like
+
+pass
+
+### How to use LeetCode as a beginner
+
+pass
