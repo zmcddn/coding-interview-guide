@@ -69,12 +69,60 @@ Now let's get started!
 
 ### Large Company VS Small Company
 
-pass
+The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which takes the majority of the market. 
+
+The debate of whether working for a large company or a small company is ongoing and probably will never stop, since there is really a lot differences.
+
+The short conclusion is that:
+
+- Large company is a big platform where you can build your network very effectively and gain an insight of how the large company works, the down side is that there will be micromanagement (to some degree at least) and office politics, and you can't learn the full development cycle, plus there will be many meetings and too many processes
+- Small company enables you the ability to learn the full development cycle, gain a lot of project experience, and release a complete product from idea to production. You'll be spending the majority of your time coding and review coding, instead of endless meetings (exclude the mangers coz that's what they do, they have to plan the next steps with other departments). The down side is that your company is not well know so your skills could potentially be questioned, and building connections is a bit more difficult.
+
+I've created a table for you.
+
+|     | Large Company | Small Company |
+| :-: | :-----------: | :-----------: |
+| Networking | Easy to connect to many famous programmers | Have to work on networking |
+| Programming (varies with different comp) | ~ 30% a day | ~ 70% a day |
+| Meetings | ~ 50% - 70% a day | 10% - 30% a day |
+| Feature release process | could have many rounds of review and approval process | normally just peer review |
+| tech stack | it depends on different teams | it depends on project and the company culture |
+| Interview process | Many rounds, from 5 to 10+ | normally 3-5 rounds, sometimes have a take home project |
+| Interview Content | Mostly focus on algorithm/data structure problems | Mostly about hands on experience on the company tech stack |
 
 ### What's the interview process look like
 
-pass
+The interview process normally follows the following steps, but of course each company is different:
+
+1. You'll get an email asking you to finish an Online Assessment (OA) quiz, normally algorithm questions or simple knowledge test for the company's tech stack
+    - Note this is mostly used by large companies (and some mid-size companies). Small companies rarely has it.
+2. You got contacted by the company that there will be a screening phone interview
+    - This step normally is just talking about yourself and go over your resume/experience, and learn more about the company and position
+3. A technical phone interview. 
+    - This could be anything, from algorithm questions, to language/framework features.
+    - Each company is different.
+4. Another round of technical phone interview or take home quiz/project
+    - If this is not a take home quiz/project, then its referred as the "On-site" where you spend many hours to finish many rounds of interviews (3-5 depending on the company and experience level)
+5. This step varies, could be another technical interview, or company culture interview
+    - Again not all company has this step, but if you got one then its mostly just to check the candidate with the company culture, or some high level open technical discussions.
+6. Offer!
+
+Above steps is just a summary from my own (and from what I learnt from my friends) experience. 
+
+Do ask the interviewer/hr the interview process when you got contacted!
 
 ### How to use LeetCode as a beginner
 
-pass
+- First of all, if you don't know what LeetCode is, google it and thank me later.
+
+- As a beginner or new to algorithm questions, LeetCode can get overwhelming coz there are more than 1500 (at the time of writing) problems!
+
+- If you are new to algorithm and data structure, go the "**Explore**" tab on the top navigation bar, and go to the "**Learn**" row and learn all of them.
+
+- If you already know all the data structures, and would like to practice, do the questions from the tags, and do them from easy to hard
+    - Note that most of the companies rarely test hard ones
+
+- If you are really familiar with all the data structures and common algorithms, do the problems randomly, so you can think the best data structure for solving the problems most efficiently
+
+- If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions
+
