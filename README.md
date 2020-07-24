@@ -63,6 +63,8 @@ Now let's get started!
     - [Large Company VS Small Company](#large-company-vs-small-company)
     - [What's the interview process look like](#whats-the-interview-process-look-like)
     - [How to use LeetCode as a beginner](#how-to-use-leetcode-as-a-beginner)
+    - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
+    - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
 
 
 ## Question & Answer
@@ -126,3 +128,52 @@ Do ask the interviewer/hr the interview process when you got contacted!
 
 - If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions
 
+### How to solve LeetCode problem EFFECTIVELY
+
+**Rule of thumb: make every question count!**
+
+What I mean is that you have to really understand the question after you've solved it.
+
+It doesn't really matter if you solved it by yourself or looked at the answers. 
+
+Here are a list of important things you have to always think about when you are working on problems:
+
+- What's the best data structure/s to solve this problem
+- What's the time and space complexity (Big O's)
+- What's the tradeoff for the current approach (i.e. more space or more time)
+
+After solving the question (again whether you solved it yourself or looked at solution/discussion):
+
+- Is your solution the best way to solve it, if not is there a way to optimize your solution
+- If you can't solve it yourself, what was the reason?
+    - Have you seen the data structure/algorithm before? 
+        - If not you should stop working on more problems and study that immediately
+        - If so you should practice more on this type of problems
+    - Is there any tricks when solving the problem? 
+        - If not just keep practicing
+        - If so NOTE it!
+    - Did you have no clue when seeing the problem? 
+        - Practice more of this type of problems, and summarize the solution for each problem solved
+
+If you strictly do above things when you are working on the problem and after you solved it, its just a matter of time until you are an expert.
+
+### How to solve LeetCode problem EFFICIENTLY
+
+**Rule of thumb: Don't work on a single problem for too long, and don't be afraid to look at the solution!**
+
+I know many people don't wanna look for a solution if they can't solve the problem, but spending too much time (i.e hours) on a single problem isn't efficient at all! After all you only have 24 hours a day.
+
+So here is what you should do:
+
+- If you have no clue at all after reading the question, look at solution directly
+    - It may sounds a little cheese but this is the most efficient way cause you'll probably have no clue after 1 hour. Once you have solved enough questions this won't happen
+- If you have some clue but not sure how to do it, then spend some time work on it
+    - Normally spend like 15 - 30 mins, and if you still can't solve it, look at the solution
+- If you have an idea on how to solve it, do it!
+    - For this case, spend as much time as you need, even its one hour!
+    - The reason for that is you know how to solve it, but you are not really familiar on the approach so you need more practice. By solving it on your own after many try and errors, you should be very familiar with this question and you should be able to solve it very quickly next time
+
+To summarize, there are really just two points:
+
+1. Don't be afraid at looking the solution
+2. If you are blocked, see point 1
