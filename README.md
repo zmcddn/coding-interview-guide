@@ -65,6 +65,7 @@ Now let's get started!
     - [How to use LeetCode as a beginner](#how-to-use-leetcode-as-a-beginner)
     - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
     - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
+    - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
 
 
 ## Question & Answer
@@ -177,3 +178,23 @@ To summarize, there are really just two points:
 
 1. Don't be afraid at looking the solution
 2. If you are blocked, see point 1
+
+### Pay close attention to these when solving problem (gain max value of leetcode problem)
+
+**Rule of thumb: Consider edge cases, explain it step by step, analyze complexities, walk through code for test case**
+
+To gain the max value of leetcode problems, you need to do more than just solve the problem. 
+
+Here are a few things you need to pay close attention when solving the problem, because doing so will get you prepared for an interview better:
+
+- When first see the problem, ask many questions like boundaries, some edge case etc.
+    - Leetcode problems are quite straightforward, it shows you pretty much everything. However in the interview you'll have to work with the interviewer to get all the details of the problem you are about to solve. Make sure you fully understand the question and is aware of the boundaries and any possible edge cases
+- When solving the problem, don't just jump right in writing the code, but try to explain what you are about to do first by writing some pseudo code to illustrate your thinking process. 
+    - Doing so will allow your interviewer to understand your approach, and possibly correct you (or guide you) to the right path
+    - You can actually follow this process when working on the leetcode problems. For example, you can first write down the pseudo code as comments, and then fill in the actual code
+    - Since communication is also a really important factor in the interview process, this explanation step will greatly prepare you for an actual interview
+- You can ask for the space and time complexities prior to solving the problem, but most of the time you should mention this after finishing the problem. 
+    - Make sure you analyze both time and space complexity
+- Last but not least, once you have the solution, make sure to walk through your code with an test case. 
+    - Believe it or not, a lot people cannot debug their own code!
+    - Doing so will also show a sign that you review your code first before pushing it out, which is something you should do on your daily job 
