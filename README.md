@@ -70,6 +70,8 @@ Now let's get started!
 
 ## Question & Answer
 
+**DISCLAIMER:** These QAs are my personal opinions and experience. They are not guaranteed to be the perfect way/solution to the question, but is something I found really helpful from my own experience.
+
 ### Large Company VS Small Company
 
 The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which takes the majority of the market. 
