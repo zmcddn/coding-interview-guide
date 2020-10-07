@@ -66,6 +66,7 @@ Now let's get started!
     - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
     - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
     - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
+    - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
 
 
 ## Question & Answer
@@ -202,3 +203,34 @@ Here are a few things you need to pay close attention when solving the problem, 
 - Last but not least, once you have the solution, make sure to walk through your code with an test case. 
     - Believe it or not, a lot people cannot debug their own code!
     - Doing so will also show a sign that you review your code first before pushing it out, which is something you should do on your daily job 
+
+### How to get your FIRST job! (How to become more competitive among the candidates)
+
+To begin with, this is not limited to how to get the first job, but is meant to show you how to stand out of the crowd.
+
+**Rule of thumb: build your reputation, gain more project experience, networking!!**
+
+Essentially, you'll need to build your reputation. How to do that? There are a few ways:
+
+- Attending meetups! First and for most!
+    - Meetups, especially local meetups give you the opportunities to directly talk to a person who has a job, and whose company might be hiring. So if you go to meetups frequently and make connections, job opportunities will come to you!
+
+- Make sure you resume and LinkedIn profile (especially this one!) is up-to-date!
+    - The recruiters and agents are quite active on linkedin, and I received a lot of interests from them.
+
+- Gain more project experience. Either contribute to open source project or make your own personal project.
+    - This is not only for new grads, but also for those who have a few years of experience but has no project to show.
+    - I'm sure you all have lots of project experience from work, but I'm afraid you can't show them to the interviewer! The personal project is a way to SHOW OFF your skills and codes, and a way to convince the HR/interviewer that you are a strong candidate
+    - NOTE: most of the time HR/interviewer will not look at your pet project, but you can still let them know and probably brag about it during your interview, it'll always add scores!
+    - At last, make sure your pet project has quality code and follow standards! Otherwise it won't help.
+
+- Apply to many jobs and don't shy to ask for help.
+    - Don't restrict yourself! For first job, make sure you are fully prepared and apply to all companies that you can apply to, don't limit yourself to only large companies or certain companies. After all, once you had your first job, it'll be easier to find the second one, third one, etc
+    - Ask your network for potential job opportunities. Don't be shy to ask around, but make sure you are polite and not harassing people. It doesn't hurt to ask and sometimes the result may surprise you.
+
+- Don't give up! If you can't find a job or even receive any responses, its not your fault.
+    - Most companies won't response if you are not a good match nowadays. I know it doesn't feel good and you feel like you are just hanging there, but be aware that its not your fault.
+
+A lot times finding jobs is more of luck than anything else, so be prepared, be patient, and don't give up!
+
+Good luck!!!
