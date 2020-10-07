@@ -72,6 +72,8 @@ Now let's get started!
 
 **DISCLAIMER:** These QAs are my personal opinions and experience. They are not guaranteed to be the perfect way/solution to the question, but is something I found really helpful from my own experience.
 
+**NOTE:** You should read these QAs first before jumping into the content and resources, since these answers may save you lots time preparing the interview and potentially help you ace the interview. However feel free to go to whatever section you would like to go.
+
 ### Large Company VS Small Company
 
 The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which takes the majority of the market. 
