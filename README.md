@@ -1,8 +1,8 @@
 # The Coding Interview Guide
 
-> This is a collection of my notes when I was/am studying for interviews and it is also
-> intended to become a systematic guide for people who would like to become a software 
-> development engineer.
+> This is a collection of my notes when I was/am studying for interviews (or just for myself) 
+> and it is also intended to become a systematic guide for people who would like to 
+> become a software development engineer (SDE).
 
 > I was graduated as an Electrical Engineer and after working for about 2 years as Electrical
 > Engineer I decided to become a Software Engineer. I have taught myself all the most common
@@ -28,16 +28,16 @@ programming languages and more all by myself and I understand how painful or mis
 could be. 
 
 In this repo I'm going to show you how to get started for people who want to switch career 
-or who want to improve on the interviewing technics or revisit the fundamentals.
+or who want to improve the interviewing technics or revisit the fundamentals.
 
 - I'll be giving resources that I learnt 
-- I'll be sharing the tips and tricks on how to practice on the algorithms
+- I'll be sharing the tips and tricks on how to practice for the algorithms
 - I'll talk about various areas of software development
-- I'll be sharing the technics for Behavior Questions (BQs)
+- I'll be sharing the technics for answering Behavior Questions (BQs)
 
 Most importantly, learning is a life long journey, and I'm still learning everyday.
 Hopefully you can learn with me, and I can help people getting into the field more easily
-or improve their technical abilities.
+or improving their technical abilities.
 
 
 ## Before get started, REMEMBER the following facts
@@ -77,20 +77,20 @@ Now let's get started!
 
 ### Large Company VS Small Company
 
-The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which takes the majority of the market. 
+The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which makes the majority of the market. 
 
-The debate of whether working for a large company or a small company is ongoing and probably will never stop, since there is really a lot differences.
+The debate of whether working for a large company or a small company is ongoing and probably will never stop, since they can be quite different.
 
 The short conclusion is that:
 
-- Large company is a big platform where you can build your network very effectively and gain an insight of how the large company works, the down side is that there will be micromanagement (to some degree at least) and office politics, and you can't learn the full development cycle, plus there will be many meetings and too many processes
-- Small company enables you the ability to learn the full development cycle, gain a lot of project experience, and release a complete product from idea to production. You'll be spending the majority of your time coding and review coding, instead of endless meetings (exclude the mangers coz that's what they do, they have to plan the next steps with other departments). The down side is that your company is not well know so your skills could potentially be questioned, and building connections is a bit more difficult.
+- Large company is a big platform where you can build your network very effectively and gain an insight of how the large company and complex architecture works, the down side is that there will be micromanagement and office politics (to some degree at least), and you can't learn the full development cycle, plus there will be too many meetings and processes to get things done
+- Small company allows you to learn the full development cycle, gain a lot of project experience quickly, and release a complete product from idea to production. You'll be spending the majority of your time coding and reviewing code, instead of endless meetings (exclude the mangers because that's what they do, they have to plan the next steps with other departments). The down side is that your company is not well know so your skills could potentially be questioned, and building connections is a bit more difficult.
 
-I've created a table for you.
+I've created a table for you. (It is subjective and depending on different teams, numbers are not accurate but to give you an idea)
 
 |     | Large Company | Small Company |
 | :-: | :-----------: | :-----------: |
-| Networking | Easy to connect to many famous programmers | Have to work on networking |
+| Networking | Easy to connect to highly talented people | Have to work on networking |
 | Programming (varies with different comp) | ~ 30% a day | ~ 70% a day |
 | Meetings | ~ 50% - 70% a day | 10% - 30% a day |
 | Feature release process | could have many rounds of review and approval process | normally just peer review |
@@ -110,20 +110,20 @@ The interview process normally follows the following steps, but of course each c
     - This could be anything, from algorithm questions, to language/framework features.
     - Each company is different.
 4. Another round of technical phone interview or take home quiz/project
-    - If this is not a take home quiz/project, then its referred as the "On-site" where you spend many hours to finish many rounds of interviews (3-5 depending on the company and experience level)
+    - If this is not a take home quiz/project, then its referred as the "On-site" where you spend many hours to finish many rounds of interviews (3-5 rounds depending on the company and experience level)
 5. This step varies, could be another technical interview, or company culture interview
     - Again not all company has this step, but if you got one then its mostly just to check the candidate with the company culture, or some high level open technical discussions.
 6. Offer!
 
-Above steps is just a summary from my own (and from what I learnt from my friends) experience. 
+Above steps is just a summary from my own experience (and from what I learnt from my friends). 
 
-Do ask the interviewer/hr the interview process when you got contacted!
+DO ask the interviewer/hr the interview process when you got contacted!
 
 ### How to use LeetCode as a beginner
 
 - First of all, if you don't know what LeetCode is, google it and thank me later.
 
-- As a beginner or new to algorithm questions, LeetCode can get overwhelming coz there are more than 1500 (at the time of writing) problems!
+- As a beginner or new to algorithm questions, LeetCode can get overwhelming because there are more than 1500 (at the time of writing) problems!
 
 - If you are new to algorithm and data structure, go the "**Explore**" tab on the top navigation bar, and go to the "**Learn**" row and learn all of them.
 
