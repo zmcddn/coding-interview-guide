@@ -67,6 +67,11 @@ Now let's get started!
     - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
     - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
+  - [Resources](#resources)
+    - [Learn Python](#learn-python)
+    - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
+    - [Reinforcement Learning](#reinforcement-learning)
+    - [System Design](#system-design)
 
 
 ## Question & Answer
@@ -234,3 +239,26 @@ Essentially, you'll need to build your reputation. How to do that? There are a f
 A lot times finding jobs is more of luck than anything else, so be prepared, be patient, and don't give up!
 
 Good luck!!!
+
+
+## Resources
+
+### Learn Python
+
+- [Everything About Python — Beginner To Advanced](https://medium.com/fintechexplained/everything-about-python-from-beginner-to-advance-level-227d52ef32d2)
+
+### How to solve Algorithm Questions
+
+- [Fucking Algorithm - Algorithm template - Java, Python - English, Chinese](https://github.com/labuladong/fucking-algorithm)
+- [Algorithm Pattern - Algorithm template - Go - Chinese](https://github.com/greyireland/algorithm-pattern)
+- [Hello Algorithm - Leetcode Solution - Java - English, Chinese](https://github.com/geekxh/hello-algorithm)
+- [LeetCode Topics and Interview Questions Collection - Leetcode Solution - Java - English, Chinese](https://github.com/yuanguangxin/LeetCode)
+
+### Reinforcement Learning
+
+- [Reinforcement Learning Methods and Tutorials](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
+
+### System Design
+
+- [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
+- [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
