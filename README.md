@@ -67,6 +67,12 @@ Now let's get started!
     - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
     - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
+  - [Algorithms and Data Structures](#algorithms-and-data-structures)
+    - [Data Structures](#data-structures)
+    - [Search and Sort](#search-and-sort)
+    - [Trees](#trees)
+    - [Graph](#graph)
+    - [Common Algorithm Types](#common-algorithm-types)
   - [Resources](#resources)
     - [Learn Python](#learn-python)
     - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
@@ -240,6 +246,72 @@ A lot times finding jobs is more of luck than anything else, so be prepared, be 
 
 Good luck!!!
 
+
+## Algorithms and Data Structures
+
+**Book:** [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
+
+### Data Structures
+
+- Array
+- Linked List
+- Stack
+- Queue
+- Hash Table
+
+### Search and Sort
+
+- Search
+    - Sequential Search
+    - Binary Search
+- Sort
+    - Bubble Sort
+    - Selection Sort
+    - Insertion Sort
+    - Shell Sort
+    - Merge Sort
+    - Quick Sort
+    - Heap Sort
+
+### Trees
+
+- Binary Search Tree (BST)
+- Heap / Priority Queue / Binary Heap
+- Balanced BST
+- AVL Tree
+- Red-Black Tree
+- B+ Tree
+- Trie
+- Tree Traversal
+    - Pre-order
+    - In-order
+    - Post-order
+    - BFS
+    - DFS
+
+### Graph
+
+- Directed Graph
+- Undirected Graph
+- Graph Representation
+    - Adjacency Matrix
+    - Adjacency List
+- Graph traversal: BFS & DFS
+- Graph Algorithms:
+    - Shortest Path:
+        - Dijkstra’s Algorithm
+        - Floyd Warshall Algorithm
+    - Topological Sort
+    - Prim’s Spanning Tree Algorithm
+
+### Common Algorithm Types
+
+- Backtracking 
+- Divide and Conquer
+- Dynamic Programming
+- Greedy
+- Branch and Bound
+- Brute Force
 
 ## Resources
 
