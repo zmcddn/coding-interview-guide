@@ -69,8 +69,28 @@ Now let's get started!
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Algorithms and Data Structures](#algorithms-and-data-structures)
     - [Data Structures](#data-structures)
+      - [Array](#array)
+      - [Linked List](#linked-list)
+      - [Stack](#stack)
+      - [Queue](#queue)
+      - [Hash Table](#hash-table)
     - [Search and Sort](#search-and-sort)
+      - [Search](#search)
+        - [Sequential Search](#sequential-search)
+        - [Binary Search](#binary-search)
+      - [Sort](#sort)
+        - [Bubble Sort](#bubble-sort)
+        - [Selection Sort](#selection-sort)
+        - [Insertion Sort](#insertion-sort)
+        - [Shell Sort](#shell-sort)
+        - [Merge Sort](#merge-sort)
+        - [Quick Sort](#quick-sort)
+        - [Heap Sort](#heap-sort)
     - [Trees](#trees)
+      - [Tree Traversal](#tree-traversal)
+      - [Binary Search Tree (BST)](#binary-search-tree-bst)
+      - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+      - [More Trees](#more-trees)
     - [Graph](#graph)
     - [Common Algorithm Types](#common-algorithm-types)
   - [Resources](#resources)
@@ -253,41 +273,52 @@ Good luck!!!
 
 ### Data Structures
 
-- Array
-- Linked List
-- Stack
-- Queue
-- Hash Table
+#### Array
+#### Linked List
+#### Stack
+#### Queue
+#### Hash Table
 
 ### Search and Sort
 
-- Search
-    - Sequential Search
-    - Binary Search
-- Sort
-    - Bubble Sort
-    - Selection Sort
-    - Insertion Sort
-    - Shell Sort
-    - Merge Sort
-    - Quick Sort
-    - Heap Sort
+#### Search
+
+##### Sequential Search
+##### Binary Search
+  
+#### Sort
+
+##### Bubble Sort
+##### Selection Sort
+##### Insertion Sort
+##### Shell Sort
+##### Merge Sort
+##### Quick Sort
+##### Heap Sort
 
 ### Trees
 
-- Binary Search Tree (BST)
-- Heap / Priority Queue / Binary Heap
+#### Tree Traversal
+- Pre-order
+- In-order
+- Post-order
+- Level-order
+- BFS
+- DFS
+
+#### Binary Search Tree (BST)
+
 - Balanced BST
+
+#### Heap / Priority Queue / Binary Heap
+
+#### More Trees
+
 - AVL Tree
 - Red-Black Tree
 - B+ Tree
 - Trie
-- Tree Traversal
-    - Pre-order
-    - In-order
-    - Post-order
-    - BFS
-    - DFS
+
 
 ### Graph
 
