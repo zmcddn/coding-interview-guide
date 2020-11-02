@@ -96,8 +96,10 @@ Now let's get started!
   - [Resources](#resources)
     - [Learn Python](#learn-python)
     - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
-    - [Reinforcement Learning](#reinforcement-learning)
+    - [OOD (Object Oriented Design)](#ood-object-oriented-design)
     - [System Design](#system-design)
+    - [Machine Learning](#machine-learning)
+    - [Reinforcement Learning](#reinforcement-learning)
 
 
 ## Question & Answer
@@ -369,11 +371,22 @@ Good luck!!!
 - [Hello Algorithm - Leetcode Solution - Java - English, Chinese](https://github.com/geekxh/hello-algorithm)
 - [LeetCode Topics and Interview Questions Collection - Leetcode Solution - Java - English, Chinese](https://github.com/yuanguangxin/LeetCode)
 
-### Reinforcement Learning
+### OOD (Object Oriented Design)
 
-- [Reinforcement Learning Methods and Tutorials](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
+- **Elevator System Design**:
+    - [Video](https://leetcode.com/discuss/interview-question/object-oriented-design/886910/Elevator-System-Design-or-Object-Oriented-System-Design-Interview-Question)
+    - [discussion1](https://leetcode.com/discuss/interview-question/object-oriented-design/846057/OODElevator-System-with-N-elevators.)
+    - [discussion2](https://leetcode.com/discuss/interview-question/object-oriented-design/124936/design-an-elevator-system)
 
 ### System Design
 
 - [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
 - [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+
+### Machine Learning
+
+- [100 Days of Machine Learning Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
+
+### Reinforcement Learning
+
+- [Reinforcement Learning Methods and Tutorials](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
