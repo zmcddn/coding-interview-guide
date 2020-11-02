@@ -308,6 +308,13 @@ Good luck!!!
 
 #### Binary Search Tree (BST)
 
+- BST Property:
+    1. The value in each node must be `greater than (or equal to)` any values stored in its left subtree.
+    2. The value in each node must be `less than (or equal to)` any values stored in its right subtree.
+- `Inorder traversal` in BST will be in `ascending order`. Therefore, the inorder traversal is the most frequent used traversal method of a BST.
+- **successor:** the node that has the next-largest key in the tree
+    - it has no more than one child
+
 - Balanced BST
 
 #### Heap / Priority Queue / Binary Heap
