@@ -87,7 +87,7 @@ Now let's get started!
         - [Quick Sort](#quick-sort)
         - [Heap Sort](#heap-sort)
     - [Trees](#trees)
-      - [Tree Traversal](#tree-traversal)
+      - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
       - [Binary Search Tree (BST)](#binary-search-tree-bst)
       - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
       - [More Trees](#more-trees)
@@ -298,13 +298,18 @@ Good luck!!!
 
 ### Trees
 
-#### Tree Traversal
-- Pre-order
-- In-order
-- Post-order
+#### Tree Traversal: access the nodes of the tree
+
+- **preorder:** visit root first, then recursively do traversal of the left subtree,then a recursive traversal of the right subtree.
+    - root -> left -> right
+- **inorder:** recursively do traversal on the left subtree, then the root node, and finally do traversal of the right subtree.
+    - left -> root -> right
+- **postorder:** do traversal of the left subtree and the right subtree, finally to the root node.
+    - left -> right -> root
 - Level-order
 - BFS
 - DFS
+
 
 #### Binary Search Tree (BST)
 
