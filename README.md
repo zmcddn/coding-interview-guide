@@ -97,12 +97,14 @@ Now let's get started!
       - [More Trees](#more-trees)
     - [Graph](#graph)
     - [Common Algorithm Types](#common-algorithm-types)
+  - [System Design](#system-design)
+  - [Machine Learning](#machine-learning)
   - [Resources](#resources)
     - [Learn Python](#learn-python)
     - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
     - [OOD (Object Oriented Design)](#ood-object-oriented-design)
-    - [System Design](#system-design)
-    - [Machine Learning](#machine-learning)
+    - [System Design](#system-design-1)
+    - [Machine Learning](#machine-learning-1)
     - [Reinforcement Learning](#reinforcement-learning)
 
 
@@ -371,6 +373,11 @@ Good luck!!!
 - Greedy
 - Branch and Bound
 - Brute Force
+
+
+## System Design
+
+## Machine Learning
 
 ## Resources
 
