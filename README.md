@@ -71,6 +71,8 @@ Now let's get started!
     - [Data Structures](#data-structures)
       - [Array](#array)
       - [Linked List](#linked-list)
+        - [Search, Sort, Insert, Delete, Revert](#search-sort-insert-delete-revert)
+        - [Loop in Linked List](#loop-in-linked-list)
       - [Stack](#stack)
       - [Queue](#queue)
       - [Hash Table](#hash-table)
@@ -87,7 +89,9 @@ Now let's get started!
         - [Quick Sort](#quick-sort)
         - [Heap Sort](#heap-sort)
     - [Trees](#trees)
-      - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
+      - [Tree Operations](#tree-operations)
+        - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
+        - [Search, Insert, Delete](#search-insert-delete)
       - [Binary Search Tree (BST)](#binary-search-tree-bst)
       - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
       - [More Trees](#more-trees)
@@ -276,7 +280,13 @@ Good luck!!!
 ### Data Structures
 
 #### Array
+
 #### Linked List
+
+##### Search, Sort, Insert, Delete, Revert
+
+##### Loop in Linked List
+
 #### Stack
 #### Queue
 #### Hash Table
@@ -300,7 +310,9 @@ Good luck!!!
 
 ### Trees
 
-#### Tree Traversal: access the nodes of the tree
+#### Tree Operations
+
+##### Tree Traversal: access the nodes of the tree
 
 - **preorder:** visit root first, then recursively do traversal of the left subtree,then a recursive traversal of the right subtree.
     - root -> left -> right
@@ -311,6 +323,8 @@ Good luck!!!
 - Level-order
 - BFS
 - DFS
+
+##### Search, Insert, Delete
 
 
 #### Binary Search Tree (BST)
