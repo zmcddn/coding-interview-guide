@@ -414,12 +414,12 @@ Uncle Bob, whose a software engineer and introduced teh S.O.L.I.D. principals fo
 
 Here is a recent series of his open talks and I feel its valuable to spend time watching them at least once.
 
-- [Clean Code - Uncle Bob / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM&ab_channel=UnityCoin)
-- [Clean Code - Uncle Bob / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8&ab_channel=UnityCoin)
-- [Clean Code - Uncle Bob / Lesson 3](https://www.youtube.com/watch?v=Qjywrq2gM8o&ab_channel=UnityCoin)
-- [Clean Code - Uncle Bob / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50&ab_channel=UnityCoin)
-- [Clean Code - Uncle Bob / Lesson 5](https://www.youtube.com/watch?v=sn0aFEMVTpA&ab_channel=UnityCoin)
-- [Clean Code - Uncle Bob / Lesson 6](https://www.youtube.com/watch?v=l-gF0vDhJVI&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 1: SOLID principals, refactor, DRY](https://www.youtube.com/watch?v=7EmboKQH8lM&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 2: Comments, docs, naming,  reviews](https://www.youtube.com/watch?v=2a_ytyt9sf8&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 3: Software growth, QA, teamwork](https://www.youtube.com/watch?v=Qjywrq2gM8o&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 4: TDD](https://www.youtube.com/watch?v=58jGpV2Cg50&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 5: Architecture, project development](https://www.youtube.com/watch?v=sn0aFEMVTpA&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 6: project management](https://www.youtube.com/watch?v=l-gF0vDhJVI&ab_channel=UnityCoin)
 
 #### Design case study
 
