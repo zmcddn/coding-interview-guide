@@ -103,6 +103,9 @@ Now let's get started!
     - [Learn Python](#learn-python)
     - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
     - [OOD (Object Oriented Design)](#ood-object-oriented-design)
+      - [SOLID Principals](#solid-principals)
+      - [Clean Code - Uncle Bob lessons](#clean-code---uncle-bob-lessons)
+      - [Design case study](#design-case-study)
     - [System Design](#system-design-1)
     - [Machine Learning](#machine-learning-1)
     - [Reinforcement Learning](#reinforcement-learning)
@@ -393,6 +396,31 @@ Good luck!!!
 - [LeetCode Topics and Interview Questions Collection - Leetcode Solution - Java - English, Chinese](https://github.com/yuanguangxin/LeetCode)
 
 ### OOD (Object Oriented Design)
+
+#### SOLID Principals
+
+- [S.O.L.I.D. Principles of Object-Oriented Design - A Tutorial on Object-Oriented Design](https://www.youtube.com/watch?v=GtZtQ2VFweA&ab_channel=LaraconEU)
+- [Understanding the Single Responsibility Principle](https://www.youtube.com/watch?v=L2m-S0Pj_Xk&ab_channel=edutechional)
+- [Understanding the Open Closed Principle](https://www.youtube.com/watch?v=Ryhy7333mqQ&ab_channel=edutechional)
+- [Understanding the Liskov Substitution Principle](https://www.youtube.com/watch?v=Mmy1EUKC_iE&ab_channel=edutechional)
+- [OOP Design Principles: Interface Segregation Principle](https://www.youtube.com/watch?v=Ye1h3zKl1lg&ab_channel=edutechional)
+- [OOP Design Principles: Dependency Inversion Principle](https://www.youtube.com/watch?v=qL2-5g_lJTs&ab_channel=edutechional)
+- [Refactoring From Trash to SOLID](https://medium.com/swlh/refactoring-from-trash-to-solid-74b10005ccd3)
+
+#### Clean Code - Uncle Bob lessons
+
+Uncle Bob, whose a software engineer and introduced teh S.O.L.I.D. principals for clean code writing. 
+
+Here is a recent series of his open talks and I feel its valuable to spend time watching them at least once.
+
+- [Clean Code - Uncle Bob / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 3](https://www.youtube.com/watch?v=Qjywrq2gM8o&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 5](https://www.youtube.com/watch?v=sn0aFEMVTpA&ab_channel=UnityCoin)
+- [Clean Code - Uncle Bob / Lesson 6](https://www.youtube.com/watch?v=l-gF0vDhJVI&ab_channel=UnityCoin)
+
+#### Design case study
 
 - **Elevator System Design**:
     - [Video](https://leetcode.com/discuss/interview-question/object-oriented-design/886910/Elevator-System-Design-or-Object-Oriented-System-Design-Interview-Question)
