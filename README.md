@@ -106,6 +106,7 @@ Now let's get started!
       - [SOLID Principals](#solid-principals)
       - [Clean Code - Uncle Bob lessons](#clean-code---uncle-bob-lessons)
       - [Design case study](#design-case-study)
+    - [Async in Python](#async-in-python)
     - [System Design](#system-design-1)
     - [Machine Learning](#machine-learning-1)
     - [Reinforcement Learning](#reinforcement-learning)
@@ -427,14 +428,24 @@ Here is a recent series of his open talks and I feel its valuable to spend time 
     - [discussion1](https://leetcode.com/discuss/interview-question/object-oriented-design/846057/OODElevator-System-with-N-elevators.)
     - [discussion2](https://leetcode.com/discuss/interview-question/object-oriented-design/124936/design-an-elevator-system)
 
+
+### Async in Python
+
+- [Demystifying Python's Async and Await Keywords](https://www.youtube.com/watch?v=F19R_M4Nay4&ab_channel=JetBrainsTV)
+- [Thinking Outside the GIL with AsyncIO and Multiprocessing - PyCon 2018](https://www.youtube.com/watch?v=0kXaLh8Fz3k&ab_channel=PyCon2018)
+- [Advanced asyncio: Solving Real-world Production Problems - PyCon 2019](https://www.youtube.com/watch?v=bckD_GK80oY&ab_channel=PyCon2019)
+
+
 ### System Design
 
 - [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
 - [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
+
 ### Machine Learning
 
 - [100 Days of Machine Learning Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
+
 
 ### Reinforcement Learning
 
