@@ -303,7 +303,10 @@ Good luck!!!
 
 ##### Sequential Search
 ##### Binary Search
-  
+
+- KEY is the search interval
+- [Template](./Templates/binary_search.md)
+
 #### Sort
 
 ##### Bubble Sort
