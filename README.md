@@ -355,8 +355,7 @@ Good luck!!!
 - Red-Black Tree
 - B+ Tree
 - Trie
-
-  - [Template](./Templates/trie.md)
+    - [Template](./Templates/trie.md)
 
 
 ### Graph
@@ -372,6 +371,7 @@ Good luck!!!
         - Dijkstra’s Algorithm
         - Floyd Warshall Algorithm
     - Topological Sort
+        - [Template](./Templates/topological_sort.md)
     - Prim’s Spanning Tree Algorithm
 
 ### Common Algorithm Types
