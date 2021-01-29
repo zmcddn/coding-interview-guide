@@ -356,6 +356,8 @@ Good luck!!!
 - B+ Tree
 - Trie
 
+  - [Template](./Templates/trie.md)
+
 
 ### Graph
 
