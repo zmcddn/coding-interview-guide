@@ -349,6 +349,26 @@ Good luck!!!
 
 #### Heap / Priority Queue / Binary Heap
 
+- **Priority Queue:**
+    - the logical order of items inside a queue is determined by their priority.
+    - The highest priority items are at the front of the queue and the lowest priority items are at the back.
+- **Binary Heap:** the classic way to implement a priority queue.
+    - both enqueue and dequeue items are **O(logn)**
+    - **min heap:** the smallest key is always at the front
+    - **max heap:** the largest key value is always at the front
+    - **complete binary tree:** a tree in which each level has all of its nodes (except the bottom level)
+        - can be implemented using a single list
+        - Because the tree is complete, the left child of a parent (at position **p**) is the node that is found in position **2p** in the list. Similarly, the right child of the parent is at position **2p+1** in the list.
+        ![](http://interactivepython.org/runestone/static/pythonds/_images/heapOrder.png)
+    - **heap order property:** In a heap, for every node **x** with parent **p**, the key in **p** is smaller than or equal to the key in **x**.
+        * For example, the root of the tree must be the smallest item in the tree
+    - When to use heap:
+        - Priority Queue implementation
+        - whenever need quick access to largest/smallest item
+            - Instant access to the item
+            - insertions are fast, allow in-place sorting
+        - More details can be seen in [this discussion](https://stackoverflow.com/questions/749199/when-would-i-want-to-use-a-heap)
+
 #### More Trees
 
 - AVL Tree
