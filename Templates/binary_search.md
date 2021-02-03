@@ -119,3 +119,8 @@ Search interval: `[left, right]`
 You can also use the builtin `biset` function to do the same thing.
 
 [Details here](https://docs.python.org/3/library/bisect.html)
+
+
+Practice:
+
+- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
