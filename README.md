@@ -97,6 +97,7 @@ Now let's get started!
       - [More Trees](#more-trees)
     - [Graph](#graph)
     - [Common Algorithm Types](#common-algorithm-types)
+    - [Frequently Used Technics and Algorithms](#frequently-used-technics-and-algorithms)
   - [System Design](#system-design)
   - [Machine Learning](#machine-learning)
   - [Resources](#resources)
@@ -403,6 +404,15 @@ Good luck!!!
 - Branch and Bound
 - Brute Force
 
+### Frequently Used Technics and Algorithms
+
+- Sliding Window
+- monotonic stack/queue
+- KMP algorithm (pattern match)
+- Kadane's algorithm
+- Union find
+- Line sweep
+- Reservoir Sampling
 
 ## System Design
 
