@@ -407,6 +407,7 @@ Good luck!!!
 ### Frequently Used Technics and Algorithms
 
 - Sliding Window
+    - [Template](./Templates/sliding_window.md)
 - monotonic stack/queue
 - KMP algorithm (pattern match)
 - Kadane's algorithm
