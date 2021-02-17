@@ -387,6 +387,7 @@ Good luck!!!
     - Adjacency Matrix
     - Adjacency List
 - Graph traversal: BFS & DFS
+    - [Template](./Templates/graph_traversal.md)
 - Graph Algorithms:
     - Shortest Path:
         - Dijkstra’s Algorithm
