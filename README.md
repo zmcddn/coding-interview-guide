@@ -477,6 +477,7 @@ Here is a recent series of his open talks and I feel its valuable to spend time 
 
 ### System Design
 
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
 - [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
