@@ -14,7 +14,7 @@
 
 ## Template
 
-First check the graph traversal template[**HERE**](./graph_traversal.md) if you haven't seen the graph traversal. It is highly recommended that you fully understand the graph traversal first.
+First check the graph traversal template [**HERE**](./graph_traversal.md) if you haven't seen the graph traversal. It is highly recommended that you fully understand the graph traversal first.
 
 ```python
 from heapq import heappop, heappush
