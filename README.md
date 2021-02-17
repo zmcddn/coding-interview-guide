@@ -401,6 +401,7 @@ Good luck!!!
 ### Common Algorithm Types
 
 - Backtracking 
+    - [Template](./Templates/backtrack.md)
 - Divide and Conquer
 - Dynamic Programming
 - Greedy
