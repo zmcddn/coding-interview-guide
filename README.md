@@ -390,6 +390,8 @@ Good luck!!!
 - Graph Algorithms:
     - Shortest Path:
         - Dijkstra’s Algorithm
+            - ***Essentially, this is a BFS using priority queue instead of queue***
+            - [Template](./Templates/dijkstra.md)
         - Floyd Warshall Algorithm
     - Topological Sort
         - [Template](./Templates/topological_sort.md)
