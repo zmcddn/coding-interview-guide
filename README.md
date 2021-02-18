@@ -411,6 +411,7 @@ Good luck!!!
 ### Frequently Used Technics and Algorithms
 
 - Sliding Window
+    - ***Fundamentally this is a two pointer approach***
     - [Template](./Templates/sliding_window.md)
 - monotonic stack/queue
 - KMP algorithm (pattern match)
