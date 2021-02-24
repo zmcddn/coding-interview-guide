@@ -480,9 +480,24 @@ Here is a recent series of his open talks and I feel its valuable to spend time 
 ### System Design
 
 - [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
+    - The repo with explanations, examples, and study cases
+- [Distributed systems for fun and profit](http://book.mixu.net/distsys/single-page.html)
+    - About 100 pages free book
 - [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+    - Quick grasp of system design concepts
+- [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
+    - You all need to learn the design patterns eventually
 
+This repo has the full list of company engineering blogs:
+
+- [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
+
+Papers:
+
+- [Google MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+- [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+- [TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
+- [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
 ### Machine Learning
 
