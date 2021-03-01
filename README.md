@@ -438,7 +438,7 @@ Here is a template I use for the system design interview:
 
    - Throughput (QPS for read and write queries)
    - Latency expected from the system (for read and write queries)
-   - Read/Write ratio (heavy read, heavy write, or 1:1)
+   - Read/Write ratio (heavy read, heavy write, or similar)
    - Traffic estimates (QPS for read and write)
    - Storage estimates (media files, text/photo/video)
    - Memory estimates
