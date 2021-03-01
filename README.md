@@ -575,6 +575,7 @@ Here is a recent series of his open talks and I feel its valuable to spend time 
     - Quick grasp of system design concepts
 - [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
     - You all need to learn the design patterns eventually
+- [Design Patterns in Python](https://github.com/faif/python-patterns)
 
 This repo has the full list of company engineering blogs:
 
