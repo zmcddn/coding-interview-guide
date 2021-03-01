@@ -422,6 +422,94 @@ Good luck!!!
 
 ## System Design
 
+System design questions can be very difficult to prepare, because it covers a  wide range of areas.
+
+Here is a template I use for the system design interview:
+
+1. Feature expectations (5 mins) - gather requirements:
+
+   - Use cases
+   - Scenarios that will NOT be covered
+   - End-user (who will use it)
+   - Capacity (how many people will use it, DAU (daily active user))
+   - How to use it
+
+2. Estimations (2-5 mins) - estimate scale:
+
+   - Throughput (QPS for read and write queries)
+   - Latency expected from the system (for read and write queries)
+   - Read/Write ratio (heavy read, heavy write, or 1:1)
+   - Traffic estimates (QPS for read and write)
+   - Storage estimates (media files, text/photo/video)
+   - Memory estimates
+       - Cache: what is the kind of data we want to store in cache
+       - How much RAM and how many machines
+       - How much data stored on disk/ssd
+
+3. Design Goals (5 mins) - identify most important goals for the system:
+
+    - Latency vs Throughput
+    - Consistency vs Availability vs Scalability
+
+4. High Level Design (5-10 min) - discuss a very high level with the interviewer:
+
+    - System components (load balancer, cache, database, etc)
+    - Database schema
+    - APIs for Read/Write scenarios for crucial components
+    - High level design for Read/Write scenario
+
+5. Deep Dive (15-20 mins) - focus on any part of the component:
+
+    - Scaling individual component
+        - Availability, Consistency and Scale story for each component
+        - Consistency and availability patterns
+    - Deep dive on any of the following component
+        - DNS
+        - CDN (Pull vs Push vs Hybrid)
+        - Load Balancer (Round Robin, Weighted Round Robin, Consistent Hash, Active-Passive, Active-Active, Layer 4, Layer 7)
+        - Reverse Proxy
+        - Application layer scaling (Microservices, Service Discovery, Service Mesh)
+        - Database (RDBMS vs NoSQL)
+            - RDBMS:
+                - Leader-follower, Multi-leader, Leaderless, Federation, Sharding, Denormalization, SQL Tuning
+            - NoSQL:
+                - Key-Value, Wide-Column, Graph, Document
+                - RAM [Bounded size] => Redis, Memcached
+                - AP [Unbounded size] => Cassandra, RIAK, Voldemort
+                - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
+        - Caches:
+            - Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache at Query level, Cache at Object level
+            - Cache Patterns:
+                - Cache aside
+                - Write through
+                - Write behind
+                - Refresh ahead
+            - Eviction policies:
+                - LRU
+                - LFU
+                - FIFO
+        - Asynchronism
+            - Message queues
+            - Task queues
+            - Back pressure
+        - Communication
+            - TCP
+            - UDP
+            - REST
+            - RPC
+
+6. Justify (5 mins):
+
+    - Throughput of each layer
+    - Latency caused between each layer
+    - Overall latency justification
+
+
+Reference:
+
+- [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+- [System Design - InterviewBit](https://www.interviewbit.com/courses/system-design/)
+
 ## Machine Learning
 
 ## Resources
