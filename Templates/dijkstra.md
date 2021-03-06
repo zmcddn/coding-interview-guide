@@ -33,6 +33,9 @@ while heap:
                 heappush(heap, [dist+1, end_vertex])
 ```
 
+Note that above template doesn't iterate through the entire maze or graph or whatever input you received. 
+This is simply because shortest path normally have a start point and an end point, so we just need to start from the start point, no need to check all points.
+
 
 Reference:
 
@@ -40,4 +43,5 @@ Reference:
 
 Practice:
 
+- [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
 - [Please Share dijkstra's algorithm questions - Leetcode](https://leetcode.com/discuss/interview-question/731911/please-share-dijkstras-algorithm-questions)
