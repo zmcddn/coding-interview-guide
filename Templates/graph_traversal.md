@@ -57,17 +57,15 @@ def numIslands(self, grid: List[List[str]]) -> int:
                     for _ in range(len(queue)):
                         # Must use name other than row and col
                         # Otherwise there will be collision
-                        x, y = queue.pop(0)
+                        _x, _y = queue.pop(0)
 
-                        for _x,_y in directions:
-                            # Trasversal all directions
-                            dx, dy = x + _x, y + _y
+                        for dx, dy in directions:
+                            # Traversal all directions
+                            x, y = dx + _x, dy + _y
 
-                            if dx > rows-1 or dx < 0 or dy > cols-1 or dy < 0 or grid[dx][dy] != "1":
-                                continue
-
-                            grid[dx][dy] = 'visited'
-                            queue.append((dx, dy))
+                            if 0 <= x < rows and 0 <= y < cols and grid[x][y] == "1":
+                                grid[x][y] = 'visited'
+                                queue.append((x, y))
                             
                             # if count is here (i.e. inside all loops) it'll count how many "1"s
                     
