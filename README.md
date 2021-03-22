@@ -414,11 +414,12 @@ Good luck!!!
     - ***Fundamentally this is a two pointer approach***
     - [Template](./Templates/sliding_window.md)
 - monotonic stack/queue
-- KMP algorithm (pattern match)
-- Kadane's algorithm
+    - [Monotonic Stack template](./Templates/monotonic_stack.md)
 - Union find
-- Line sweep
+- Kadane's algorithm
 - Reservoir Sampling
+- Line sweep
+- KMP algorithm (pattern match)
 
 ## System Design
 
