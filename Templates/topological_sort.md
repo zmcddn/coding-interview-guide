@@ -1,10 +1,16 @@
 # Topological Sort
 
+Two important steps for topological sort is:
+
+1. Find the in degree for each node
+2. Construct the adjacency list for the graph
+
+
 ```python
 def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
     """
     Topological sort, works for DAG (Directed acyclic graph)
-    1. Calculate the in-degree for all points, initiate empty topo_map
+    1. Calculate the in-degree for all points, initiate empty adj_list
     2. Put all the 0-degree points (i.e. point that has no neighbor points) into BFS queue
     3. Pop point from BFS queue and put it in the topo queue. Each time of the process visit 
         all the neighbor points and reduce their in-degrees by 1
@@ -18,11 +24,11 @@ def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int
     # Init a list stores No. of incoming edges of each vertex and 
     # Init map (an adjacency list) to record the node's children
     in_degree = defaultdict(int)
-    topo_map = defaultdict(list)
+    adj_list = defaultdict(list)
     
     # Build map to put the child into parent's list
     for current_course, prev_course in prerequisites:
-        topo_map[prev_course].append(current_course)
+        adj_list[prev_course].append(current_course)
         in_degree[current_course] += 1  # a directed edge
     
     #  a queue of all vertices with no incoming edge
@@ -35,7 +41,7 @@ def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int
     while queue:
         node = queue.pop(0)  # BFS, pops vertex
         res.append(node)
-        for neighbor in topo_map[node]:
+        for neighbor in adj_list[node]:
             # for each descendant of current vertex, reduce its in-degree by 1
             in_degree[neighbor] -= 1
             
@@ -49,6 +55,9 @@ Practice:
 
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/)
+- [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
+- [1203. Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)
 
 
 Reference:
