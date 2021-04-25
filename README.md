@@ -67,16 +67,23 @@ Now let's get started!
     - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
     - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
-  - [Algorithms and Data Structures](#algorithms-and-data-structures)
+  - [Data Structures and Algorithms](#data-structures-and-algorithms)
     - [Data Structures](#data-structures)
       - [Array](#array)
       - [Linked List](#linked-list)
-        - [Search, Sort, Insert, Delete, Revert](#search-sort-insert-delete-revert)
-        - [Loop in Linked List](#loop-in-linked-list)
       - [Stack](#stack)
       - [Queue](#queue)
       - [Hash Table](#hash-table)
-    - [Search and Sort](#search-and-sort)
+      - [Trees](#trees)
+        - [Tree Operations](#tree-operations)
+          - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
+          - [Search, Insert, Delete](#search-insert-delete)
+        - [Binary Search Tree (BST)](#binary-search-tree-bst)
+        - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+        - [More Trees](#more-trees)
+      - [Graph](#graph)
+    - [Common Algorithm Types](#common-algorithm-types)
+      - [Brute Force](#brute-force)
       - [Search](#search)
         - [Sequential Search](#sequential-search)
         - [Binary Search](#binary-search)
@@ -88,15 +95,12 @@ Now let's get started!
         - [Merge Sort](#merge-sort)
         - [Quick Sort](#quick-sort)
         - [Heap Sort](#heap-sort)
-    - [Trees](#trees)
-      - [Tree Operations](#tree-operations)
-        - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
-        - [Search, Insert, Delete](#search-insert-delete)
-      - [Binary Search Tree (BST)](#binary-search-tree-bst)
-      - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-      - [More Trees](#more-trees)
-    - [Graph](#graph)
-    - [Common Algorithm Types](#common-algorithm-types)
+      - [Recursive](#recursive)
+      - [Backtracking](#backtracking)
+      - [Dynamic Programming](#dynamic-programming)
+      - [Divide and Conquer](#divide-and-conquer)
+      - [Greedy](#greedy)
+      - [Branch and Bound](#branch-and-bound)
     - [Frequently Used Technics and Algorithms](#frequently-used-technics-and-algorithms)
   - [System Design](#system-design)
     - [System Design Interview Template](#system-design-interview-template)
@@ -281,9 +285,34 @@ A lot times finding jobs is more of luck than anything else, so be prepared, be 
 Good luck!!!
 
 
-## Algorithms and Data Structures
+## Data Structures and Algorithms
 
 **Book:** [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
+
+- For those who needs to study the fundamental data structures and algorithms, highly recommend to go over above textbook thoroughly first, and then come back to the following content, or practice on Leetcode or other platform
+
+
+**Basic data structures**:
+
+- Array
+- Linked List
+- Stack
+- Queue
+- Hash Table
+- Tree
+- Graph
+
+**Common Algorithm Types**:
+
+- Brute Force
+- Search and Sort
+- Recursive
+- Backtracking 
+- Dynamic Programming
+- Divide and Conquer
+- Greedy
+- Branch and Bound
+
 
 ### Data Structures
 
@@ -293,41 +322,18 @@ Good luck!!!
 
 - Similar to array, but requires O(N) time on average to visit an element by index
 - Linked list utilize memory better than array, since it can use discrete memory space, whereas array must use continuous memory space
-- [Template and details](./Templates/linked_list.md)
-
-##### Search, Sort, Insert, Delete, Revert
-
-##### Loop in Linked List
+- [Details and Templates](./Templates/linked_list.md)
 
 #### Stack
+
 #### Queue
 #### Hash Table
 
-### Search and Sort
+#### Trees
 
-#### Search
+##### Tree Operations
 
-##### Sequential Search
-##### Binary Search
-
-- KEY is the search interval
-- [Template](./Templates/binary_search.md)
-
-#### Sort
-
-##### Bubble Sort
-##### Selection Sort
-##### Insertion Sort
-##### Shell Sort
-##### Merge Sort
-##### Quick Sort
-##### Heap Sort
-
-### Trees
-
-#### Tree Operations
-
-##### Tree Traversal: access the nodes of the tree
+###### Tree Traversal: access the nodes of the tree
 
 - **preorder:** visit root first, then recursively do traversal of the left subtree,then a recursive traversal of the right subtree.
     - root -> left -> right
@@ -339,10 +345,10 @@ Good luck!!!
 - BFS
 - DFS
 
-##### Search, Insert, Delete
+###### Search, Insert, Delete
 
 
-#### Binary Search Tree (BST)
+##### Binary Search Tree (BST)
 
 - BST Property:
     1. The value in each node must be `greater than (or equal to)` any values stored in its left subtree.
@@ -353,7 +359,7 @@ Good luck!!!
 
 - Balanced BST
 
-#### Heap / Priority Queue / Binary Heap
+##### Heap / Priority Queue / Binary Heap
 
 - **Priority Queue:**
     - the logical order of items inside a queue is determined by their priority.
@@ -375,7 +381,7 @@ Good luck!!!
             - insertions are fast, allow in-place sorting
         - More details can be seen in [this discussion](https://stackoverflow.com/questions/749199/when-would-i-want-to-use-a-heap)
 
-#### More Trees
+##### More Trees
 
 - AVL Tree
 - Red-Black Tree
@@ -384,7 +390,7 @@ Good luck!!!
     - [Template](./Templates/trie.md)
 
 
-### Graph
+#### Graph
 
 - Directed Graph
 - Undirected Graph
@@ -405,13 +411,43 @@ Good luck!!!
 
 ### Common Algorithm Types
 
-- Backtracking 
-    - [Template](./Templates/backtrack.md)
-- Divide and Conquer
-- Dynamic Programming
-- Greedy
-- Branch and Bound
-- Brute Force
+#### Brute Force
+
+- Most common algorithm
+- Whenever you are facing a problem without many clues, you should solve it using brute force first, and observe the process and try to optimize your solution 
+
+#### Search
+
+##### Sequential Search
+##### Binary Search
+
+- KEY is the search interval
+- [Template](./Templates/binary_search.md)
+
+#### Sort
+
+##### Bubble Sort
+##### Selection Sort
+##### Insertion Sort
+##### Shell Sort
+##### Merge Sort
+##### Quick Sort
+##### Heap Sort
+
+#### Recursive
+
+#### Backtracking 
+
+- [Template](./Templates/backtrack.md)
+
+
+#### Dynamic Programming
+
+#### Divide and Conquer
+
+#### Greedy
+
+#### Branch and Bound
 
 ### Frequently Used Technics and Algorithms
 
