@@ -99,6 +99,7 @@ Now let's get started!
     - [Common Algorithm Types](#common-algorithm-types)
     - [Frequently Used Technics and Algorithms](#frequently-used-technics-and-algorithms)
   - [System Design](#system-design)
+    - [System Design Interview Template](#system-design-interview-template)
   - [Machine Learning](#machine-learning)
   - [Resources](#resources)
     - [Learn Python](#learn-python)
@@ -290,6 +291,10 @@ Good luck!!!
 
 #### Linked List
 
+- Similar to array, but requires O(N) time on average to visit an element by index
+- Linked list utilize memory better than array, since it can use discrete memory space, whereas array must use continuous memory space
+- [Template and details](./Templates/linked_list.md)
+
 ##### Search, Sort, Insert, Delete, Revert
 
 ##### Loop in Linked List
@@ -423,6 +428,8 @@ Good luck!!!
 
 ## System Design
 
+### System Design Interview Template
+
 System design questions can be very difficult to prepare, because it covers a  wide range of areas.
 
 Here is a template I use for the system design interview:
@@ -510,6 +517,7 @@ Reference:
 
 - [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 - [System Design - InterviewBit](https://www.interviewbit.com/courses/system-design/)
+
 
 ## Machine Learning
 
