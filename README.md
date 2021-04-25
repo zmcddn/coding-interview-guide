@@ -472,11 +472,18 @@ Here is a template I use for the system design interview:
 
 1. Feature expectations (5 mins) - gather requirements:
 
-   - Use cases
-   - Scenarios that will NOT be covered
-   - End-user (who will use it)
-   - Capacity (how many people will use it, DAU (daily active user))
-   - How to use it
+   - Functional requirements:
+       - Use cases
+       - Scenarios that will NOT be covered
+       - End-user (who will use it)
+       - Capacity (how many people will use it, DAU (daily active user))
+       - How to use it
+   - None-Functional requirements:
+       - Scalability
+       - Availability
+       - Performance/Latency
+       - Consistency
+       - Durability/Fault-tolerant
 
 2. Estimations (2-5 mins) - estimate scale:
 
@@ -490,19 +497,14 @@ Here is a template I use for the system design interview:
        - How much RAM and how many machines
        - How much data stored on disk/ssd
 
-3. Design Goals (5 mins) - identify most important goals for the system:
+3. High Level Design (5-10 min) - discuss a very high level with the interviewer:
 
-    - Latency vs Throughput
-    - Consistency vs Availability vs Scalability
-
-4. High Level Design (5-10 min) - discuss a very high level with the interviewer:
-
-    - System components (load balancer, cache, database, etc)
+    - System components (load balancer, services, cache, database, etc)
     - Database schema
     - APIs for Read/Write scenarios for crucial components
-    - High level design for Read/Write scenario
+    - Request flow process (from client to database)
 
-5. Deep Dive (15-20 mins) - focus on any part of the component:
+4. Deep Dive (15-20 mins) - focus on any part of the component:
 
     - Scaling individual component
         - Availability, Consistency and Scale story for each component
@@ -542,7 +544,7 @@ Here is a template I use for the system design interview:
             - REST
             - RPC
 
-6. Justify (5 mins):
+5. Justify (5 mins):
 
     - Throughput of each layer
     - Latency caused between each layer
