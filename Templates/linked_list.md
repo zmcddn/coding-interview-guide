@@ -109,5 +109,13 @@ Reference:
 
 Practice:
 
-- Strongly recommend to go over the above reference and finish all questions at least once
+- Basic questions:
+    - [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
+    - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+    - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+    - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
+- Tricky questions:
+    - [142. Linked List Cycle II - Find linked list cycle start point](https://leetcode.com/problems/linked-list-cycle-ii/)
+    - [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+    - [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
