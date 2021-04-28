@@ -451,6 +451,9 @@ Good luck!!!
 
 ### Frequently Used Technics and Algorithms
 
+- Matrix Traversal
+    - Focusing on various ways of traversing 2D matrix
+    - [Template](./Templates/matrix_traversal.md)
 - Sliding Window
     - ***Fundamentally this is a two pointer approach***
     - [Template](./Templates/sliding_window.md)

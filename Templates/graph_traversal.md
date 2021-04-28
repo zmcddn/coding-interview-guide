@@ -1,5 +1,7 @@
 # Graph Traversal - BFS/DFS
 
+First check the matrix traversal template [**HERE**](./matrix_traversal.md) if you haven't seen it. It is highly recommended that you fully understand the matrix traversal first.
+
 We can use either BFS or DFS to traversal the graph
 
 ## Recursive template
