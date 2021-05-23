@@ -329,15 +329,21 @@ Good luck!!!
 
 #### Trees
 
+* A tree data structure has its root at the top and its leaves on the bottom.
+* Three properties of tree:
+    1. we start at the top of the tree and follow a path made of circles and arrows all the way to the bottom.
+    2. all of the children of one node are independent of the children of another node.
+    3. each leaf node is unique. 
+* **binary tree:** each node in the tree has a maximum of two children.
+    * A **balanced binary tree** has roughly the same number of nodes in the left and right subtrees of the root.
+
 ##### Tree Traversal: access the nodes of the tree
 
-Tree traversal is the foundation of all tree related problems.
-
-Here are a few different ways to traverse a tree:
-
-- BFS: Level-order
-- DFS: Pre-order, In-order, Post-order
-- [Details and Templates](./Templates/tree_traversal.md)
+- Tree traversal is the foundation of all tree related problems.
+- Here are a few different ways to traverse a tree:
+    - BFS: Level-order
+    - DFS: Pre-order, In-order, Post-order
+    - [Details and Templates](./Templates/tree_traversal.md)
 
 
 ##### Binary Search Tree (BST)
