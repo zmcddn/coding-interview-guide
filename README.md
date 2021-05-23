@@ -75,9 +75,7 @@ Now let's get started!
       - [Queue](#queue)
       - [Hash Table](#hash-table)
       - [Trees](#trees)
-        - [Tree Operations](#tree-operations)
-          - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
-          - [Search, Insert, Delete](#search-insert-delete)
+        - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
         - [Binary Search Tree (BST)](#binary-search-tree-bst)
         - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
         - [More Trees](#more-trees)
@@ -331,21 +329,15 @@ Good luck!!!
 
 #### Trees
 
-##### Tree Operations
+##### Tree Traversal: access the nodes of the tree
 
-###### Tree Traversal: access the nodes of the tree
+Tree traversal is the foundation of all tree related problems.
 
-- **preorder:** visit root first, then recursively do traversal of the left subtree,then a recursive traversal of the right subtree.
-    - root -> left -> right
-- **inorder:** recursively do traversal on the left subtree, then the root node, and finally do traversal of the right subtree.
-    - left -> root -> right
-- **postorder:** do traversal of the left subtree and the right subtree, finally to the root node.
-    - left -> right -> root
-- Level-order
-- BFS
-- DFS
+Here are a few different ways to traverse a tree:
 
-###### Search, Insert, Delete
+- BFS: Level-order
+- DFS: Pre-order, In-order, Post-order
+- [Details and Templates](./Templates/tree_traversal.md)
 
 
 ##### Binary Search Tree (BST)
