@@ -342,14 +342,13 @@ Here are a few different ways to traverse a tree:
 
 ##### Binary Search Tree (BST)
 
-- BST Property:
+- BST Property (left subtree < root < right subtree):
     1. The value in each node must be `greater than (or equal to)` any values stored in its left subtree.
     2. The value in each node must be `less than (or equal to)` any values stored in its right subtree.
 - `Inorder traversal` in BST will be in `ascending order`. Therefore, the inorder traversal is the most frequent used traversal method of a BST.
 - **successor:** the node that has the next-largest key in the tree
     - it has no more than one child
-
-- Balanced BST
+- You could go over the [Leetcode Binary Search Tree topic](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/) for details
 
 ##### Heap / Priority Queue / Binary Heap
 
