@@ -411,10 +411,10 @@ Good luck!!!
     - [Template](./Templates/graph_traversal.md)
 - Graph Algorithms:
     - Shortest Path:
-        - Dijkstra’s Algorithm
+        - Dijkstra’s Algorithm (Single source point)
             - ***Essentially, this is a BFS using priority queue instead of queue***
             - [Template](./Templates/dijkstra.md)
-        - Floyd Warshall Algorithm
+        - Floyd Warshall Algorithm (Multiple source point)
     - Topological Sort
         - [Template](./Templates/topological_sort.md)
     - Prim’s Spanning Tree Algorithm
