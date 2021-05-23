@@ -380,10 +380,23 @@ Good luck!!!
 
 ##### More Trees
 
-- AVL Tree
-- Red-Black Tree
-- B+ Tree
+- ***Parse tree*** can be used to represent real-world constructions like sentences or mathematical expressions.
+    - A simple solution to keeping track of parents as we traverse the tree is to use a stack. 
+    - When we want to descend to a child of the current node, we first push the current node on the stack. 
+    - When we want to return to the parent of the current node, we pop the parent off the stack.
+- ***AVL Tree***: a balanced binary tree. the AVL is named for its inventors G.M. Adelson-Velskii and E.M. Landis.
+    - For each node: *balanceFactor* = *height(leftSubTree)* − *height(rightSubTree)*
+    - a subtree is left-heavy if *balance_factor > 0*
+    - a subtree is right-heavy if *balance_factor < 0*
+    - a subtree is perfectly in balance if *balance_factor = 0*
+    - For simplicity we can define a tree to be in balance if the balance factor is -1, 0, or 1. 
+    - The number of nodes follows the pattern of *Fibonacci sequence*, as the number of elements get larger the ratio of Fi/Fi-1 closes to the golden ratio, so the time complexity is derived to be **O(log n)**
+- ***Red-Black Tree***
+    - [Details in Wiki](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+- ***B+ Tree***: N-array tree
+    - [Details in Wiki](https://en.wikipedia.org/wiki/B%2B_tree)
 - Trie
+    - *This is a common data structure in interviews*
     - [Template](./Templates/trie.md)
 
 
