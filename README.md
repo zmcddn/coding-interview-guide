@@ -361,6 +361,25 @@ Good luck!!!
 
 #### Hash Table
 
+- A **hash table** is a collection of items which are stored in such a way as to make it easy to find them later. 
+- Each position of the hash table, often called a slot, can hold an item and is named by an integer value starting at 0.
+- The mapping between an item and the slot where that item belongs in the hash table is called the **hash function**.
+	- **Remainder method** takes an item and divides it by the table size, returning the remainder as its hash value (i.e. `h(item) = item % 11`)
+	- **load factor** is the number of items devided by the table size
+	- **collision** refers to the situation that multiple items have the same hash value
+	- **folding method** for constructing hash functions begins by dividing the item into equal-size pieces (the last piece may not be of equal size). These pieces are then added together to give the resulting hash value. 
+	- **mid-square method** first squares the item, and then extract some portion of the resulting digits. For example, 44^2 = 1936, extract middle two digits 93, then perform remainder step (93%11=5).
+- **Collision Resolution** is the process to systemacticly place the second item in the hash table when two items hash to the same slot.
+- **Open addressing (linear probing):** sequentially find the next open slot or address in the hash table 
+	- A disadvantage to linear probing is the tendency for clustering; items become clustered in the table.
+	- **Rehashing** is one way to deal with clustering, which is to skip the slot when looking  sequentially for the next open slot, thereby more evenly distributing the items that have caused collisions.
+- **Quadratic probing:** instead of using a constant “skip” value, we use a rehash function that increments the hash value by 1, 3, 5, 7, 9, and so on. This means that if the first hash value is h, the successive values are h+1, h+4, h+9, h+16, and so on.
+- **Chaining** allows many items to exist at the same location in the hash table. 
+	- When collisions happen, the item is still placed in the proper slot of the hash table. 
+	- As more and more items hash to the same location, the difficulty of searching for the item in the collection increases.    
+	![](http://interactivepython.org/runestone/static/pythonds/_images/chaining.png)
+- The initial size for the hash table has to be a prime number so that the collision resolution algorithm can be as efficient as possible.
+
 #### Trees
 
 * A tree data structure has its root at the top and its leaves on the bottom.
