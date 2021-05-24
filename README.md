@@ -482,8 +482,12 @@ Good luck!!!
 #### Search
 
 ##### Sequential Search
+
+- Sequential Search: visit the stored value in a sequence (use loop)
+
 ##### Binary Search
 
+- Examine the middle item of an ordered list
 - KEY is the search interval
 - [Template](./Templates/binary_search.md)
 
