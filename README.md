@@ -533,6 +533,8 @@ Good luck!!!
 
 ##### Heap Sort
 
+- Use the property of heap to sort the list
+
 #### Recursive
 
 #### Backtracking 
