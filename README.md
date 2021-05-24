@@ -331,10 +331,11 @@ Good luck!!!
     ![BigO Image](http://interactivepython.org/runestone/static/pythonds/_images/newplot.png)
 
 
-
 ### Data Structures
 
 #### Array
+
+- An array (in Python its called *list*) is a collection of items where each item holds a relative position with respect to the others.
 
 #### Linked List
 
@@ -344,7 +345,20 @@ Good luck!!!
 
 #### Stack
 
+- Stacks are fundamentally important, as they can be used to reverse the order of items. 
+- The order of insertion is the reverse of the order of removal.
+- Stack maintain a FILO (first in last out) ordering property.
+- When pop is called on the end of the list it takes O(1) but when pop is called on the first element in the list or anywhere in the middle it is O(n) (in Python).
+
 #### Queue
+
+- A queue is structured as an ordered collection of items which are added at one end, called the “rear,” and removed from the other end, called the “front.” 
+- Queues maintain a FIFO ordering property.
+- A ***deque***, also known as a double-ended queue, is an ordered collection of items similar to the queue. 
+    - It has two ends, a front and a rear, and the items remain positioned in the collection. 
+    - New items can be added at either the front or the rear. 
+    - Likewise, existing items can be removed from either end.
+
 #### Hash Table
 
 #### Trees

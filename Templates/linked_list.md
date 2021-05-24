@@ -1,5 +1,9 @@
 # Linked List 
 
+- Each node object must hold at least two pieces of information. 
+	1. the node must contain the list item itself (i.e. data field). 
+	2. each node must hold a reference to the next node.
+
 ## Tips and Template
 
 - Traverse a linked list
