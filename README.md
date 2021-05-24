@@ -494,11 +494,39 @@ Good luck!!!
 #### Sort
 
 ##### Bubble Sort
+
+- Compares adjacent items and exchanges those that are out of order.
+- **Short bubble:** stop early if it finds that the list has become sorted.
+- time complexity: O(n2)
+
 ##### Selection Sort
+
+- Looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location.
+- time complexity: O(n2)
+
 ##### Insertion Sort
+
+- Maintains a sorted sub-list in the lower positions of the list. 
+- Each new item is then “inserted” back into the previous sub-list such that the sorted sub-list is one item larger.
+- time complexity: O(n2)
+
 ##### Shell Sort
+
+- Breaks the original list into a number of smaller sub-lists, each of which is sorted using an insertion sort. 
+	- the shell sort uses an increment *i*, sometimes called the **gap**, to create a sub-list by choosing all items that are *i* items apart.
+	- After all the sub-lists are sorted, it finally does a standard insertion sort
+	- time complexity goes between O(n) and O(n2), by changing the increment, a shell sort can perform at O(n^(3/2)).
+
 ##### Merge Sort
+
+- A recursive algorithm that continually splits a list in half. 
+- [Details and Templates](./Templates/merge_sort.md)
+
 ##### Quick Sort
+
+- First selects a value (**pivot value**), and then use this value to assist with splitting the list. 
+- [Details and Templates](./Templates/quick_sort.md)
+
 ##### Heap Sort
 
 #### Recursive
