@@ -4,6 +4,15 @@ First check the matrix traversal template [**HERE**](./matrix_traversal.md) if y
 
 We can use either BFS or DFS to traversal the graph
 
+- Key Differences Between BFS and DFS
+    1. BFS is vertex-based algorithm while DFS is an edge-based algorithm.
+    2. Queue data structure is used in BFS. On the other hand, DFS uses stack or recursion.
+    3. Memory space is efficiently utilized in DFS while space utilization in BFS is not effective.
+        - DFS takes linear space because we have to remember single path with unexplored nodes, while BFS keeps every node in memory.
+    4. BFS is optimal algorithm while DFS is not optimal.
+    5. DFS constructs narrow and long trees. As against, BFS constructs wide and short tree.
+
+
 ## Recursive template
 
 ```python

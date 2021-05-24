@@ -458,8 +458,12 @@ Good luck!!!
 - Directed Graph
 - Undirected Graph
 - Graph Representation
-    - Adjacency Matrix
+    - Adjacency Matrix (2D matrix)
+        - Good when number of edges is large
+        - Each of the rows and columns represent a vertex in the graph. 
     - Adjacency List
+        - space-efficient way for implementation
+        - Each vertix is an element of the list with the vertix as ID and a list of its adjacent vertices as value
 - Graph traversal: BFS & DFS
     - [Template](./Templates/graph_traversal.md)
 - Graph Algorithms:
