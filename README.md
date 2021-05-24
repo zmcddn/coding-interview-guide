@@ -328,7 +328,7 @@ Good luck!!!
     | n^3     | Cubic       |
     | 2^n     | Exponential |
 
-    ![BigO Image](http://interactivepython.org/runestone/static/pythonds/_images/newplot.png)
+    ![BigO Image](https://runestone.academy/runestone/books/published/pythonds/_images/newplot.png)
 
 
 ### Data Structures
