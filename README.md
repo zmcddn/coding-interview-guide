@@ -311,6 +311,26 @@ Good luck!!!
 - Greedy
 - Branch and Bound
 
+**Big O Notations**:
+
+- It is critical that you understand and are able to calculate the Big O for the code you wrote.
+- **The order of magnitude function describes the part of T(n) that increases the fastest as the value of n increases. Order of magnitude is often called Big-O notation (for “order”) and written as O(f(n)).**  
+
+- Basically, the Big O measures the number of assignment statements
+
+    | f(n)    | Name        |
+    | :-----  | :----       |
+    | 1       | Constant    |
+    | log n   | Logarithmic |
+    | n       | Linear      |
+    | n log n | Log Linear  |
+    | n^2     | Quadratic   |
+    | n^3     | Cubic       |
+    | 2^n     | Exponential |
+
+    ![BigO Image](http://interactivepython.org/runestone/static/pythonds/_images/newplot.png)
+
+
 
 ### Data Structures
 
