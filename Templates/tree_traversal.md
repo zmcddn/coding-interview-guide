@@ -138,7 +138,7 @@ def postorder(root):
 Reference:
 
 - [Iterative Postorder Traversal | Set 2 (Using One Stack)](https://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/)
-- [Morris traversal](https://www.educative.io/edpresso/what-is-morris-traversal)
+- [Morris traversal (O(1) space pre-order traversal)](https://www.educative.io/edpresso/what-is-morris-traversal)
 - [Leetcode Binary Tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
 
 Practice:

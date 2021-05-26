@@ -93,7 +93,8 @@ Now let's get started!
         - [Merge Sort](#merge-sort)
         - [Quick Sort](#quick-sort)
         - [Heap Sort](#heap-sort)
-      - [Recursive](#recursive)
+      - [Recursion](#recursion)
+        - [Recursive function in Python](#recursive-function-in-python)
       - [Backtracking](#backtracking)
       - [Dynamic Programming](#dynamic-programming)
       - [Divide and Conquer](#divide-and-conquer)
@@ -448,7 +449,7 @@ Good luck!!!
     - [Details in Wiki](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 - ***B+ Tree***: N-array tree
     - [Details in Wiki](https://en.wikipedia.org/wiki/B%2B_tree)
-- Trie
+- ***Trie***
     - *This is a common data structure in interviews*
     - [Template](./Templates/trie.md)
 
@@ -535,7 +536,21 @@ Good luck!!!
 
 - Use the property of heap to sort the list
 
-#### Recursive
+#### Recursion
+
+**Recursion** is a method of solving problems that involves breaking a problem down into smaller and smaller sub-problems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself.
+
+Three Laws of Recursion:
+
+1. A recursive algorithm must have a base case.
+2. A recursive algorithm must change its state and move toward the base case.
+3. A recursive algorithm must call itself, recursively.
+
+##### Recursive function in Python
+
+* When a function is called in Python, a stack frame is allocated to handle the local variables of the function. 
+* When the function returns, the return value is left on top of the stack for the calling function to access. 
+* Even though we are calling the same function over and over, each call creates a new scope for the variables that are local to the function.
 
 #### Backtracking 
 
@@ -544,6 +559,10 @@ Good luck!!!
 
 #### Dynamic Programming
 
+**Dynamic Programming (DP)** is an algorithm technique which is usually based on a recurrent formula and one (or some) starting states.
+	- A sub-solution of the problem is constructed from previously found ones.
+	- Usually used to find the extreme cases such as shortest path, best fit, smallest set, etc.
+
 #### Divide and Conquer
 
 #### Greedy
@@ -551,6 +570,8 @@ Good luck!!!
 #### Branch and Bound
 
 ### Frequently Used Technics and Algorithms
+
+**Must know for interview:**
 
 - Matrix Traversal
     - Focusing on various ways of traversing 2D matrix
@@ -561,6 +582,12 @@ Good luck!!!
 - monotonic stack/queue
     - [Monotonic Stack template](./Templates/monotonic_stack.md)
 - Union find
+- Segment Tree
+- Prefix Sum
+- Bit Manipulation
+
+**Good to know for interview but can be skipped:**
+
 - Kadane's algorithm
 - Reservoir Sampling
 - Line sweep
