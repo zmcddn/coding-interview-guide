@@ -1,35 +1,30 @@
 # The Coding Interview Guide
 
-> This is a collection of my notes when I was/am studying for interviews (or just for myself) 
+> This is a collection of my notes when I was/am studying for interviews (or just for learning) 
 > and it is also intended to become a systematic guide for people who would like to 
 > become a software development engineer (SDE).
 
-> I was graduated as an Electrical Engineer and after working for about 2 years as Electrical
-> Engineer I decided to become a Software Engineer. I have taught myself all the most common
-> data structures and algorithms, machine learning fundamentals, and backend architectures.
+> I was graduated as an Electrical Engineer and after worked 1.5 years as an Electrical
+> Engineer I decided to switch to the programming world. I only had one programming course 
+> at university and I have taught myself all the most common data structures and
+> algorithms, machine learning fundamentals, and software architectures. I started working 
+> on leetcode problems at end of Feb 2020, and since then I solve at least 1 problem 
+> everyday.
 
 > During my learning journey, I found that I learned all the knowledge piece by piece 
-> when I need them, but I was always lack of a systematic understanding/overview of the 
-> algorithms or a tech-stack. And since I made lots of notes, I think its necessary to 
-> summarize them and make them a systematic guide for whoever wants to become a software 
-> development engineer.
+> when I need them, but I was always lack of a systematic understanding/overview. Since 
+> I made lots of notes during study, I think its necessary to summarize them and make 
+> them a systematic guide for whoever wants to become a software development engineer.
 
 > Hope this repo is helpful and best of luck to you!
 
 
-## A bit more about myself and this repo
+## How to use this repo
 
-I was graduated from a traditional Electrical Engineering program (Yes I don't have a CS/CE degree)
-and after that I finished a graduate degree in nano-photonics. 
+In this repo I'm going to show you how to get started for those who want to switch career, 
+to improve the interviewing technics, or to revisit the fundamentals.
 
-The only programming courses I took in school was a C++ introductory course in my first year 
-undergrad, and an assembly language course in my third year (EE mandatory). I learnt all the other 
-programming languages and more all by myself and I understand how painful or missing direction this
-could be. 
-
-In this repo I'm going to show you how to get started for people who want to switch career 
-or who want to improve the interviewing technics or revisit the fundamentals.
-
+- I'll build a systematic path for data structures, algorithms, and system design problems
 - I'll be giving resources that I learnt 
 - I'll be sharing the tips and tricks on how to practice for the algorithms
 - I'll talk about various areas of software development
@@ -38,6 +33,13 @@ or who want to improve the interviewing technics or revisit the fundamentals.
 Most importantly, learning is a life long journey, and I'm still learning everyday.
 Hopefully you can learn with me, and I can help people getting into the field more easily
 or improving their technical abilities.
+
+***How to use this repo:***
+![how to use this repo](./images/how-to-use-the-repo.png)
+
+Basically, you should use this repo as a guide (yeah the name kinda indicates) to build your own knowledge base and templates.
+
+And if you have enough time, you should go over every topics. If not you can just read the topics you are interested.
 
 
 ## Before get started, REMEMBER the following facts
@@ -50,13 +52,13 @@ or improving their technical abilities.
 
 Above points are really really important, keep these in mind and they'll help you in your career.
 
-Now let's get started!
+Now let's begin our journey!
 
 
 ## Table of Content
 
 - [The Coding Interview Guide](#the-coding-interview-guide)
-  - [A bit more about myself and this repo](#a-bit-more-about-myself-and-this-repo)
+  - [How to use this repo](#how-to-use-this-repo)
   - [Before get started, REMEMBER the following facts](#before-get-started-remember-the-following-facts)
   - [Table of Content](#table-of-content)
   - [Question & Answer](#question--answer)
@@ -101,6 +103,7 @@ Now let's get started!
       - [Greedy](#greedy)
       - [Branch and Bound](#branch-and-bound)
     - [Frequently Used Technics and Algorithms](#frequently-used-technics-and-algorithms)
+    - [Summary](#summary)
   - [System Design](#system-design)
     - [System Design Interview Template](#system-design-interview-template)
   - [Machine Learning](#machine-learning)
@@ -554,6 +557,7 @@ Three Laws of Recursion:
 
 #### Backtracking 
 
+- a general algorithm for finding all (or some) solutions to constraint satisfaction problems (i.e. chess, puzzles, crosswords, verbal arithmetic, Sudoku, etc)
 - [Template](./Templates/backtrack.md)
 
 
@@ -565,7 +569,27 @@ Three Laws of Recursion:
 
 #### Divide and Conquer
 
+- **Divide**: break into non-overlapping sub-problems of the same type (of problem)
+- **Conquer**: solve sub-problems
+- the algorithm is to keep dividing and conquering, and finally combine them to get the solution
+- the algorithm can be written in recursive or loop 
+
 #### Greedy
+
+**Greedy algorithm:**
+
+- find a safe move first
+- prove safety
+- solve subproblem (which should be similar to original problem)
+- estimate running time
+
+**Optimization:**
+
+- assume everything is sorted (if not, maybe sort first)
+- decide sort order
+- the final running time can be O(n log n) (i.e. sort is O(log n), greedy move can be O(n))
+
+- [More details](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
 
 #### Branch and Bound
 
@@ -579,19 +603,24 @@ Three Laws of Recursion:
 - Sliding Window
     - ***Fundamentally this is a two pointer approach***
     - [Template](./Templates/sliding_window.md)
+- Union find
+- Bit Manipulation
+- Prefix Sum
 - monotonic stack/queue
     - [Monotonic Stack template](./Templates/monotonic_stack.md)
-- Union find
+
+**Good to know but can be skipped:**
+
 - Segment Tree
-- Prefix Sum
-- Bit Manipulation
-
-**Good to know for interview but can be skipped:**
-
 - Kadane's algorithm
 - Reservoir Sampling
 - Line sweep
 - KMP algorithm (pattern match)
+- Manacher (Longest Palindromic Substring)
+- Skip List
+
+### Summary
+
 
 ## System Design
 
