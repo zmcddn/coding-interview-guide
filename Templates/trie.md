@@ -34,7 +34,15 @@ class Trie:
         return True
 ```
 
-Practice: [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+Practice: 
+
+- [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
+- [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [648. Replace Words](https://leetcode.com/problems/replace-words/)
+- [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
+- [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
+- [676. Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)
+- [1023. Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
 
 Reference:
 
