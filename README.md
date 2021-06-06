@@ -604,6 +604,8 @@ Three Laws of Recursion:
     - ***Fundamentally this is a two pointer approach***
     - [Template](./Templates/sliding_window.md)
 - Union find
+    - Essentially its a list representation for the joint data points
+    - [Template](./Templates/union_find.md)
 - Bit Manipulation
 - Prefix Sum
 - monotonic stack/queue
