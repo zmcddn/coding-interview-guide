@@ -23,17 +23,17 @@ def traverse(matrix):
     visited = set()
     directions = ((0, 1), (0, -1), (1, 0), (-1, 0))  # Much faster than list
 
-    def dfs(i, j):
-        if (i, j) in visited:
+    def dfs(x, y):
+        if (x, y) in visited:
             return
-        visited.add((i, j))
+        visited.add((x, y))
         
         # Traverse neighbors
-        for direction in directions:
-            next_i, next_j = i + direction[0], j + direction[1]
-            if 0 <= next_i < rows and 0 <= next_j < cols: # Check boundary
+        for dx, dy in directions:
+            x, y = dx + _x, dy + _y
+            if 0 <= x < rows and 0 <= y < cols: # Check boundary
                 # Add any other checking here ^
-                dfs(next_i, next_j)
+                dfs(x, y)
             
     for i in range(rows):
         for j in range(cols):
@@ -54,6 +54,7 @@ def numIslands(self, grid: List[List[str]]) -> int:
     rows = len(grid)
     cols = len(grid[0])
     directions = ((0, 1), (0, -1), (1, 0), (-1, 0))
+    visited = set()
 
     for row in range(rows):
         for col in range(cols):
@@ -61,21 +62,21 @@ def numIslands(self, grid: List[List[str]]) -> int:
                 # The position here is critical
                 # count here means counting all the "1"s
                 count += 1
-                grid[row][col] = 'visited' # Mark current node as visited
+                visited.add((row, col))  # Mark current node as visited
                 queue = [(row, col)]  # Initiate a queue for bfs
 
                 while queue:
                     for _ in range(len(queue)):
                         # Must use name other than row and col
                         # Otherwise there will be collision
-                        _x, _y = queue.pop(0)
+                        _x, _y = queue.pop(0)  # deque and popleft() is better here
 
                         for dx, dy in directions:
                             # Traversal all directions
                             x, y = dx + _x, dy + _y
 
-                            if 0 <= x < rows and 0 <= y < cols and grid[x][y] == "1":
-                                grid[x][y] = 'visited'
+                            if 0 <= x < rows and 0 <= y < cols and grid[x][y] == "1" and (x, y) not in visited:
+                                visited.add((x, y))
                                 queue.append((x, y))
                             
                             # if count is here (i.e. inside all loops) it'll count how many "1"s
@@ -87,6 +88,23 @@ def numIslands(self, grid: List[List[str]]) -> int:
     return count
 ```
 
+Some times it was asked to not stop until you hit the wall (i.e. lc 505), apparently it requires while loop, but the stop condition can be tricky. The trick is this:
+
+```python
+while queue:
+    _x, _y, step = queue.popleft()            
+    for dx, dy in directions:
+        x, y, steps = _x, _y, step
+        
+        while 0 <= x + dx < rows and 0 <= y + dy < cols and maze[x+dx][y+dy] == 0:
+            x += dx
+            y += dy
+            steps += 1
+```
+
+This way the stop condition is handled properly.
+
+
 Reference:
 
 - [Tips for all DFS in matrix question](https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/90739/python-dfs-bests-85-tips-for-all-dfs-in-matrix-question)
@@ -97,4 +115,4 @@ Practice:
 - [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 - [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 - [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-
+- [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
