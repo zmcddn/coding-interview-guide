@@ -45,6 +45,6 @@ Practice:
 - [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - [1156. Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
+- [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
-

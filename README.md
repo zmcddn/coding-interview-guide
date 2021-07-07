@@ -455,6 +455,9 @@ Good luck!!!
 - ***Trie***
     - *This is a common data structure in interviews*
     - [Template](./Templates/trie.md)
+- ***Binary Index Tree (Fenwick Tree)***
+    - [Binary Index Tree (Fenwick Tree)](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+    - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 
 
 #### Graph
