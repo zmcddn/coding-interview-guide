@@ -716,6 +716,15 @@ Here is a template I use for the system design interview:
     - Overall latency justification
 
 
+Notes:
+
+- Treat the system design as an actual work project, for which you have to gather and clear all the requirements and then do the design, and treat your interviewer as your colleague to discuss the trade offs for your design
+- Step 1 is the most important one, you'll need to know what you are about to build after all, and figure out all the requirements needed
+- Step 2 should be asked, but most of the time you may be asked to design a system as a startup (i.e. you don't have many users), and then scale as you have more customers. So you don't have to give a detailed analysis at the beginning, unless is specifically asked.
+- API design vs database schema design: you probably don't need to talk about both. DB design is asked more frequently in my experience.
+- The key in system design is talking about trade offs, why you selected certain technologies over others and what are the draw backs.
+
+
 Reference:
 
 - [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
