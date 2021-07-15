@@ -106,6 +106,9 @@ Now let's begin our journey!
     - [Summary](#summary)
   - [System Design](#system-design)
     - [System Design Interview Template](#system-design-interview-template)
+    - [System Design Components](#system-design-components)
+    - [Classic Designs](#classic-designs)
+    - [System Design Case Study](#system-design-case-study)
   - [Machine Learning](#machine-learning)
   - [Resources](#resources)
     - [Learn Python](#learn-python)
@@ -729,6 +732,45 @@ Reference:
 
 - [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 - [System Design - InterviewBit](https://www.interviewbit.com/courses/system-design/)
+
+### System Design Components
+
+Network systems will eventually comes down to these components and design patterns, so it is critical to understand these components and be able to discuss design decisions and trade offs for any component.
+
+![System Components](./images/System-Components.png)
+
+- Internet protocol suite
+- Load Balancer
+- Cache
+- Database
+    - Design Principals
+        - Replication & Partition
+        - Transaction & Isolation
+        - Consistency & Consensus
+    - Major Types
+        - RDBMS
+        - NoSQL
+        - File Storage
+- Architectural Patterns
+
+### Classic Designs
+
+- notification system
+- rate limiter
+- top k problem
+- distributed message queue
+- distributed cache
+
+### System Design Case Study
+
+- chat system (slack, etc)
+- streaming system (youtube, etc)
+- map system (google map, etc)
+- booking system (ticket master, etc)
+- notification system
+- news feed 
+- payment system
+- top k (recommendation system, etc)
 
 
 ## Machine Learning
