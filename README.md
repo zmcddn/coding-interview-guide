@@ -739,7 +739,14 @@ Network systems will eventually comes down to these components and design patter
 
 ![System Components](./images/System-Components.png)
 
-- Internet protocol suite
+- [Internet protocol suite](./SystemDesign/internet_protocol_suite.md)
+    - OSI model
+    - Internet protocol suite
+    - TCP, UDP, QUIC, SCTP, TCP/IP
+    - HTTP, HTTPS
+    - socket, websocket, long-polling
+    - REST, SOAP
+    - HTTP response status codes
 - Load Balancer
 - Cache
 - Database
