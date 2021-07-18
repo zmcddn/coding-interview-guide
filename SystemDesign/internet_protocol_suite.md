@@ -109,5 +109,6 @@ Reference:
 - [What Is a Socket? (The Java™ Tutorials > Custom Networking > All About Sockets)](https://docs.oracle.com/javase/tutorial/networking/sockets/definition.html)
 - [WebSockets - A Conceptual Deep Dive \| Ably Realtime](https://ably.com/topic/websockets)
 - [How Do Websockets Work? - Kevin Sookocheff](https://sookocheff.com/post/networking/how-do-websockets-work/)
+- [Short Polling vs Long Polling vs WebSockets - System Design](https://www.youtube.com/watch?v=ZBM28ZPlin8&ab_channel=BeABetterDev)
 - [Representational state transfer - Wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)
 - [REST Principles and Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)

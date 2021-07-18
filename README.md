@@ -765,6 +765,11 @@ Network systems will eventually comes down to these components and design patter
         - File Storage
 - Architectural Patterns
 
+Now put them together, here is something you should know:
+
+- [What happens when you navigate to an url](./SystemDesign/navigate_url.md)
+- How to scale web app from monolithic to distributed
+
 ### Classic Designs
 
 - notification system
