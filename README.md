@@ -756,7 +756,7 @@ Network systems will eventually comes down to these components and design patter
     - Redis vs Memcached
 - Database
     - Design Principals
-        - Replication & Partition
+        - [Replication & Partition](./SystemDesign/replication_partition.md)
         - Transaction & Isolation
         - Consistency & Consensus
     - Major Types
