@@ -748,7 +748,12 @@ Network systems will eventually comes down to these components and design patter
     - REST, SOAP
     - HTTP response status codes
 - Load Balancer
-- Cache
+- [Cache](./SystemDesign/cache.md)
+    - Cache Usage Pattern
+        - Cache Aside
+        - Cache-as-SoR (system-of-record): Read through, write through, write behind
+    - Cache Eviction Policies
+    - Redis vs Memcached
 - Database
     - Design Principals
         - Replication & Partition
