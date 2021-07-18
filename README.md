@@ -732,6 +732,8 @@ Reference:
 
 - [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 - [System Design - InterviewBit](https://www.interviewbit.com/courses/system-design/)
+- [SNAKE - System Design Principles to crack a system design in 5 steps \| Bowen's blog](https://bowenli86.github.io/2016/06/28/system%20design/SNAKE-System-Design-Principles-to-crack-a-system-design-in-5-steps/)
+
 
 ### System Design Components
 
