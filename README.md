@@ -762,7 +762,8 @@ Network systems will eventually comes down to these components and design patter
         - Transaction & Isolation
         - Consistency & Consensus
     - Major Types
-        - RDBMS
+        - [RDBMS](SystemDesign/RDBMS.md)
+            - Postgres vs MySQL
         - NoSQL
         - File Storage
 - Architectural Patterns
