@@ -29,6 +29,8 @@
 - [NoSQL Database Types - DZone Database](https://dzone.com/articles/nosql-database-types-1)
 - [A Comprehensive Guide to Cassandra Architecture](https://www.instaclustr.com/cassandra-architecture/)
 - [Cassandra vs MongoDB in 2018](https://blog.panoply.io/cassandra-vs-mongodb)
+- [Cassandra vs. MongoDB vs. Hbase: A Comparison of NoSQL Databases \| Logz.io](https://logz.io/blog/nosql-database-comparison/)
 - [Introduction to Amazon DynamoDB for Cassandra developers \| AWS Database Blog](https://aws.amazon.com/blogs/database/introduction-to-amazon-dynamodb-for-cassandra-developers/)
 - [Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database](https://www.youtube.com/watch?v=yvBR71D0nAQ&ab_channel=AmazonWebServices)
 - [Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB](https://www.youtube.com/watch?v=HaEPXoXVf2k&ab_channel=AmazonWebServices)
+- [HBase Tutorial for Beginners: Learn in 3 Days!](https://www.guru99.com/hbase-tutorials.html)

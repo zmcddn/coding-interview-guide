@@ -741,7 +741,7 @@ Network systems will eventually comes down to these components and design patter
 
 ![System Components](./images/System-Components.png)
 
-- [Internet protocol suite](./SystemDesign/internet_protocol_suite.md)
+- [Internet Protocol Suite](./SystemDesign/internet_protocol_suite.md)
     - OSI model
     - Internet protocol suite
     - TCP, UDP, QUIC, SCTP, TCP/IP
@@ -756,18 +756,20 @@ Network systems will eventually comes down to these components and design patter
         - Cache-as-SoR (system-of-record): Read through, write through, write behind
     - Cache Eviction Policies
     - Redis vs Memcached
-- Database
-    - Design Principals
-        - [Replication & Partition](./SystemDesign/replication_partition.md)
-        - Transaction & Isolation
-        - Consistency & Consensus
-    - Major Types
-        - [RDBMS](SystemDesign/RDBMS.md)
-            - Postgres vs MySQL
-        - [NoSQL](./SystemDesign/nosql_db.md)
-            - NoSQL database types
-            - Cassandra vs MongoDB
-        - File Storage
+- Data Store
+    - Database Management Systems
+        - Design Principals
+            - Basic concepts: CAP, CRUD, ACID
+            - [Replication & Partition](./SystemDesign/replication_partition.md)
+            - Transaction & Isolation
+            - Consistency & Consensus
+        - Major Types
+            - [RDBMS](SystemDesign/RDBMS.md)
+                - Postgres vs MySQL
+            - [NoSQL](./SystemDesign/nosql_db.md)
+                - NoSQL database types
+                - Cassandra vs MongoDB
+    - File Storage, Block Storage, Object Storage, and HDFS
 - Architectural Patterns
 
 Now put them together, here is something you should know:
