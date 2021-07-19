@@ -764,7 +764,9 @@ Network systems will eventually comes down to these components and design patter
     - Major Types
         - [RDBMS](SystemDesign/RDBMS.md)
             - Postgres vs MySQL
-        - NoSQL
+        - [NoSQL](./SystemDesign/nosql_db.md)
+            - NoSQL database types
+            - Cassandra vs MongoDB
         - File Storage
 - Architectural Patterns
 
