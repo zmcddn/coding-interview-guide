@@ -95,6 +95,13 @@ How does it work:
 - **Partition** is the process that translates the `<key, value>` pairs resulting from mappers to another set of `<key, value>` pairs to feed into the reducer. 
     - It decides how the data has to be presented to the reducer and also assigns it to a particular reducer.
 
+## Database vs Storage Systems
+
+Conclusion: you shouldn't use database for file storage, mainly because of performance
+
+- [Database vs File system storage - Stack Overflow](https://stackoverflow.com/questions/38120895/database-vs-file-system-storage)
+- [Is it a bad practice to store large files (10 MB) in a database? - Software Engineering Stack Exchange](https://softwareengineering.stackexchange.com/questions/150669/is-it-a-bad-practice-to-store-large-files-10-mb-in-a-database)
+
 
 ## Reference:
 
@@ -102,5 +109,4 @@ How does it work:
 - [System Design — Storage. Storage concepts and considerations in… \| by Larry | Peng Yang | Computer Science Fundamentals | Medium](https://medium.com/must-know-computer-science/system-desing-storage-d8ef4a8d952c)
 - [Hadoop - Pros and Cons - GeeksforGeeks](https://www.geeksforgeeks.org/hadoop-pros-and-cons/)
 - [Hadoop In 5 Minutes \| What Is Hadoop? | Introduction To Hadoop | Hadoop Explained |Simplilearn - YouTube](https://www.youtube.com/watch?v=aReuLtY0YMI&ab_channel=Simplilearn)
-- [Database vs File system storage - Stack Overflow](https://stackoverflow.com/questions/38120895/database-vs-file-system-storage)
 - [MapReduce 101: What It Is & How to Get Started - Talend](https://www.talend.com/resources/what-is-mapreduce/)
