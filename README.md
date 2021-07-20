@@ -769,7 +769,11 @@ Network systems will eventually comes down to these components and design patter
             - [NoSQL](./SystemDesign/nosql_db.md)
                 - NoSQL database types
                 - Cassandra vs MongoDB
-    - File Storage, Block Storage, Object Storage, and HDFS
+    - [Data Storage Systems](./SystemDesign/storage_system.md)
+        - File Storage
+        - Block Storage
+        - Object Storage
+        - HDFS and Map Reduce
 - Architectural Patterns
 
 Now put them together, here is something you should know:
