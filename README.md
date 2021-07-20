@@ -680,8 +680,9 @@ Here is a template I use for the system design interview:
     - Deep dive on any of the following component
         - DNS
         - CDN (Pull vs Push vs Hybrid)
-        - Load Balancer (Round Robin, Weighted Round Robin, Consistent Hash, Active-Passive, Active-Active, Layer 4, Layer 7)
-        - Reverse Proxy
+        - Load Balancer/Reverse Proxy
+            - LB types
+            - LB algorithms
         - Application layer scaling (Microservices, Service Discovery, Service Mesh)
         - Database (RDBMS vs NoSQL)
             - RDBMS:
@@ -749,7 +750,12 @@ Network systems will eventually comes down to these components and design patter
     - socket, websocket, long-polling
     - REST, SOAP
     - HTTP response status codes
-- Load Balancer
+- [Load Balancer, Reverse Proxy, API Gateway](./SystemDesign/load_balancer.md)
+    - LB types: layer 4 and layer 7
+    - LB algorithms: least connection, least response time, least bandwidth, round robin, IP hash
+    - Reverse Proxy
+    - API Gateway
+    - An example: The Architecture of Uber’s API gateway
 - [Cache](./SystemDesign/cache.md)
     - Cache Usage Pattern
         - Cache Aside
