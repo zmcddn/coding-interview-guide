@@ -765,9 +765,18 @@ Network systems will eventually comes down to these components and design patter
 - Data Store
     - Database Management Systems
         - Design Principals
-            - Basic concepts: CAP, CRUD, ACID
             - [Replication & Partition](./SystemDesign/replication_partition.md)
-            - Transaction & Isolation
+            - [Transaction & Isolation](./SystemDesign/transaction_isolation.md)
+                - ACID
+                - Read committed 
+                - Read skew
+                - Snapshot isolation
+                - MVCC
+                - Lost update
+                - Write skew
+                - Phantom
+                - Two-phase locking (2PL): Shared lock, exclusive lock, predicate lock, index-range lock
+                - Serializable Snapshot Isolation (SSI)
             - Consistency & Consensus
         - Major Types
             - [RDBMS](SystemDesign/RDBMS.md)
