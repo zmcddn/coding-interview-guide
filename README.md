@@ -766,6 +766,16 @@ Network systems will eventually comes down to these components and design patter
     - Database Management Systems
         - Design Principals
             - [Replication & Partition](./SystemDesign/replication_partition.md)
+                - Leader-follower replication, Sync/Async replication
+                - Handling node outage
+                - Replication logs
+                - Eventual consistency
+                - Multi-leader replication Topology, write conflict resolve
+                - Leaderless replication, Quorum, sloppy quorum, hinted handoff
+                - Key-value store partition
+                - Local and Global index
+                - Rebalancing partition
+                - Coordination service, gossip protocol
             - [Transaction & Isolation](./SystemDesign/transaction_isolation.md)
                 - ACID
                 - Read committed 
