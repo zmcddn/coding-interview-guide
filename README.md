@@ -787,7 +787,16 @@ Network systems will eventually comes down to these components and design patter
                 - Phantom
                 - Two-phase locking (2PL): Shared lock, exclusive lock, predicate lock, index-range lock
                 - Serializable Snapshot Isolation (SSI)
-            - Consistency & Consensus
+            - [Consistency & Consensus](./SystemDesign/consistency_consensus.md)
+                - Linearizability
+                - CAP theorem
+                - Causal dependency, consistent with causality, causally consistent
+                - Total order, partially ordered
+                - Lamport timestamp
+                - Total Order Broadcast
+                - Fencing token: monotonically increasing number for lock
+                - epoch number: monotonically increasing number for election
+                - 2PC, 3PC, XA transaction
         - Major Types
             - [RDBMS](SystemDesign/RDBMS.md)
                 - Postgres vs MySQL
