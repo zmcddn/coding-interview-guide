@@ -109,6 +109,7 @@ Now let's begin our journey!
     - [System Design Components](#system-design-components)
     - [Classic Designs](#classic-designs)
     - [System Design Case Study](#system-design-case-study)
+  - [Offer Negotiation](#offer-negotiation)
   - [Machine Learning](#machine-learning)
   - [Resources](#resources)
     - [Learn Python](#learn-python)
@@ -833,6 +834,15 @@ Now put them together, here is something you should know:
 - news feed 
 - payment system
 - top k (recommendation system, etc)
+
+
+## Offer Negotiation
+
+- Congratulations you got an offer!! But should you accept it immediately?
+- Let me put it this way, its for your own sake to negotiate the offer
+- Offer Negotiation will not only show that you are seriously considering joining the company, but also will make you happy when you actually accept the offer
+- It is really unlikely that the company revoke the offer if you negotiated, but it is possible. Frankly speaking, do you really want to work at a place where you can't ask for anything?
+- There is really only ONE resource that I'd like to share: [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/). Read it carefully and thoroughly, and you are good to go
 
 
 ## Machine Learning
