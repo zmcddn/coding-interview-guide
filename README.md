@@ -109,6 +109,9 @@ Now let's begin our journey!
     - [System Design Components](#system-design-components)
     - [Classic Designs](#classic-designs)
     - [System Design Case Study](#system-design-case-study)
+  - [Behavioral Questions (BQ)](#behavioral-questions-bq)
+    - [4 things to remember for the BQ](#4-things-to-remember-for-the-bq)
+    - [How to prepare for BQ](#how-to-prepare-for-bq)
   - [Offer Negotiation](#offer-negotiation)
   - [Machine Learning](#machine-learning)
   - [Resources](#resources)
@@ -835,6 +838,79 @@ Now put them together, here is something you should know:
 - payment system
 - top k (recommendation system, etc)
 
+
+## Behavioral Questions (BQ)
+
+### 4 things to remember for the BQ
+
+- Behavioral Questions have been evaluated more and more in interviews, so make sure you are well prepared before you go to an interview
+- There are many many articles online talking about behavioral questions, so if you are looking for an answer to a specific question, just go ahead and search that question on Google and YouTube. 
+- Be prepared to TALK ABOUT YOUR RESUME
+    - Make sure you can answer anything you put on your resume, technologies, projects, experience, etc
+- use ***STAR*** to make your stories
+    - situation: briefly describe the background
+    - task: briefly describe what was needed to be done
+    - action: describe what you did, focus on what YOU did
+    - results: show the results, especially YOUR impact
+
+### How to prepare for BQ
+
+Follow these steps:
+
+1. Prepare to talk about your resume
+    - know all the technologies you've listed on your resume
+    - be ready to explain why you quit each of your job (at least why quitted the most recent job)
+    - be ready to talk about the projects you listed in your resume
+        - technologies
+        - challenges
+        - YOUR impact, what did you do
+        - collaborations
+
+2. There are three questions you must prepare:
+    1. Introduce yourself (a good way to prepare is the elevator pitch, google it if you don't know)
+    2. Why ABC Company (i.e. why do you want to apply to/work for our company)
+    3. Why do you want to quit (or quitted) your job (if you ever had a job)
+
+3. Go through the [Amazon leadership Principles](https://www.amazon.jobs/en/principles)
+    - Prepare 2 - 3 stories for each principal, and you should be good for most of the interviews for ANY companies
+    - [Amazon's 14 Leadership Principles Video via Jeff Bezo](https://www.youtube.com/watch?v=B-xdfQv3I1k) is really great 
+    - This list: [Amazon asks these 35 questions in 95% of job interviews](https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMTarjnBcV5qOuAI4lE5ZinV&index=18) should give you enough details for the most common questions
+    - Make sure you note down the stories you prepared, and practice to talk to others about them
+
+4. Make sure you give the following questions extra attention:
+    - Your strength and Weakness
+    - The most challenging problem you've solved or project you worked on
+        - A follow up question could be if you are doing it again now, how would you do it differently
+    - Conflict with your colleagues
+    - Disagree with your colleagues/boss
+    - Mistakes/Failures you made and what did you learn from it
+    - Lead teams (if you are senior or manager)
+
+5. Now you are prepared to answer questions, but you'll also need to prepare questions to ASK
+    - Ask good questions will show the interviewers that you are interested in the company, the position, the job itself, and possibly your professionalism 
+    - Ask poking questions about the team and technology
+        - Programming languages (Python, Java, etc)
+        - Development technologies (Docker, K8s, etc)
+        - Frameworks (Django, Spring, etc) and their versions (from the versions you'll know how up-to-date their tech stack is )
+        - development tools (IDEs, OS, Cloud providers, etc)
+    - Generic questions
+        - What is a day like in your company (this may seem too generic, but is quite important). For example, what's the sprint like (do you have sprints), do you have standups, how many working hours per week, when do you start your day, and much more. Pick those that you are most interested in
+        - What's the team like, what's the tech stack for the team, how many BE/FE/QA etc
+        - These kinda questions show that you are really interested in the job and team. You'll need to know this info anyway if there will be an offer and you choose to accept it
+    - Interview related questions
+        - What's the interview process like (sometimes the HR/interviewer will let you know clearly, if not you should ask), how many rounds, etc
+        - Its even possible to poke the potential questions: what areas will the interview cover (algorithms, system design, take home project, etc)
+            - Its ok to ask, its your HR's decision whether to tell you
+        - This article shows you [How to predict your interview questions](https://interviewgenie.com/blog-1/2020/5/4/how-to-predict-your-interview-questions)
+    - Ask any questions that you might be interested through your interview
+        - For example, when certain technologies were mention in your interview, you may ask your interview how those technologies are used in the company
+
+- Here are some really good resources for you to prepare:
+    - AGAIN if you wanna prepare for certain questions, there are lots examples online, just google, and use Youtube
+    - There are also interview tips from the big company's website, make sure you check them out 
+    - [Leetcode Interview Thoughts Amazon and Google](https://leetcode.com/discuss/interview-question/455991/i-got-an-offer-from-amazon-sde-i-and-google-l3-heres-my-thoughts)
+    - [How to sell yourself in interviews — Interview Genie](https://interviewgenie.com/blog-1/2018/6/6/how-to-sell-yourself-in-interviews)
+    - [How to answer interview questions about the Amazon leadership principle “Frugality” — Interview Genie](https://interviewgenie.com/blog-1/2019/4/9/how-to-answer-amazon-frugality-interview-questions)
 
 ## Offer Negotiation
 
