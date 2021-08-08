@@ -19,16 +19,16 @@
 > Hope this repo is helpful and best of luck to you!
 
 
-## How to use this repo
+## Preface 1: How to use this repo
 
 In this repo I'm going to show you how to get started for those who want to switch career, 
 to improve the interviewing technics, or to revisit the fundamentals.
 
 - I'll build a systematic path for data structures, algorithms, and system design problems
-- I'll be giving resources that I learnt 
 - I'll be sharing the tips and tricks on how to practice for the algorithms
-- I'll talk about various areas of software development
 - I'll be sharing the technics for answering Behavior Questions (BQs)
+- I'll be giving resources that I learnt 
+- MAKE SURE YOU READ THE [QA SECTION](#appendix-1-question--answer)
 
 Most importantly, learning is a life long journey, and I'm still learning everyday.
 Hopefully you can learn with me, and I can help people getting into the field more easily
@@ -42,7 +42,7 @@ Basically, you should use this repo as a guide (yeah the name kinda indicates) t
 And if you have enough time, you should go over every topics. If not you can just read the topics you are interested.
 
 
-## Before get started, REMEMBER the following facts
+## Preface 2: Before get started, REMEMBER the following facts
 
 - **Programming is about writing the code, not reading**. So don't just read, IMPLEMENT it!
 - **You can't memorize everything at the first time**. So keep repeating and practicing, and WRITE them down!
@@ -58,19 +58,11 @@ Now let's begin our journey!
 ## Table of Content
 
 - [The Coding Interview Guide](#the-coding-interview-guide)
-  - [How to use this repo](#how-to-use-this-repo)
-  - [Before get started, REMEMBER the following facts](#before-get-started-remember-the-following-facts)
+  - [Preface 1: How to use this repo](#preface-1-how-to-use-this-repo)
+  - [Preface 2: Before get started, REMEMBER the following facts](#preface-2-before-get-started-remember-the-following-facts)
   - [Table of Content](#table-of-content)
-  - [Question & Answer](#question--answer)
-    - [Large Company VS Small Company](#large-company-vs-small-company)
-    - [What's the interview process look like](#whats-the-interview-process-look-like)
-    - [How to use LeetCode as a beginner](#how-to-use-leetcode-as-a-beginner)
-    - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
-    - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
-    - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
-    - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
-  - [Data Structures and Algorithms](#data-structures-and-algorithms)
-    - [Data Structures](#data-structures)
+  - [Section 1: Data Structures and Algorithms](#section-1-data-structures-and-algorithms)
+    - [Chapter 1: Data Structures](#chapter-1-data-structures)
       - [Array](#array)
       - [Linked List](#linked-list)
       - [Stack](#stack)
@@ -82,7 +74,7 @@ Now let's begin our journey!
         - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
         - [More Trees](#more-trees)
       - [Graph](#graph)
-    - [Common Algorithm Types](#common-algorithm-types)
+    - [Chapter 2: Common Algorithm Types](#chapter-2-common-algorithm-types)
       - [Brute Force](#brute-force)
       - [Search](#search)
         - [Sequential Search](#sequential-search)
@@ -102,19 +94,27 @@ Now let's begin our journey!
       - [Divide and Conquer](#divide-and-conquer)
       - [Greedy](#greedy)
       - [Branch and Bound](#branch-and-bound)
-    - [Frequently Used Technics and Algorithms](#frequently-used-technics-and-algorithms)
+    - [Chapter 3: Frequently Used Technics and Algorithms](#chapter-3-frequently-used-technics-and-algorithms)
     - [Summary](#summary)
-  - [System Design](#system-design)
-    - [System Design Interview Template](#system-design-interview-template)
-    - [System Design Components](#system-design-components)
-    - [Classic Designs](#classic-designs)
-    - [System Design Case Study](#system-design-case-study)
-  - [Behavioral Questions (BQ)](#behavioral-questions-bq)
-    - [4 things to remember for the BQ](#4-things-to-remember-for-the-bq)
-    - [How to prepare for BQ](#how-to-prepare-for-bq)
-  - [Offer Negotiation](#offer-negotiation)
-  - [Machine Learning](#machine-learning)
-  - [Resources](#resources)
+  - [Section 2: System Design](#section-2-system-design)
+    - [Chapter 4: System Design Interview Template](#chapter-4-system-design-interview-template)
+    - [Chapter 5: System Design Components](#chapter-5-system-design-components)
+    - [Chapter 6: Classic Designs](#chapter-6-classic-designs)
+    - [Chapter 7: System Design Case Study](#chapter-7-system-design-case-study)
+  - [Section 3: Transferrable Skills and Offer](#section-3-transferrable-skills-and-offer)
+    - [Chapter 8: Behavioral Questions (BQ)](#chapter-8-behavioral-questions-bq)
+      - [4 things to remember for the BQ](#4-things-to-remember-for-the-bq)
+      - [How to prepare for BQ](#how-to-prepare-for-bq)
+    - [Chapter 9: Offer Negotiation](#chapter-9-offer-negotiation)
+  - [Appendix 1: Question & Answer](#appendix-1-question--answer)
+    - [Large Company VS Small Company](#large-company-vs-small-company)
+    - [What's the interview process look like](#whats-the-interview-process-look-like)
+    - [How to use LeetCode as a beginner](#how-to-use-leetcode-as-a-beginner)
+    - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
+    - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
+    - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
+    - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
+  - [Appendix 2: Resources](#appendix-2-resources)
     - [Learn Python](#learn-python)
     - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
     - [OOD (Object Oriented Design)](#ood-object-oriented-design)
@@ -122,12 +122,645 @@ Now let's begin our journey!
       - [Clean Code - Uncle Bob lessons](#clean-code---uncle-bob-lessons)
       - [Design case study](#design-case-study)
     - [Async in Python](#async-in-python)
-    - [System Design](#system-design-1)
-    - [Machine Learning](#machine-learning-1)
+    - [System Design](#system-design)
+    - [Machine Learning](#machine-learning)
     - [Reinforcement Learning](#reinforcement-learning)
 
 
-## Question & Answer
+
+## Section 1: Data Structures and Algorithms
+
+**Book:** [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
+
+- For those who needs to study the fundamental data structures and algorithms, highly recommend to go over above textbook thoroughly first, and then come back to the following content, or practice on Leetcode or other platform
+
+
+**Basic data structures**:
+
+- Array
+- Linked List
+- Stack
+- Queue
+- Hash Table
+- Tree
+- Graph
+
+**Common Algorithm Types**:
+
+- Brute Force
+- Search and Sort
+- Recursive
+- Backtracking 
+- Dynamic Programming
+- Divide and Conquer
+- Greedy
+- Branch and Bound
+
+**Big O Notations**:
+
+- It is critical that you understand and are able to calculate the Big O for the code you wrote.
+- **The order of magnitude function describes the part of T(n) that increases the fastest as the value of n increases. Order of magnitude is often called Big-O notation (for “order”) and written as O(f(n)).**  
+
+- Basically, the Big O measures the number of assignment statements
+
+    | f(n)    | Name        |
+    | :-----  | :----       |
+    | 1       | Constant    |
+    | log n   | Logarithmic |
+    | n       | Linear      |
+    | n log n | Log Linear  |
+    | n^2     | Quadratic   |
+    | n^3     | Cubic       |
+    | 2^n     | Exponential |
+
+    ![BigO Image](https://runestone.academy/runestone/books/published/pythonds/_images/newplot.png)
+
+
+### Chapter 1: Data Structures
+
+#### Array
+
+- An array (in Python its called *list*) is a collection of items where each item holds a relative position with respect to the others.
+
+#### Linked List
+
+- Similar to array, but requires O(N) time on average to visit an element by index
+- Linked list utilize memory better than array, since it can use discrete memory space, whereas array must use continuous memory space
+- [Details and Templates](./Templates/linked_list.md)
+
+#### Stack
+
+- Stacks are fundamentally important, as they can be used to reverse the order of items. 
+- The order of insertion is the reverse of the order of removal.
+- Stack maintain a FILO (first in last out) ordering property.
+- When pop is called on the end of the list it takes O(1) but when pop is called on the first element in the list or anywhere in the middle it is O(n) (in Python).
+
+#### Queue
+
+- A queue is structured as an ordered collection of items which are added at one end, called the “rear,” and removed from the other end, called the “front.” 
+- Queues maintain a FIFO ordering property.
+- A ***deque***, also known as a double-ended queue, is an ordered collection of items similar to the queue. 
+    - It has two ends, a front and a rear, and the items remain positioned in the collection. 
+    - New items can be added at either the front or the rear. 
+    - Likewise, existing items can be removed from either end.
+
+#### Hash Table
+
+- A **hash table** is a collection of items which are stored in such a way as to make it easy to find them later. 
+- Each position of the hash table, often called a slot, can hold an item and is named by an integer value starting at 0.
+- The mapping between an item and the slot where that item belongs in the hash table is called the **hash function**.
+	- **Remainder method** takes an item and divides it by the table size, returning the remainder as its hash value (i.e. `h(item) = item % 11`)
+	- **load factor** is the number of items devided by the table size
+	- **collision** refers to the situation that multiple items have the same hash value
+	- **folding method** for constructing hash functions begins by dividing the item into equal-size pieces (the last piece may not be of equal size). These pieces are then added together to give the resulting hash value. 
+	- **mid-square method** first squares the item, and then extract some portion of the resulting digits. For example, 44^2 = 1936, extract middle two digits 93, then perform remainder step (93%11=5).
+- **Collision Resolution** is the process to systemacticly place the second item in the hash table when two items hash to the same slot.
+- **Open addressing (linear probing):** sequentially find the next open slot or address in the hash table 
+	- A disadvantage to linear probing is the tendency for clustering; items become clustered in the table.
+	- **Rehashing** is one way to deal with clustering, which is to skip the slot when looking  sequentially for the next open slot, thereby more evenly distributing the items that have caused collisions.
+- **Quadratic probing:** instead of using a constant “skip” value, we use a rehash function that increments the hash value by 1, 3, 5, 7, 9, and so on. This means that if the first hash value is h, the successive values are h+1, h+4, h+9, h+16, and so on.
+- **Chaining** allows many items to exist at the same location in the hash table. 
+	- When collisions happen, the item is still placed in the proper slot of the hash table. 
+	- As more and more items hash to the same location, the difficulty of searching for the item in the collection increases.    
+	![](http://interactivepython.org/runestone/static/pythonds/_images/chaining.png)
+- The initial size for the hash table has to be a prime number so that the collision resolution algorithm can be as efficient as possible.
+
+#### Trees
+
+* A tree data structure has its root at the top and its leaves on the bottom.
+* Three properties of tree:
+    1. we start at the top of the tree and follow a path made of circles and arrows all the way to the bottom.
+    2. all of the children of one node are independent of the children of another node.
+    3. each leaf node is unique. 
+* **binary tree:** each node in the tree has a maximum of two children.
+    * A **balanced binary tree** has roughly the same number of nodes in the left and right subtrees of the root.
+
+##### Tree Traversal: access the nodes of the tree
+
+- Tree traversal is the foundation of all tree related problems.
+- Here are a few different ways to traverse a tree:
+    - BFS: Level-order
+    - DFS: Pre-order, In-order, Post-order
+    - [Details and Templates](./Templates/tree_traversal.md)
+
+
+##### Binary Search Tree (BST)
+
+- BST Property (left subtree < root < right subtree):
+    1. The value in each node must be `greater than (or equal to)` any values stored in its left subtree.
+    2. The value in each node must be `less than (or equal to)` any values stored in its right subtree.
+- `Inorder traversal` in BST will be in `ascending order`. Therefore, the inorder traversal is the most frequent used traversal method of a BST.
+- **successor:** the node that has the next-largest key in the tree
+    - it has no more than one child
+- You could go over the [Leetcode Binary Search Tree topic](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/) for details
+
+##### Heap / Priority Queue / Binary Heap
+
+- **Priority Queue:**
+    - the logical order of items inside a queue is determined by their priority.
+    - The highest priority items are at the front of the queue and the lowest priority items are at the back.
+- **Binary Heap:** the classic way to implement a priority queue.
+    - both enqueue and dequeue items are **O(logn)**
+    - **min heap:** the smallest key is always at the front
+    - **max heap:** the largest key value is always at the front
+    - **complete binary tree:** a tree in which each level has all of its nodes (except the bottom level)
+        - can be implemented using a single list
+        - Because the tree is complete, the left child of a parent (at position **p**) is the node that is found in position **2p** in the list. Similarly, the right child of the parent is at position **2p+1** in the list.
+        ![](http://interactivepython.org/runestone/static/pythonds/_images/heapOrder.png)
+    - **heap order property:** In a heap, for every node **x** with parent **p**, the key in **p** is smaller than or equal to the key in **x**.
+        * For example, the root of the tree must be the smallest item in the tree
+    - When to use heap:
+        - Priority Queue implementation
+        - whenever need quick access to largest/smallest item
+            - Instant access to the item
+            - insertions are fast, allow in-place sorting
+        - More details can be seen in [this discussion](https://stackoverflow.com/questions/749199/when-would-i-want-to-use-a-heap)
+
+##### More Trees
+
+- ***Parse tree*** can be used to represent real-world constructions like sentences or mathematical expressions.
+    - A simple solution to keeping track of parents as we traverse the tree is to use a stack. 
+    - When we want to descend to a child of the current node, we first push the current node on the stack. 
+    - When we want to return to the parent of the current node, we pop the parent off the stack.
+- ***AVL Tree***: a balanced binary tree. the AVL is named for its inventors G.M. Adelson-Velskii and E.M. Landis.
+    - For each node: *balanceFactor* = *height(leftSubTree)* − *height(rightSubTree)*
+    - a subtree is left-heavy if *balance_factor > 0*
+    - a subtree is right-heavy if *balance_factor < 0*
+    - a subtree is perfectly in balance if *balance_factor = 0*
+    - For simplicity we can define a tree to be in balance if the balance factor is -1, 0, or 1. 
+    - The number of nodes follows the pattern of *Fibonacci sequence*, as the number of elements get larger the ratio of Fi/Fi-1 closes to the golden ratio, so the time complexity is derived to be **O(log n)**
+- ***Red-Black Tree***
+    - [Details in Wiki](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+- ***B+ Tree***: N-array tree
+    - [Details in Wiki](https://en.wikipedia.org/wiki/B%2B_tree)
+- ***Trie***
+    - *This is a common data structure in interviews*
+    - [Template](./Templates/trie.md)
+- ***Binary Index Tree (Fenwick Tree)***
+    - [Binary Index Tree (Fenwick Tree)](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+    - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+
+
+#### Graph
+
+- Directed Graph
+- Undirected Graph
+- Graph Representation
+    - Adjacency Matrix (2D matrix)
+        - Good when number of edges is large
+        - Each of the rows and columns represent a vertex in the graph. 
+    - Adjacency List
+        - space-efficient way for implementation
+        - Each vertix is an element of the list with the vertix as ID and a list of its adjacent vertices as value
+- Graph traversal: BFS & DFS
+    - [Template](./Templates/graph_traversal.md)
+- Graph Algorithms:
+    - Shortest Path:
+        - Dijkstra’s Algorithm (Single source point)
+            - ***Essentially, this is a BFS using priority queue instead of queue***
+            - [Template](./Templates/dijkstra.md)
+        - Floyd Warshall Algorithm (Multiple source point)
+    - Topological Sort
+        - [Template](./Templates/topological_sort.md)
+    - Prim’s Spanning Tree Algorithm
+
+### Chapter 2: Common Algorithm Types
+
+#### Brute Force
+
+- Most common algorithm
+- Whenever you are facing a problem without many clues, you should solve it using brute force first, and observe the process and try to optimize your solution 
+
+#### Search
+
+##### Sequential Search
+
+- Sequential Search: visit the stored value in a sequence (use loop)
+
+##### Binary Search
+
+- Examine the middle item of an ordered list
+- KEY is the search interval
+- [Template](./Templates/binary_search.md)
+
+#### Sort
+
+##### Bubble Sort
+
+- Compares adjacent items and exchanges those that are out of order.
+- **Short bubble:** stop early if it finds that the list has become sorted.
+- time complexity: O(n2)
+
+##### Selection Sort
+
+- Looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location.
+- time complexity: O(n2)
+
+##### Insertion Sort
+
+- Maintains a sorted sub-list in the lower positions of the list. 
+- Each new item is then “inserted” back into the previous sub-list such that the sorted sub-list is one item larger.
+- time complexity: O(n2)
+
+##### Shell Sort
+
+- Breaks the original list into a number of smaller sub-lists, each of which is sorted using an insertion sort. 
+	- the shell sort uses an increment *i*, sometimes called the **gap**, to create a sub-list by choosing all items that are *i* items apart.
+	- After all the sub-lists are sorted, it finally does a standard insertion sort
+	- time complexity goes between O(n) and O(n2), by changing the increment, a shell sort can perform at O(n^(3/2)).
+
+##### Merge Sort
+
+- A recursive algorithm that continually splits a list in half. 
+- [Details and Templates](./Templates/merge_sort.md)
+
+##### Quick Sort
+
+- First selects a value (**pivot value**), and then use this value to assist with splitting the list. 
+- [Details and Templates](./Templates/quick_sort.md)
+
+##### Heap Sort
+
+- Use the property of heap to sort the list
+
+#### Recursion
+
+**Recursion** is a method of solving problems that involves breaking a problem down into smaller and smaller sub-problems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself.
+
+Three Laws of Recursion:
+
+1. A recursive algorithm must have a base case.
+2. A recursive algorithm must change its state and move toward the base case.
+3. A recursive algorithm must call itself, recursively.
+
+##### Recursive function in Python
+
+* When a function is called in Python, a stack frame is allocated to handle the local variables of the function. 
+* When the function returns, the return value is left on top of the stack for the calling function to access. 
+* Even though we are calling the same function over and over, each call creates a new scope for the variables that are local to the function.
+
+#### Backtracking 
+
+- a general algorithm for finding all (or some) solutions to constraint satisfaction problems (i.e. chess, puzzles, crosswords, verbal arithmetic, Sudoku, etc)
+- [Template](./Templates/backtrack.md)
+
+
+#### Dynamic Programming
+
+**Dynamic Programming (DP)** is an algorithm technique which is usually based on a recurrent formula and one (or some) starting states.
+	- A sub-solution of the problem is constructed from previously found ones.
+	- Usually used to find the extreme cases such as shortest path, best fit, smallest set, etc.
+
+#### Divide and Conquer
+
+- **Divide**: break into non-overlapping sub-problems of the same type (of problem)
+- **Conquer**: solve sub-problems
+- the algorithm is to keep dividing and conquering, and finally combine them to get the solution
+- the algorithm can be written in recursive or loop 
+
+#### Greedy
+
+**Greedy algorithm:**
+
+- find a safe move first
+- prove safety
+- solve subproblem (which should be similar to original problem)
+- estimate running time
+
+**Optimization:**
+
+- assume everything is sorted (if not, maybe sort first)
+- decide sort order
+- the final running time can be O(n log n) (i.e. sort is O(log n), greedy move can be O(n))
+
+- [More details](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
+
+#### Branch and Bound
+
+### Chapter 3: Frequently Used Technics and Algorithms
+
+**Must know for interview:**
+
+- Matrix Traversal
+    - Focusing on various ways of traversing 2D matrix
+    - [Template](./Templates/matrix_traversal.md)
+- Sliding Window
+    - ***Fundamentally this is a two pointer approach***
+    - [Template](./Templates/sliding_window.md)
+- Union find
+    - Essentially its a list representation for the joint data points
+    - [Template](./Templates/union_find.md)
+- Bit Manipulation
+- Prefix Sum
+- monotonic stack/queue
+    - [Monotonic Stack template](./Templates/monotonic_stack.md)
+
+**Good to know but can be skipped:**
+
+- Segment Tree
+- Kadane's algorithm
+- Reservoir Sampling
+- Line sweep
+- KMP algorithm (pattern match)
+- Manacher (Longest Palindromic Substring)
+- Skip List
+
+### Summary
+
+
+## Section 2: System Design
+
+### Chapter 4: System Design Interview Template
+
+System design questions can be very difficult to prepare, because it covers a  wide range of areas.
+
+Here is a template I use for the system design interview:
+
+1. Feature expectations (5 mins) - gather requirements:
+
+   - Functional requirements:
+       - Use cases
+       - Scenarios that will NOT be covered
+       - End-user (who will use it)
+       - Capacity (how many people will use it, DAU (daily active user))
+       - How to use it
+   - None-Functional requirements:
+       - Scalability
+       - Availability
+       - Performance/Latency
+       - Consistency
+       - Durability/Fault-tolerant
+
+2. Estimations (2-5 mins) - estimate scale:
+
+   - Throughput (QPS for read and write queries)
+   - Latency expected from the system (for read and write queries)
+   - Read/Write ratio (heavy read, heavy write, or similar)
+   - Traffic estimates (QPS for read and write)
+   - Storage estimates (media files, text/photo/video)
+   - Memory estimates
+       - Cache: what is the kind of data we want to store in cache
+       - How much RAM and how many machines
+       - How much data stored on disk/ssd
+
+3. High Level Design (5-10 min) - discuss a very high level with the interviewer:
+
+    - System components (load balancer, services, cache, database, etc)
+    - Database schema
+    - APIs for Read/Write scenarios for crucial components
+    - Request flow process (from client to database)
+
+4. Deep Dive (15-20 mins) - focus on any part of the component:
+
+    - Scaling individual component
+        - Availability, Consistency and Scale story for each component
+        - Consistency and availability patterns
+    - Deep dive on any of the following component
+        - DNS
+        - CDN (Pull vs Push vs Hybrid)
+        - Load Balancer/Reverse Proxy
+            - LB types
+            - LB algorithms
+        - Application layer scaling (Microservices, Service Discovery, Service Mesh)
+        - Database (RDBMS vs NoSQL)
+            - RDBMS:
+                - Leader-follower, Multi-leader, Leaderless, Federation, Sharding, Denormalization, SQL Tuning
+            - NoSQL:
+                - Key-Value, Wide-Column, Graph, Document
+                - RAM [Bounded size] => Redis, Memcached
+                - AP [Unbounded size] => Cassandra, RIAK, Voldemort
+                - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
+        - Caches:
+            - Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache at Query level, Cache at Object level
+            - Cache Patterns:
+                - Cache aside
+                - Write through
+                - Write behind
+                - Refresh ahead
+            - Eviction policies:
+                - LRU
+                - LFU
+                - FIFO
+        - Asynchronism
+            - Message queues
+            - Task queues
+            - Back pressure
+        - Communication
+            - TCP
+            - UDP
+            - REST
+            - RPC
+
+5. Justify (5 mins):
+
+    - Throughput of each layer
+    - Latency caused between each layer
+    - Overall latency justification
+
+
+Notes:
+
+- Treat the system design as an actual work project, for which you have to gather and clear all the requirements and then do the design, and treat your interviewer as your colleague to discuss the trade offs for your design
+- Step 1 is the most important one, you'll need to know what you are about to build after all, and figure out all the requirements needed
+- Step 2 should be asked, but most of the time you may be asked to design a system as a startup (i.e. you don't have many users), and then scale as you have more customers. So you don't have to give a detailed analysis at the beginning, unless is specifically asked.
+- API design vs database schema design: you probably don't need to talk about both. DB design is asked more frequently in my experience.
+- The key in system design is talking about trade offs, why you selected certain technologies over others and what are the draw backs.
+
+
+Reference:
+
+- [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+- [System Design - InterviewBit](https://www.interviewbit.com/courses/system-design/)
+- [SNAKE - System Design Principles to crack a system design in 5 steps \| Bowen's blog](https://bowenli86.github.io/2016/06/28/system%20design/SNAKE-System-Design-Principles-to-crack-a-system-design-in-5-steps/)
+
+
+### Chapter 5: System Design Components
+
+Network systems will eventually comes down to these components and design patterns, so it is critical to understand these components and be able to discuss design decisions and trade offs for any component.
+
+![System Components](./images/System-Components.png)
+
+- [Internet Protocol Suite](./SystemDesign/internet_protocol_suite.md)
+    - OSI model
+    - Internet protocol suite
+    - TCP, UDP, QUIC, SCTP, TCP/IP
+    - HTTP, HTTPS
+    - socket, websocket, long-polling
+    - REST, SOAP
+    - HTTP response status codes
+- [Load Balancer, Reverse Proxy, API Gateway](./SystemDesign/load_balancer.md)
+    - LB types: layer 4 and layer 7
+    - LB algorithms: least connection, least response time, least bandwidth, round robin, IP hash
+    - Reverse Proxy
+    - API Gateway
+    - An example: The Architecture of Uber’s API gateway
+- [Cache](./SystemDesign/cache.md)
+    - Cache Usage Pattern
+        - Cache Aside
+        - Cache-as-SoR (system-of-record): Read through, write through, write behind
+    - Cache Eviction Policies
+    - Redis vs Memcached
+- Data Store
+    - Database Management Systems
+        - Design Principals
+            - [Replication & Partition](./SystemDesign/replication_partition.md)
+                - Leader-follower replication, Sync/Async replication
+                - Handling node outage
+                - Replication logs
+                - Eventual consistency
+                - Multi-leader replication Topology, write conflict resolve
+                - Leaderless replication, Quorum, sloppy quorum, hinted handoff
+                - Key-value store partition
+                - Local and Global index
+                - Rebalancing partition
+                - Coordination service, gossip protocol
+            - [Transaction & Isolation](./SystemDesign/transaction_isolation.md)
+                - ACID
+                - Read committed 
+                - Read skew
+                - Snapshot isolation
+                - MVCC
+                - Lost update
+                - Write skew
+                - Phantom
+                - Two-phase locking (2PL): Shared lock, exclusive lock, predicate lock, index-range lock
+                - Serializable Snapshot Isolation (SSI)
+            - [Consistency & Consensus](./SystemDesign/consistency_consensus.md)
+                - Linearizability
+                - CAP theorem
+                - Causal dependency, consistent with causality, causally consistent
+                - Total order, partially ordered
+                - Lamport timestamp
+                - Total Order Broadcast
+                - Fencing token: monotonically increasing number for lock
+                - epoch number: monotonically increasing number for election
+                - 2PC, 3PC, XA transaction
+        - Major Types
+            - [RDBMS](SystemDesign/RDBMS.md)
+                - Postgres vs MySQL
+            - [NoSQL](./SystemDesign/nosql_db.md)
+                - NoSQL database types
+                - Cassandra vs MongoDB
+    - [Data Storage Systems](./SystemDesign/storage_system.md)
+        - File Storage
+        - Block Storage
+        - Object Storage
+        - HDFS and Map Reduce
+- Architectural Patterns
+
+Now put them together, here is something you should know:
+
+- [What happens when you navigate to an url](./SystemDesign/navigate_url.md)
+- [How to scale web app from monolithic to distributed](./SystemDesign/scale_web_app.md)
+
+### Chapter 6: Classic Designs
+
+- notification system
+- rate limiter
+- top k problem
+- distributed message queue
+- distributed cache
+
+### Chapter 7: System Design Case Study
+
+- chat system (slack, etc)
+- streaming system (youtube, etc)
+- map system (google map, etc)
+- booking system (ticket master, etc)
+- notification system
+- news feed 
+- payment system
+- top k (recommendation system, etc)
+- url shortener
+- distributed web crawler
+- search auto-completion system
+- file system (dropbox, google drive)
+
+## Section 3: Transferrable Skills and Offer
+
+### Chapter 8: Behavioral Questions (BQ)
+
+#### 4 things to remember for the BQ
+
+- Behavioral Questions have been evaluated more and more in interviews, so make sure you are well prepared before you go to an interview
+- There are many many articles online talking about behavioral questions, so if you are looking for an answer to a specific question, just go ahead and search that question on Google and YouTube. 
+- Be prepared to TALK ABOUT YOUR RESUME
+    - Make sure you can answer anything you put on your resume, technologies, projects, experience, etc
+- use ***STAR*** to make your stories
+    - situation: briefly describe the background
+    - task: briefly describe what was needed to be done
+    - action: describe what you did, focus on what YOU did
+    - results: show the results, especially YOUR impact
+
+#### How to prepare for BQ
+
+Follow these steps:
+
+1. Prepare to talk about your resume
+    - know all the technologies you've listed on your resume
+    - be ready to explain why you quit each of your job (at least why quitted the most recent job)
+    - be ready to talk about the projects you listed in your resume
+        - technologies
+        - challenges
+        - YOUR impact, what did you do
+        - collaborations
+
+2. There are three questions you must prepare:
+    1. Introduce yourself (a good way to prepare is the elevator pitch, google it if you don't know)
+    2. Why ABC Company (i.e. why do you want to apply to/work for our company)
+    3. Why do you want to quit (or quitted) your job (if you ever had a job)
+
+3. Go through the [Amazon leadership Principles](https://www.amazon.jobs/en/principles)
+    - Prepare 2 - 3 stories for each principal, and you should be good for most of the interviews for ANY companies
+    - [Amazon's 14 Leadership Principles Video via Jeff Bezo](https://www.youtube.com/watch?v=B-xdfQv3I1k) is really great 
+    - This list: [Amazon asks these 35 questions in 95% of job interviews](https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMTarjnBcV5qOuAI4lE5ZinV&index=18) should give you enough details for the most common questions
+    - Make sure you note down the stories you prepared, and practice to talk to others about them
+
+4. Make sure you give the following questions extra attention:
+    - Your strength and Weakness
+    - The most challenging problem you've solved or project you worked on
+        - A follow up question could be if you are doing it again now, how would you do it differently
+    - Conflict with your colleagues
+    - Disagree with your colleagues/boss
+    - Mistakes/Failures you made and what did you learn from it
+    - Lead teams (if you are senior or manager)
+
+5. Now you are prepared to answer questions, but you'll also need to prepare questions to ASK
+    - Ask good questions will show the interviewers that you are interested in the company, the position, the job itself, and possibly your professionalism 
+    - Ask poking questions about the team and technology
+        - Programming languages (Python, Java, etc)
+        - Development technologies (Docker, K8s, etc)
+        - Frameworks (Django, Spring, etc) and their versions (from the versions you'll know how up-to-date their tech stack is )
+        - development tools (IDEs, OS, Cloud providers, etc)
+    - Generic questions
+        - What is a day like in your company (this may seem too generic, but is quite important). For example, what's the sprint like (do you have sprints), do you have standups, how many working hours per week, when do you start your day, and much more. Pick those that you are most interested in
+        - What's the team like, what's the tech stack for the team, how many BE/FE/QA etc
+        - These kinda questions show that you are really interested in the job and team. You'll need to know this info anyway if there will be an offer and you choose to accept it
+    - Interview related questions
+        - What's the interview process like (sometimes the HR/interviewer will let you know clearly, if not you should ask), how many rounds, etc
+        - Its even possible to poke the potential questions: what areas will the interview cover (algorithms, system design, take home project, etc)
+            - Its ok to ask, its your HR's decision whether to tell you
+        - This article shows you [How to predict your interview questions](https://interviewgenie.com/blog-1/2020/5/4/how-to-predict-your-interview-questions)
+    - Ask any questions that you might be interested through your interview
+        - For example, when certain technologies were mention in your interview, you may ask your interview how those technologies are used in the company
+
+- Here are some really good resources for you to prepare:
+    - AGAIN if you wanna prepare for certain questions, there are lots examples online, just google, and use Youtube
+    - There are also interview tips from the big company's website, make sure you check them out 
+    - [Leetcode Interview Thoughts Amazon and Google](https://leetcode.com/discuss/interview-question/455991/i-got-an-offer-from-amazon-sde-i-and-google-l3-heres-my-thoughts)
+    - [How to sell yourself in interviews — Interview Genie](https://interviewgenie.com/blog-1/2018/6/6/how-to-sell-yourself-in-interviews)
+    - [How to answer interview questions about the Amazon leadership principle “Frugality” — Interview Genie](https://interviewgenie.com/blog-1/2019/4/9/how-to-answer-amazon-frugality-interview-questions)
+
+### Chapter 9: Offer Negotiation
+
+- Congratulations you got an offer!! But should you accept it immediately?
+- Let me put it this way, its for your own sake to negotiate the offer
+- Offer Negotiation will not only show that you are seriously considering joining the company, but also will make you happy when you actually accept the offer
+- It is really unlikely that the company revoke the offer if you negotiated, but it is possible. Frankly speaking, do you really want to work at a place where you can't ask for anything?
+- There is really only ONE resource that I'd like to share: [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/). Read it carefully and thoroughly, and you are good to go
+
+
+## Appendix 1: Question & Answer
 
 **DISCLAIMER:** These QAs are my personal opinions and experience. They are not guaranteed to be the perfect way/solution to the question, but is something I found really helpful from my own experience.
 
@@ -294,639 +927,7 @@ A lot times finding jobs is more of luck than anything else, so be prepared, be 
 Good luck!!!
 
 
-## Data Structures and Algorithms
-
-**Book:** [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
-
-- For those who needs to study the fundamental data structures and algorithms, highly recommend to go over above textbook thoroughly first, and then come back to the following content, or practice on Leetcode or other platform
-
-
-**Basic data structures**:
-
-- Array
-- Linked List
-- Stack
-- Queue
-- Hash Table
-- Tree
-- Graph
-
-**Common Algorithm Types**:
-
-- Brute Force
-- Search and Sort
-- Recursive
-- Backtracking 
-- Dynamic Programming
-- Divide and Conquer
-- Greedy
-- Branch and Bound
-
-**Big O Notations**:
-
-- It is critical that you understand and are able to calculate the Big O for the code you wrote.
-- **The order of magnitude function describes the part of T(n) that increases the fastest as the value of n increases. Order of magnitude is often called Big-O notation (for “order”) and written as O(f(n)).**  
-
-- Basically, the Big O measures the number of assignment statements
-
-    | f(n)    | Name        |
-    | :-----  | :----       |
-    | 1       | Constant    |
-    | log n   | Logarithmic |
-    | n       | Linear      |
-    | n log n | Log Linear  |
-    | n^2     | Quadratic   |
-    | n^3     | Cubic       |
-    | 2^n     | Exponential |
-
-    ![BigO Image](https://runestone.academy/runestone/books/published/pythonds/_images/newplot.png)
-
-
-### Data Structures
-
-#### Array
-
-- An array (in Python its called *list*) is a collection of items where each item holds a relative position with respect to the others.
-
-#### Linked List
-
-- Similar to array, but requires O(N) time on average to visit an element by index
-- Linked list utilize memory better than array, since it can use discrete memory space, whereas array must use continuous memory space
-- [Details and Templates](./Templates/linked_list.md)
-
-#### Stack
-
-- Stacks are fundamentally important, as they can be used to reverse the order of items. 
-- The order of insertion is the reverse of the order of removal.
-- Stack maintain a FILO (first in last out) ordering property.
-- When pop is called on the end of the list it takes O(1) but when pop is called on the first element in the list or anywhere in the middle it is O(n) (in Python).
-
-#### Queue
-
-- A queue is structured as an ordered collection of items which are added at one end, called the “rear,” and removed from the other end, called the “front.” 
-- Queues maintain a FIFO ordering property.
-- A ***deque***, also known as a double-ended queue, is an ordered collection of items similar to the queue. 
-    - It has two ends, a front and a rear, and the items remain positioned in the collection. 
-    - New items can be added at either the front or the rear. 
-    - Likewise, existing items can be removed from either end.
-
-#### Hash Table
-
-- A **hash table** is a collection of items which are stored in such a way as to make it easy to find them later. 
-- Each position of the hash table, often called a slot, can hold an item and is named by an integer value starting at 0.
-- The mapping between an item and the slot where that item belongs in the hash table is called the **hash function**.
-	- **Remainder method** takes an item and divides it by the table size, returning the remainder as its hash value (i.e. `h(item) = item % 11`)
-	- **load factor** is the number of items devided by the table size
-	- **collision** refers to the situation that multiple items have the same hash value
-	- **folding method** for constructing hash functions begins by dividing the item into equal-size pieces (the last piece may not be of equal size). These pieces are then added together to give the resulting hash value. 
-	- **mid-square method** first squares the item, and then extract some portion of the resulting digits. For example, 44^2 = 1936, extract middle two digits 93, then perform remainder step (93%11=5).
-- **Collision Resolution** is the process to systemacticly place the second item in the hash table when two items hash to the same slot.
-- **Open addressing (linear probing):** sequentially find the next open slot or address in the hash table 
-	- A disadvantage to linear probing is the tendency for clustering; items become clustered in the table.
-	- **Rehashing** is one way to deal with clustering, which is to skip the slot when looking  sequentially for the next open slot, thereby more evenly distributing the items that have caused collisions.
-- **Quadratic probing:** instead of using a constant “skip” value, we use a rehash function that increments the hash value by 1, 3, 5, 7, 9, and so on. This means that if the first hash value is h, the successive values are h+1, h+4, h+9, h+16, and so on.
-- **Chaining** allows many items to exist at the same location in the hash table. 
-	- When collisions happen, the item is still placed in the proper slot of the hash table. 
-	- As more and more items hash to the same location, the difficulty of searching for the item in the collection increases.    
-	![](http://interactivepython.org/runestone/static/pythonds/_images/chaining.png)
-- The initial size for the hash table has to be a prime number so that the collision resolution algorithm can be as efficient as possible.
-
-#### Trees
-
-* A tree data structure has its root at the top and its leaves on the bottom.
-* Three properties of tree:
-    1. we start at the top of the tree and follow a path made of circles and arrows all the way to the bottom.
-    2. all of the children of one node are independent of the children of another node.
-    3. each leaf node is unique. 
-* **binary tree:** each node in the tree has a maximum of two children.
-    * A **balanced binary tree** has roughly the same number of nodes in the left and right subtrees of the root.
-
-##### Tree Traversal: access the nodes of the tree
-
-- Tree traversal is the foundation of all tree related problems.
-- Here are a few different ways to traverse a tree:
-    - BFS: Level-order
-    - DFS: Pre-order, In-order, Post-order
-    - [Details and Templates](./Templates/tree_traversal.md)
-
-
-##### Binary Search Tree (BST)
-
-- BST Property (left subtree < root < right subtree):
-    1. The value in each node must be `greater than (or equal to)` any values stored in its left subtree.
-    2. The value in each node must be `less than (or equal to)` any values stored in its right subtree.
-- `Inorder traversal` in BST will be in `ascending order`. Therefore, the inorder traversal is the most frequent used traversal method of a BST.
-- **successor:** the node that has the next-largest key in the tree
-    - it has no more than one child
-- You could go over the [Leetcode Binary Search Tree topic](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/) for details
-
-##### Heap / Priority Queue / Binary Heap
-
-- **Priority Queue:**
-    - the logical order of items inside a queue is determined by their priority.
-    - The highest priority items are at the front of the queue and the lowest priority items are at the back.
-- **Binary Heap:** the classic way to implement a priority queue.
-    - both enqueue and dequeue items are **O(logn)**
-    - **min heap:** the smallest key is always at the front
-    - **max heap:** the largest key value is always at the front
-    - **complete binary tree:** a tree in which each level has all of its nodes (except the bottom level)
-        - can be implemented using a single list
-        - Because the tree is complete, the left child of a parent (at position **p**) is the node that is found in position **2p** in the list. Similarly, the right child of the parent is at position **2p+1** in the list.
-        ![](http://interactivepython.org/runestone/static/pythonds/_images/heapOrder.png)
-    - **heap order property:** In a heap, for every node **x** with parent **p**, the key in **p** is smaller than or equal to the key in **x**.
-        * For example, the root of the tree must be the smallest item in the tree
-    - When to use heap:
-        - Priority Queue implementation
-        - whenever need quick access to largest/smallest item
-            - Instant access to the item
-            - insertions are fast, allow in-place sorting
-        - More details can be seen in [this discussion](https://stackoverflow.com/questions/749199/when-would-i-want-to-use-a-heap)
-
-##### More Trees
-
-- ***Parse tree*** can be used to represent real-world constructions like sentences or mathematical expressions.
-    - A simple solution to keeping track of parents as we traverse the tree is to use a stack. 
-    - When we want to descend to a child of the current node, we first push the current node on the stack. 
-    - When we want to return to the parent of the current node, we pop the parent off the stack.
-- ***AVL Tree***: a balanced binary tree. the AVL is named for its inventors G.M. Adelson-Velskii and E.M. Landis.
-    - For each node: *balanceFactor* = *height(leftSubTree)* − *height(rightSubTree)*
-    - a subtree is left-heavy if *balance_factor > 0*
-    - a subtree is right-heavy if *balance_factor < 0*
-    - a subtree is perfectly in balance if *balance_factor = 0*
-    - For simplicity we can define a tree to be in balance if the balance factor is -1, 0, or 1. 
-    - The number of nodes follows the pattern of *Fibonacci sequence*, as the number of elements get larger the ratio of Fi/Fi-1 closes to the golden ratio, so the time complexity is derived to be **O(log n)**
-- ***Red-Black Tree***
-    - [Details in Wiki](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-- ***B+ Tree***: N-array tree
-    - [Details in Wiki](https://en.wikipedia.org/wiki/B%2B_tree)
-- ***Trie***
-    - *This is a common data structure in interviews*
-    - [Template](./Templates/trie.md)
-- ***Binary Index Tree (Fenwick Tree)***
-    - [Binary Index Tree (Fenwick Tree)](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
-    - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
-
-
-#### Graph
-
-- Directed Graph
-- Undirected Graph
-- Graph Representation
-    - Adjacency Matrix (2D matrix)
-        - Good when number of edges is large
-        - Each of the rows and columns represent a vertex in the graph. 
-    - Adjacency List
-        - space-efficient way for implementation
-        - Each vertix is an element of the list with the vertix as ID and a list of its adjacent vertices as value
-- Graph traversal: BFS & DFS
-    - [Template](./Templates/graph_traversal.md)
-- Graph Algorithms:
-    - Shortest Path:
-        - Dijkstra’s Algorithm (Single source point)
-            - ***Essentially, this is a BFS using priority queue instead of queue***
-            - [Template](./Templates/dijkstra.md)
-        - Floyd Warshall Algorithm (Multiple source point)
-    - Topological Sort
-        - [Template](./Templates/topological_sort.md)
-    - Prim’s Spanning Tree Algorithm
-
-### Common Algorithm Types
-
-#### Brute Force
-
-- Most common algorithm
-- Whenever you are facing a problem without many clues, you should solve it using brute force first, and observe the process and try to optimize your solution 
-
-#### Search
-
-##### Sequential Search
-
-- Sequential Search: visit the stored value in a sequence (use loop)
-
-##### Binary Search
-
-- Examine the middle item of an ordered list
-- KEY is the search interval
-- [Template](./Templates/binary_search.md)
-
-#### Sort
-
-##### Bubble Sort
-
-- Compares adjacent items and exchanges those that are out of order.
-- **Short bubble:** stop early if it finds that the list has become sorted.
-- time complexity: O(n2)
-
-##### Selection Sort
-
-- Looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location.
-- time complexity: O(n2)
-
-##### Insertion Sort
-
-- Maintains a sorted sub-list in the lower positions of the list. 
-- Each new item is then “inserted” back into the previous sub-list such that the sorted sub-list is one item larger.
-- time complexity: O(n2)
-
-##### Shell Sort
-
-- Breaks the original list into a number of smaller sub-lists, each of which is sorted using an insertion sort. 
-	- the shell sort uses an increment *i*, sometimes called the **gap**, to create a sub-list by choosing all items that are *i* items apart.
-	- After all the sub-lists are sorted, it finally does a standard insertion sort
-	- time complexity goes between O(n) and O(n2), by changing the increment, a shell sort can perform at O(n^(3/2)).
-
-##### Merge Sort
-
-- A recursive algorithm that continually splits a list in half. 
-- [Details and Templates](./Templates/merge_sort.md)
-
-##### Quick Sort
-
-- First selects a value (**pivot value**), and then use this value to assist with splitting the list. 
-- [Details and Templates](./Templates/quick_sort.md)
-
-##### Heap Sort
-
-- Use the property of heap to sort the list
-
-#### Recursion
-
-**Recursion** is a method of solving problems that involves breaking a problem down into smaller and smaller sub-problems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself.
-
-Three Laws of Recursion:
-
-1. A recursive algorithm must have a base case.
-2. A recursive algorithm must change its state and move toward the base case.
-3. A recursive algorithm must call itself, recursively.
-
-##### Recursive function in Python
-
-* When a function is called in Python, a stack frame is allocated to handle the local variables of the function. 
-* When the function returns, the return value is left on top of the stack for the calling function to access. 
-* Even though we are calling the same function over and over, each call creates a new scope for the variables that are local to the function.
-
-#### Backtracking 
-
-- a general algorithm for finding all (or some) solutions to constraint satisfaction problems (i.e. chess, puzzles, crosswords, verbal arithmetic, Sudoku, etc)
-- [Template](./Templates/backtrack.md)
-
-
-#### Dynamic Programming
-
-**Dynamic Programming (DP)** is an algorithm technique which is usually based on a recurrent formula and one (or some) starting states.
-	- A sub-solution of the problem is constructed from previously found ones.
-	- Usually used to find the extreme cases such as shortest path, best fit, smallest set, etc.
-
-#### Divide and Conquer
-
-- **Divide**: break into non-overlapping sub-problems of the same type (of problem)
-- **Conquer**: solve sub-problems
-- the algorithm is to keep dividing and conquering, and finally combine them to get the solution
-- the algorithm can be written in recursive or loop 
-
-#### Greedy
-
-**Greedy algorithm:**
-
-- find a safe move first
-- prove safety
-- solve subproblem (which should be similar to original problem)
-- estimate running time
-
-**Optimization:**
-
-- assume everything is sorted (if not, maybe sort first)
-- decide sort order
-- the final running time can be O(n log n) (i.e. sort is O(log n), greedy move can be O(n))
-
-- [More details](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
-
-#### Branch and Bound
-
-### Frequently Used Technics and Algorithms
-
-**Must know for interview:**
-
-- Matrix Traversal
-    - Focusing on various ways of traversing 2D matrix
-    - [Template](./Templates/matrix_traversal.md)
-- Sliding Window
-    - ***Fundamentally this is a two pointer approach***
-    - [Template](./Templates/sliding_window.md)
-- Union find
-    - Essentially its a list representation for the joint data points
-    - [Template](./Templates/union_find.md)
-- Bit Manipulation
-- Prefix Sum
-- monotonic stack/queue
-    - [Monotonic Stack template](./Templates/monotonic_stack.md)
-
-**Good to know but can be skipped:**
-
-- Segment Tree
-- Kadane's algorithm
-- Reservoir Sampling
-- Line sweep
-- KMP algorithm (pattern match)
-- Manacher (Longest Palindromic Substring)
-- Skip List
-
-### Summary
-
-
-## System Design
-
-### System Design Interview Template
-
-System design questions can be very difficult to prepare, because it covers a  wide range of areas.
-
-Here is a template I use for the system design interview:
-
-1. Feature expectations (5 mins) - gather requirements:
-
-   - Functional requirements:
-       - Use cases
-       - Scenarios that will NOT be covered
-       - End-user (who will use it)
-       - Capacity (how many people will use it, DAU (daily active user))
-       - How to use it
-   - None-Functional requirements:
-       - Scalability
-       - Availability
-       - Performance/Latency
-       - Consistency
-       - Durability/Fault-tolerant
-
-2. Estimations (2-5 mins) - estimate scale:
-
-   - Throughput (QPS for read and write queries)
-   - Latency expected from the system (for read and write queries)
-   - Read/Write ratio (heavy read, heavy write, or similar)
-   - Traffic estimates (QPS for read and write)
-   - Storage estimates (media files, text/photo/video)
-   - Memory estimates
-       - Cache: what is the kind of data we want to store in cache
-       - How much RAM and how many machines
-       - How much data stored on disk/ssd
-
-3. High Level Design (5-10 min) - discuss a very high level with the interviewer:
-
-    - System components (load balancer, services, cache, database, etc)
-    - Database schema
-    - APIs for Read/Write scenarios for crucial components
-    - Request flow process (from client to database)
-
-4. Deep Dive (15-20 mins) - focus on any part of the component:
-
-    - Scaling individual component
-        - Availability, Consistency and Scale story for each component
-        - Consistency and availability patterns
-    - Deep dive on any of the following component
-        - DNS
-        - CDN (Pull vs Push vs Hybrid)
-        - Load Balancer/Reverse Proxy
-            - LB types
-            - LB algorithms
-        - Application layer scaling (Microservices, Service Discovery, Service Mesh)
-        - Database (RDBMS vs NoSQL)
-            - RDBMS:
-                - Leader-follower, Multi-leader, Leaderless, Federation, Sharding, Denormalization, SQL Tuning
-            - NoSQL:
-                - Key-Value, Wide-Column, Graph, Document
-                - RAM [Bounded size] => Redis, Memcached
-                - AP [Unbounded size] => Cassandra, RIAK, Voldemort
-                - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
-        - Caches:
-            - Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache at Query level, Cache at Object level
-            - Cache Patterns:
-                - Cache aside
-                - Write through
-                - Write behind
-                - Refresh ahead
-            - Eviction policies:
-                - LRU
-                - LFU
-                - FIFO
-        - Asynchronism
-            - Message queues
-            - Task queues
-            - Back pressure
-        - Communication
-            - TCP
-            - UDP
-            - REST
-            - RPC
-
-5. Justify (5 mins):
-
-    - Throughput of each layer
-    - Latency caused between each layer
-    - Overall latency justification
-
-
-Notes:
-
-- Treat the system design as an actual work project, for which you have to gather and clear all the requirements and then do the design, and treat your interviewer as your colleague to discuss the trade offs for your design
-- Step 1 is the most important one, you'll need to know what you are about to build after all, and figure out all the requirements needed
-- Step 2 should be asked, but most of the time you may be asked to design a system as a startup (i.e. you don't have many users), and then scale as you have more customers. So you don't have to give a detailed analysis at the beginning, unless is specifically asked.
-- API design vs database schema design: you probably don't need to talk about both. DB design is asked more frequently in my experience.
-- The key in system design is talking about trade offs, why you selected certain technologies over others and what are the draw backs.
-
-
-Reference:
-
-- [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
-- [System Design - InterviewBit](https://www.interviewbit.com/courses/system-design/)
-- [SNAKE - System Design Principles to crack a system design in 5 steps \| Bowen's blog](https://bowenli86.github.io/2016/06/28/system%20design/SNAKE-System-Design-Principles-to-crack-a-system-design-in-5-steps/)
-
-
-### System Design Components
-
-Network systems will eventually comes down to these components and design patterns, so it is critical to understand these components and be able to discuss design decisions and trade offs for any component.
-
-![System Components](./images/System-Components.png)
-
-- [Internet Protocol Suite](./SystemDesign/internet_protocol_suite.md)
-    - OSI model
-    - Internet protocol suite
-    - TCP, UDP, QUIC, SCTP, TCP/IP
-    - HTTP, HTTPS
-    - socket, websocket, long-polling
-    - REST, SOAP
-    - HTTP response status codes
-- [Load Balancer, Reverse Proxy, API Gateway](./SystemDesign/load_balancer.md)
-    - LB types: layer 4 and layer 7
-    - LB algorithms: least connection, least response time, least bandwidth, round robin, IP hash
-    - Reverse Proxy
-    - API Gateway
-    - An example: The Architecture of Uber’s API gateway
-- [Cache](./SystemDesign/cache.md)
-    - Cache Usage Pattern
-        - Cache Aside
-        - Cache-as-SoR (system-of-record): Read through, write through, write behind
-    - Cache Eviction Policies
-    - Redis vs Memcached
-- Data Store
-    - Database Management Systems
-        - Design Principals
-            - [Replication & Partition](./SystemDesign/replication_partition.md)
-                - Leader-follower replication, Sync/Async replication
-                - Handling node outage
-                - Replication logs
-                - Eventual consistency
-                - Multi-leader replication Topology, write conflict resolve
-                - Leaderless replication, Quorum, sloppy quorum, hinted handoff
-                - Key-value store partition
-                - Local and Global index
-                - Rebalancing partition
-                - Coordination service, gossip protocol
-            - [Transaction & Isolation](./SystemDesign/transaction_isolation.md)
-                - ACID
-                - Read committed 
-                - Read skew
-                - Snapshot isolation
-                - MVCC
-                - Lost update
-                - Write skew
-                - Phantom
-                - Two-phase locking (2PL): Shared lock, exclusive lock, predicate lock, index-range lock
-                - Serializable Snapshot Isolation (SSI)
-            - [Consistency & Consensus](./SystemDesign/consistency_consensus.md)
-                - Linearizability
-                - CAP theorem
-                - Causal dependency, consistent with causality, causally consistent
-                - Total order, partially ordered
-                - Lamport timestamp
-                - Total Order Broadcast
-                - Fencing token: monotonically increasing number for lock
-                - epoch number: monotonically increasing number for election
-                - 2PC, 3PC, XA transaction
-        - Major Types
-            - [RDBMS](SystemDesign/RDBMS.md)
-                - Postgres vs MySQL
-            - [NoSQL](./SystemDesign/nosql_db.md)
-                - NoSQL database types
-                - Cassandra vs MongoDB
-    - [Data Storage Systems](./SystemDesign/storage_system.md)
-        - File Storage
-        - Block Storage
-        - Object Storage
-        - HDFS and Map Reduce
-- Architectural Patterns
-
-Now put them together, here is something you should know:
-
-- [What happens when you navigate to an url](./SystemDesign/navigate_url.md)
-- [How to scale web app from monolithic to distributed](./SystemDesign/scale_web_app.md)
-
-### Classic Designs
-
-- notification system
-- rate limiter
-- top k problem
-- distributed message queue
-- distributed cache
-
-### System Design Case Study
-
-- chat system (slack, etc)
-- streaming system (youtube, etc)
-- map system (google map, etc)
-- booking system (ticket master, etc)
-- notification system
-- news feed 
-- payment system
-- top k (recommendation system, etc)
-- url shortener
-- distributed web crawler
-- search auto-completion system
-- file system (dropbox, google drive)
-
-## Behavioral Questions (BQ)
-
-### 4 things to remember for the BQ
-
-- Behavioral Questions have been evaluated more and more in interviews, so make sure you are well prepared before you go to an interview
-- There are many many articles online talking about behavioral questions, so if you are looking for an answer to a specific question, just go ahead and search that question on Google and YouTube. 
-- Be prepared to TALK ABOUT YOUR RESUME
-    - Make sure you can answer anything you put on your resume, technologies, projects, experience, etc
-- use ***STAR*** to make your stories
-    - situation: briefly describe the background
-    - task: briefly describe what was needed to be done
-    - action: describe what you did, focus on what YOU did
-    - results: show the results, especially YOUR impact
-
-### How to prepare for BQ
-
-Follow these steps:
-
-1. Prepare to talk about your resume
-    - know all the technologies you've listed on your resume
-    - be ready to explain why you quit each of your job (at least why quitted the most recent job)
-    - be ready to talk about the projects you listed in your resume
-        - technologies
-        - challenges
-        - YOUR impact, what did you do
-        - collaborations
-
-2. There are three questions you must prepare:
-    1. Introduce yourself (a good way to prepare is the elevator pitch, google it if you don't know)
-    2. Why ABC Company (i.e. why do you want to apply to/work for our company)
-    3. Why do you want to quit (or quitted) your job (if you ever had a job)
-
-3. Go through the [Amazon leadership Principles](https://www.amazon.jobs/en/principles)
-    - Prepare 2 - 3 stories for each principal, and you should be good for most of the interviews for ANY companies
-    - [Amazon's 14 Leadership Principles Video via Jeff Bezo](https://www.youtube.com/watch?v=B-xdfQv3I1k) is really great 
-    - This list: [Amazon asks these 35 questions in 95% of job interviews](https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMTarjnBcV5qOuAI4lE5ZinV&index=18) should give you enough details for the most common questions
-    - Make sure you note down the stories you prepared, and practice to talk to others about them
-
-4. Make sure you give the following questions extra attention:
-    - Your strength and Weakness
-    - The most challenging problem you've solved or project you worked on
-        - A follow up question could be if you are doing it again now, how would you do it differently
-    - Conflict with your colleagues
-    - Disagree with your colleagues/boss
-    - Mistakes/Failures you made and what did you learn from it
-    - Lead teams (if you are senior or manager)
-
-5. Now you are prepared to answer questions, but you'll also need to prepare questions to ASK
-    - Ask good questions will show the interviewers that you are interested in the company, the position, the job itself, and possibly your professionalism 
-    - Ask poking questions about the team and technology
-        - Programming languages (Python, Java, etc)
-        - Development technologies (Docker, K8s, etc)
-        - Frameworks (Django, Spring, etc) and their versions (from the versions you'll know how up-to-date their tech stack is )
-        - development tools (IDEs, OS, Cloud providers, etc)
-    - Generic questions
-        - What is a day like in your company (this may seem too generic, but is quite important). For example, what's the sprint like (do you have sprints), do you have standups, how many working hours per week, when do you start your day, and much more. Pick those that you are most interested in
-        - What's the team like, what's the tech stack for the team, how many BE/FE/QA etc
-        - These kinda questions show that you are really interested in the job and team. You'll need to know this info anyway if there will be an offer and you choose to accept it
-    - Interview related questions
-        - What's the interview process like (sometimes the HR/interviewer will let you know clearly, if not you should ask), how many rounds, etc
-        - Its even possible to poke the potential questions: what areas will the interview cover (algorithms, system design, take home project, etc)
-            - Its ok to ask, its your HR's decision whether to tell you
-        - This article shows you [How to predict your interview questions](https://interviewgenie.com/blog-1/2020/5/4/how-to-predict-your-interview-questions)
-    - Ask any questions that you might be interested through your interview
-        - For example, when certain technologies were mention in your interview, you may ask your interview how those technologies are used in the company
-
-- Here are some really good resources for you to prepare:
-    - AGAIN if you wanna prepare for certain questions, there are lots examples online, just google, and use Youtube
-    - There are also interview tips from the big company's website, make sure you check them out 
-    - [Leetcode Interview Thoughts Amazon and Google](https://leetcode.com/discuss/interview-question/455991/i-got-an-offer-from-amazon-sde-i-and-google-l3-heres-my-thoughts)
-    - [How to sell yourself in interviews — Interview Genie](https://interviewgenie.com/blog-1/2018/6/6/how-to-sell-yourself-in-interviews)
-    - [How to answer interview questions about the Amazon leadership principle “Frugality” — Interview Genie](https://interviewgenie.com/blog-1/2019/4/9/how-to-answer-amazon-frugality-interview-questions)
-
-## Offer Negotiation
-
-- Congratulations you got an offer!! But should you accept it immediately?
-- Let me put it this way, its for your own sake to negotiate the offer
-- Offer Negotiation will not only show that you are seriously considering joining the company, but also will make you happy when you actually accept the offer
-- It is really unlikely that the company revoke the offer if you negotiated, but it is possible. Frankly speaking, do you really want to work at a place where you can't ask for anything?
-- There is really only ONE resource that I'd like to share: [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/). Read it carefully and thoroughly, and you are good to go
-
-
-## Machine Learning
-
-## Resources
+## Appendix 2: Resources
 
 ### Learn Python
 
