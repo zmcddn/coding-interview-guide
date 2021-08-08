@@ -837,7 +837,10 @@ Now put them together, here is something you should know:
 - news feed 
 - payment system
 - top k (recommendation system, etc)
-
+- url shortener
+- distributed web crawler
+- search auto-completion system
+- file system (dropbox, google drive)
 
 ## Behavioral Questions (BQ)
 
