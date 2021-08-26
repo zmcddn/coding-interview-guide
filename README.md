@@ -113,6 +113,9 @@ Now let's begin our journey!
     - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
     - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
     - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
+    - [Why you should use a template for the algorithm and data structures](#why-you-should-use-a-template-for-the-algorithm-and-data-structures)
+    - [What should I do if I lost confident when practicing leetcode](#what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
+    - [I still can't solve new problems even if I finished x number of problems on LeetCode](#i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
     - [Learn Python](#learn-python)
@@ -764,30 +767,40 @@ Follow these steps:
 
 **DISCLAIMER:** These QAs are my personal opinions and experience. They are not guaranteed to be the perfect way/solution to the question, but is something I found really helpful from my own experience.
 
-**NOTE:** You should read these QAs first before jumping into the content and resources, since these answers may save you lots time preparing the interview and potentially help you ace the interview. However feel free to go to whatever section you would like to go.
+**NOTE:** You should read these QAs first before jumping into the content and resources, since these answers may save you lots time preparing the interview and potentially help you ace the interview. 
 
 ### Large Company VS Small Company
 
 The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which makes the majority of the market. 
 
+There are also FAANGMULA or FAANGULTAD, feel free to look them up.
+
 The debate of whether working for a large company or a small company is ongoing and probably will never stop, since they can be quite different.
 
 The short conclusion is that:
 
-- Large company is a big platform where you can build your network very effectively and gain an insight of how the large company and complex architecture works, the down side is that there will be micromanagement and office politics (to some degree at least), and you can't learn the full development cycle, plus there will be too many meetings and processes to get things done
-- Small company allows you to learn the full development cycle, gain a lot of project experience quickly, and release a complete product from idea to production. You'll be spending the majority of your time coding and reviewing code, instead of endless meetings (exclude the mangers because that's what they do, they have to plan the next steps with other departments). The down side is that your company is not well know so your skills could potentially be questioned, and building connections is a bit more difficult.
+- Large company
+    - Large company is a big platform where you can build your network very effectively and gain an insight of how the large company and complex architecture works, 
+    - big companies have their own tech stack that you'll have to learn, and can't use them elsewhere so its important to know how they work under the hood
+    - the down side is that there might be micromanagement and office politics (to some degree at least), it is difficult to learn the full development cycle, software development process maybe long and cumbersome, and promotion could take long time but has a clear path 
+- Small company 
+    - small company allows you to learn the full development cycle, gain a lot of project experience quickly, and release a complete product from idea to production.
+    - You'll be spending the majority of your time coding and reviewing code, so the development cycle and shipping is pretty fast. 
+    - small companies mostly use open source tools and frequently keep the tech stack updated with latest technologies. 
+    - the scope of the projects may be smaller, and the promotion may be faster, but the career path may not be very clear
+    - The down side is that your company is not well know so your skills could potentially be questioned, building connections is a bit more difficult, and the company structure and process may be a chaos for a period of time 
 
 I've created a table for you. (It is subjective and depending on different teams, numbers are not accurate but to give you an idea)
 
 |     | Large Company | Small Company |
 | :-: | :-----------: | :-----------: |
 | Networking | Easy to connect to highly talented people | Have to work on networking |
-| Programming (varies with different comp) | ~ 30% a day | ~ 70% a day |
-| Meetings | ~ 50% - 70% a day | 10% - 30% a day |
+| Programming (varies with different comp) | less | more |
 | Feature release process | could have many rounds of review and approval process | normally just peer review |
-| tech stack | it depends on different teams | it depends on project and the company culture |
+| tech stack | depends on different teams, lots of internal tools | depends on project and the company culture, frequently seen popular open-source tools |
 | Interview process | Many rounds, from 5 to 10+ | normally 3-5 rounds, sometimes have a take home project |
 | Interview Content | Mostly focus on algorithm/data structure problems | Mostly about hands on experience on the company tech stack |
+| Career Path | Clear but take longer time | Not super clear but could be promoted to high level (c-level is also possible) |
 
 ### What's the interview process look like
 
@@ -814,16 +827,16 @@ DO ask the interviewer/hr the interview process when you got contacted!
 
 - First of all, if you don't know what LeetCode is, google it and thank me later.
 
-- As a beginner or new to algorithm questions, LeetCode can get overwhelming because there are more than 1500 (at the time of writing) problems!
+- As a beginner or new to algorithm questions, LeetCode can get overwhelming because there are almost 2000 (at the time of writing) problems!
 
 - If you are new to algorithm and data structure, go the "**Explore**" tab on the top navigation bar, and go to the "**Learn**" row and learn all of them.
 
 - If you already know all the data structures, and would like to practice, do the questions from the tags, and do them from easy to hard
-    - Note that most of the companies rarely test hard ones
+    - Note that most of the companies rarely test hard ones, but some highly frequent hard problems come up more often recently
 
 - If you are really familiar with all the data structures and common algorithms, do the problems randomly, so you can think the best data structure for solving the problems most efficiently
 
-- If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions
+- If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions (LeetCode premium feature)
 
 ### How to solve LeetCode problem EFFECTIVELY
 
@@ -872,7 +885,7 @@ So here is what you should do:
 
 To summarize, there are really just two points:
 
-1. Don't be afraid at looking the solution
+1. Don't be afraid at looking at the solution
 2. If you are blocked, see point 1
 
 ### Pay close attention to these when solving problem (gain max value of leetcode problem)
@@ -894,6 +907,50 @@ Here are a few things you need to pay close attention when solving the problem, 
 - Last but not least, once you have the solution, make sure to walk through your code with an test case. 
     - Believe it or not, a lot people cannot debug their own code!
     - Doing so will also show a sign that you review your code first before pushing it out, which is something you should do on your daily job 
+
+### Why you should use a template for the algorithm and data structures
+
+Should you use templates? Many people have asked this question, and the answer is always YES.
+
+Here are the reasons:
+
+- Interview is a stress process and time restricted, remember its time restricted, so knowing the template will enable you to focus on solving the problem and communicating with the interviewer about your thinking process
+- Some the algorithms may look easy, but really difficult to implement correct due to the various boundary/edge cases (such as binary search), so knowing a template will enable you to write some bug-free code more easily
+- Templates are summarized from solving many problems, so it's easier and more efficient to learn from the templates
+- It is also easier to pick up and get prepared for interview if you haven't had one for more than a year when you have some templates
+- Some algorithms are difficult to implement, or at least to implement nicely. Having a good template will make your code looks much better
+- Templates are the main reason for this repo :)
+
+### What should I do if I lost confident when practicing leetcode
+
+I know it can be super frustrating when you first started on the algorithm and data structure problems. 
+
+I've been there and I know how it feels.
+
+Here is the things you must know:
+
+- Any algorithms with names, they are not meant to be figured out by yourself easily. Check out those algorithms on wiki, you can see the history. This is why we need the template, and why we need to study for them.
+- Think of the algorithms and data structures as a math course, and the interview to be a final exam. You need to learn the formula (i.e. each algorithm and data structure) one by one, and interview is just a way to test some of them. It is totally fine not to know all of them at first, what's important is to learn them step by step
+- Build your confidence step by step
+    - this is why you need to solve problems based on TAGs, and solve them from easy to hard
+    - know a template, so you can start programming at least
+- You are not alone, we all feel the same, so don't worry, just keep working!
+
+You should also refer to other QA questions for more details.
+
+### I still can't solve new problems even if I finished x number of problems on LeetCode
+
+This can be a common thing, and it means you weren't using Leetcode very effectively and efficiently.
+
+Basically you should refer to other QA questions for more details.
+
+Here is a short summary:
+
+- Make notes on the problem you solved, and revisit them later
+- Its ok to work on the same problem multiple times in different time, practice makes perfect after all
+- AGAIN, solve problems by tags, so you can master one type at a time
+- Start with templates, and go beyond the templates so you can solve slightly varied problems but in the same category
+- Once you are familiar with the basic algorithms and data structures, medium and hard problems and just combination of two or three algorithms/data structures 
 
 ### How to get your FIRST job! (How to become more competitive among the candidates)
 
