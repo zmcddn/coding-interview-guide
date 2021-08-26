@@ -765,7 +765,7 @@ Follow these steps:
 
 ## Appendix 1: Question & Answer
 
-**DISCLAIMER:** These QAs are my personal opinions and experience. They are not guaranteed to be the perfect way/solution to the question, but is something I found really helpful from my own experience.
+**DISCLAIMER:** These QAs are my personal opinions and experience. They are not guaranteed to be the perfect solution to the question, but is something I found really helpful from my own experience.
 
 **NOTE:** You should read these QAs first before jumping into the content and resources, since these answers may save you lots time preparing the interview and potentially help you ace the interview. 
 
@@ -846,7 +846,7 @@ What I mean is that you have to really understand the question after you've solv
 
 It doesn't really matter if you solved it by yourself or looked at the answers. 
 
-Here are a list of important things you have to always think about when you are working on problems:
+Here are a list of ***CRITICAL*** things you have to always think about when you are working on problems:
 
 - What's the best data structure/s to solve this problem
 - What's the time and space complexity (Big O's)
