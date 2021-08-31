@@ -116,6 +116,8 @@ Now let's begin our journey!
     - [Why you should use a template for the algorithm and data structures](#why-you-should-use-a-template-for-the-algorithm-and-data-structures)
     - [What should I do if I lost confident when practicing leetcode](#what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
     - [I still can't solve new problems even if I finished x number of problems on LeetCode](#i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
+    - [How to write an effective resume](#how-to-write-an-effective-resume)
+    - [I have applied many jobs but still no interview](#i-have-applied-many-jobs-but-still-no-interview)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
     - [Learn Python](#learn-python)
@@ -951,6 +953,28 @@ Here is a short summary:
 - AGAIN, solve problems by tags, so you can master one type at a time
 - Start with templates, and go beyond the templates so you can solve slightly varied problems but in the same category
 - Once you are familiar with the basic algorithms and data structures, medium and hard problems and just combination of two or three algorithms/data structures 
+
+### How to write an effective resume
+
+Well it's all about years of experience (YOE). Here are some tips you should know:
+
+- If you have less experience, you should keep your resume in 1 page. If you have lots of experience, you should keep it in 2 pages. just don't go over two pages.
+- You can have more details in the more recent experience, and less details in the early-year experience.
+- Try tailor your resume towards the job posting requirements, especially making sure you have the KEYWORDS aligned with the job posting.
+- Make sure you emphasize what YOU did and YOUR contribution to the projects listed
+- I know it's often hard, but try give specific analytical numbers (i.e. improved efficiency by 200%)
+- Highlight your skills and achievements
+- DOUBLE CHECK SPELLING AND GRAMMAR, have another person proofread for you
+
+### I have applied many jobs but still no interview
+
+- If you are a new grad, this is common. It's difficult for a new grad to find job pretty much in any industries. My advise is to work on your resume as much as you can, make sure each resume is targeted to the job posting really well, write cover letter to further show your enthusiastic about the job, and keep applying.
+- If you have a few years of experience, make sure your resume is great. 
+    - Make sure your resume is up-to-date, no silly spell and grammar issues
+    - Make sure you have concentrated on your contributions in your resume
+    - Make sure you have highlighted your skills and achievements
+    - Maybe find a professional service to help you with your resume if it's still not as polished as you want it to be
+    - keep applying, you'll never know if there is a good opportunity waiting for you
 
 ### How to get your FIRST job! (How to become more competitive among the candidates)
 
