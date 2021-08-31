@@ -120,7 +120,7 @@ Now let's begin our journey!
     - [I have applied many jobs but still no interview](#i-have-applied-many-jobs-but-still-no-interview)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
-    - [Learn Python](#learn-python)
+    - [Learning Experience](#learning-experience)
     - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
     - [OOD (Object Oriented Design)](#ood-object-oriented-design)
       - [SOLID Principals](#solid-principals)
@@ -1010,17 +1010,20 @@ Good luck!!!
 
 ## Appendix 2: Resources
 
-### Learn Python
+### Learning Experience
 
 - [Everything About Python — Beginner To Advanced](https://medium.com/fintechexplained/everything-about-python-from-beginner-to-advance-level-227d52ef32d2)
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 ### How to solve Algorithm Questions
 
-- [Fucking Algorithm - Algorithm template - Java, Python - English, Chinese](https://github.com/labuladong/fucking-algorithm)
+- [Fucking Algorithm - Algorithm template - Java, Python - English, Chinese](https://github.com/labuladong/fucking-algorithm/tree/english)
 - [Algorithm Pattern - Algorithm template - Go - Chinese](https://github.com/greyireland/algorithm-pattern)
 - [Hello Algorithm - Leetcode Solution - Java - English, Chinese](https://github.com/geekxh/hello-algorithm)
 - [LeetCode Topics and Interview Questions Collection - Leetcode Solution - Java - English, Chinese](https://github.com/yuanguangxin/LeetCode)
 - [Top 10 algorithms in Interview Questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/#algo3)
+- [CHEATSHEET: LEETCODE COMMON TEMPLATES & COMMON CODE PROBLEMS - English](https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4)
+- [LeetCode 101 - A LeetCode Grinding Guide (C++ Version) - Chinese](https://github.com/changgyhub/leetcode_101/blob/master/LeetCode%20101%20-%20A%20LeetCode%20Grinding%20Guide%20(C%2B%2B%20Version).pdf)
 
 ### OOD (Object Oriented Design)
 
@@ -1039,6 +1042,8 @@ Good luck!!!
 Uncle Bob, whose a software engineer and introduced teh S.O.L.I.D. principals for clean code writing. 
 
 Here is a recent series of his open talks and I feel its valuable to spend time watching them at least once.
+
+If you don't want to read the book, at least you should watch this series
 
 - [Clean Code - Uncle Bob / Lesson 1: SOLID principals, refactor, DRY](https://www.youtube.com/watch?v=7EmboKQH8lM&ab_channel=UnityCoin)
 - [Clean Code - Uncle Bob / Lesson 2: Comments, docs, naming,  reviews](https://www.youtube.com/watch?v=2a_ytyt9sf8&ab_channel=UnityCoin)
