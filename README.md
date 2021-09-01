@@ -125,9 +125,10 @@ Now let's begin our journey!
     - [OOD (Object Oriented Design)](#ood-object-oriented-design)
       - [SOLID Principals](#solid-principals)
       - [Clean Code - Uncle Bob lessons](#clean-code---uncle-bob-lessons)
-      - [Design case study](#design-case-study)
+    - [Design Patterns](#design-patterns)
     - [Async in Python](#async-in-python)
     - [System Design](#system-design)
+      - [Design case study](#design-case-study)
     - [Machine Learning](#machine-learning)
     - [Reinforcement Learning](#reinforcement-learning)
 
@@ -1052,12 +1053,11 @@ If you don't want to read the book, at least you should watch this series
 - [Clean Code - Uncle Bob / Lesson 5: Architecture, project development](https://www.youtube.com/watch?v=sn0aFEMVTpA&ab_channel=UnityCoin)
 - [Clean Code - Uncle Bob / Lesson 6: project management](https://www.youtube.com/watch?v=l-gF0vDhJVI&ab_channel=UnityCoin)
 
-#### Design case study
+### Design Patterns
 
-- **Elevator System Design**:
-    - [Video](https://leetcode.com/discuss/interview-question/object-oriented-design/886910/Elevator-System-Design-or-Object-Oriented-System-Design-Interview-Question)
-    - [discussion1](https://leetcode.com/discuss/interview-question/object-oriented-design/846057/OODElevator-System-with-N-elevators.)
-    - [discussion2](https://leetcode.com/discuss/interview-question/object-oriented-design/124936/design-an-elevator-system)
+- [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
+    - You all need to learn the design patterns eventually
+- [Design Patterns in Python](https://github.com/faif/python-patterns)
 
 
 ### Async in Python
@@ -1069,15 +1069,16 @@ If you don't want to read the book, at least you should watch this series
 
 ### System Design
 
+- [System Design Interview](https://www.youtube.com/c/SystemDesignInterview/videos)
+    - MUST see thoroughly, greatly explained by a Senior Amazon engineer, this is what you should expect in an interview
 - [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - The repo with explanations, examples, and study cases
 - [Distributed systems for fun and profit](http://book.mixu.net/distsys/single-page.html)
     - About 100 pages free book
 - [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
     - Quick grasp of system design concepts
-- [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
-    - You all need to learn the design patterns eventually
-- [Design Patterns in Python](https://github.com/faif/python-patterns)
+- [GitHub - puncsky/system-design-and-architecture: Learn how to design large-scale systems. Prep for the system design interview.](https://github.com/puncsky/system-design-and-architecture)
+- [GitHub - checkcheckzz/system-design-interview: System design interview for IT companies](https://github.com/checkcheckzz/system-design-interview)
 
 This repo has the full list of company engineering blogs:
 
@@ -1089,6 +1090,13 @@ Papers:
 - [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
 - [TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
 - [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+
+#### Design case study
+
+- **Elevator System Design**:
+    - [Video](https://leetcode.com/discuss/interview-question/object-oriented-design/886910/Elevator-System-Design-or-Object-Oriented-System-Design-Interview-Question)
+    - [discussion1](https://leetcode.com/discuss/interview-question/object-oriented-design/846057/OODElevator-System-with-N-elevators.)
+    - [discussion2](https://leetcode.com/discuss/interview-question/object-oriented-design/124936/design-an-elevator-system)
 
 ### Machine Learning
 
