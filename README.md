@@ -117,7 +117,8 @@ Now let's begin our journey!
     - [What should I do if I lost confident when practicing leetcode](#what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
     - [I still can't solve new problems even if I finished x number of problems on LeetCode](#i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
     - [How to write an effective resume](#how-to-write-an-effective-resume)
-    - [I have applied many jobs but still no interview](#i-have-applied-many-jobs-but-still-no-interview)
+    - [I have applied to many jobs but still no interview](#i-have-applied-to-many-jobs-but-still-no-interview)
+    - [How to solve an algorithm/data structure problem in interview](#how-to-solve-an-algorithmdata-structure-problem-in-interview)
     - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
     - [Learning Experience](#learning-experience)
@@ -967,7 +968,7 @@ Well it's all about years of experience (YOE). Here are some tips you should kno
 - Highlight your skills and achievements
 - DOUBLE CHECK SPELLING AND GRAMMAR, have another person proofread for you
 
-### I have applied many jobs but still no interview
+### I have applied to many jobs but still no interview
 
 - If you are a new grad, this is common. It's difficult for a new grad to find job pretty much in any industries. My advise is to work on your resume as much as you can, make sure each resume is targeted to the job posting really well, write cover letter to further show your enthusiastic about the job, and keep applying.
 - If you have a few years of experience, make sure your resume is great. 
@@ -976,6 +977,21 @@ Well it's all about years of experience (YOE). Here are some tips you should kno
     - Make sure you have highlighted your skills and achievements
     - Maybe find a professional service to help you with your resume if it's still not as polished as you want it to be
     - keep applying, you'll never know if there is a good opportunity waiting for you
+
+### How to solve an algorithm/data structure problem in interview
+
+In other QAs I explained how to grind Leetcode efficiently and effectively. 
+
+With enough practice, you got an interview, here are some tips that can increase your success rate.
+
+- Make sure you ask clarifications at the beginning. What are the inputs, input types, what are given, what should be the output etc
+- Before writing code, THINK OUT LOUD
+    - Discuss your thinking process with your interviewer
+    - what data structures you choose, why you choose them, what are the steps to implement
+    - During the process, write them down. For example, write them as comments, step by step
+- Once you interviewer knows your thoughts, ask if its ok to code, then code. Sometime you may even able to skip the coding entirely.
+- Be ready to discuss time and space complexity
+- Be ready for the follow up questions
 
 ### How to get your FIRST job! (How to become more competitive among the candidates)
 
