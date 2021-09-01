@@ -79,3 +79,4 @@ Advantages:
 
 - [Scaling Up to Your First 10 Million Users](https://www.youtube.com/watch?v=Ma3xWDXTxRg&ab_channel=AmazonWebServices)
 - [Web Scalability for Startup Engineers](https://www.amazon.ca/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655)
+- [A Beginner's Guide to Scaling to 11 Million+ Users on Amazon's AWS - High Scalability -](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
