@@ -126,6 +126,7 @@ Now let's begin our journey!
     - [A1.13 How to get your FIRST job! (How to become more competitive among the candidates)](#a113-how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
     - [A2.1 Learning Experience](#a21-learning-experience)
+      - [A2.1.1 Online MOOC courses](#a211-online-mooc-courses)
     - [A2.2 How to solve Algorithm Questions](#a22-how-to-solve-algorithm-questions)
     - [A2.3 OOD (Object Oriented Design)](#a23-ood-object-oriented-design)
       - [A2.3.1 SOLID Principals](#a231-solid-principals)
@@ -1088,6 +1089,17 @@ Good luck!!!
 
 - [Everything About Python — Beginner To Advanced](https://medium.com/fintechexplained/everything-about-python-from-beginner-to-advance-level-227d52ef32d2)
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+- [GitHub - TheAlgorithms/Python: All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+- [VisuAlgo - visualising data structures and algorithms through animation](https://visualgo.net/en)
+
+#### A2.1.1 Online MOOC courses
+
+- [CS 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)
+- [CS 61B: Data Structures Spring 2019](https://sp19.datastructur.es/)
+- [CS 61C: Computer Architecture (Machine Structures)](https://cs61c.org/)
+- [MIT6.046: Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
+- [MIT6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/)
+
 
 ### A2.2 How to solve Algorithm Questions
 
