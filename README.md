@@ -66,6 +66,7 @@ Now let's begin our journey!
       - [1.1 Array](#11-array)
       - [1.2 Linked List](#12-linked-list)
       - [1.3 Stack](#13-stack)
+        - [1.3.1 Arithmetic Expressions](#131-arithmetic-expressions)
       - [1.4 Queue](#14-queue)
       - [1.5 Hash Table](#15-hash-table)
       - [1.6 Trees](#16-trees)
@@ -200,6 +201,27 @@ Now let's begin our journey!
 - The order of insertion is the reverse of the order of removal.
 - Stack maintain a FILO (first in last out) ordering property.
 - When pop is called on the end of the list it takes O(1) but when pop is called on the first element in the list or anywhere in the middle it is O(n) (in Python).
+
+##### 1.3.1 Arithmetic Expressions
+
+- Infix: the operator is in between the two operands that it is working on (i.e. A+B)    
+	- Fully Parenthesized expression: uses one pair of parentheses for each operator. (i.e.  ((A + (B * C)) + D))
+- Prefix: all operators precede the two operands that they work on (i.e. +AB)
+- Postfix: operators come after the corresponding operands (i.e. AB+)    
+
+| Infix Expression  | Prefix Expression | Postfix Expression |
+| ----------------- | ----------------- | ------------------ |
+| A + B             | + A B             | A B +              |
+| A + B * C         | + A * B C         | A B C * +          |
+| (A + B) * C       | * + A B C         | A B + C *          |
+| A + B * C + D     | + + A * B C D     | A B C * + D +      |
+| (A + B) * (C + D) | * + A B + C D     | A B + C D + *      |
+| A * B + C * D     | + * A B * C D     | A B * C D * +      |
+| A + B + C + D     | + + + A B C D     | A B + C + D +      |
+
+- **NOTE:**
+	- Only infix notation requires parentheses to determine precedence
+	- The order of operations within prefix and postfix expressions is completely determined by the position of the operator and nothing else
 
 #### 1.4 Queue
 
