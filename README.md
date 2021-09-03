@@ -63,37 +63,37 @@ Now let's begin our journey!
   - [Table of Content](#table-of-content)
   - [Section 1: Data Structures and Algorithms](#section-1-data-structures-and-algorithms)
     - [Chapter 1: Data Structures](#chapter-1-data-structures)
-      - [Array](#array)
-      - [Linked List](#linked-list)
-      - [Stack](#stack)
-      - [Queue](#queue)
-      - [Hash Table](#hash-table)
-      - [Trees](#trees)
-        - [Tree Traversal: access the nodes of the tree](#tree-traversal-access-the-nodes-of-the-tree)
-        - [Binary Search Tree (BST)](#binary-search-tree-bst)
-        - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-        - [More Trees](#more-trees)
-      - [Graph](#graph)
+      - [1.1 Array](#11-array)
+      - [1.2 Linked List](#12-linked-list)
+      - [1.3 Stack](#13-stack)
+      - [1.4 Queue](#14-queue)
+      - [1.5 Hash Table](#15-hash-table)
+      - [1.6 Trees](#16-trees)
+        - [1.6.1 Tree Traversal: access the nodes of the tree](#161-tree-traversal-access-the-nodes-of-the-tree)
+        - [1.6.2 Binary Search Tree (BST)](#162-binary-search-tree-bst)
+        - [1.6.3 Heap / Priority Queue / Binary Heap](#163-heap--priority-queue--binary-heap)
+        - [1.6.4 More Trees](#164-more-trees)
+      - [1.7 Graph](#17-graph)
     - [Chapter 2: Common Algorithm Types](#chapter-2-common-algorithm-types)
-      - [Brute Force](#brute-force)
-      - [Search](#search)
-        - [Sequential Search](#sequential-search)
-        - [Binary Search](#binary-search)
-      - [Sort](#sort)
-        - [Bubble Sort](#bubble-sort)
-        - [Selection Sort](#selection-sort)
-        - [Insertion Sort](#insertion-sort)
-        - [Shell Sort](#shell-sort)
-        - [Merge Sort](#merge-sort)
-        - [Quick Sort](#quick-sort)
-        - [Heap Sort](#heap-sort)
-      - [Recursion](#recursion)
-        - [Recursive function in Python](#recursive-function-in-python)
-      - [Backtracking](#backtracking)
-      - [Dynamic Programming](#dynamic-programming)
-      - [Divide and Conquer](#divide-and-conquer)
-      - [Greedy](#greedy)
-      - [Branch and Bound](#branch-and-bound)
+      - [2.1 Brute Force](#21-brute-force)
+      - [2.2 Search](#22-search)
+        - [2.2.1 Sequential Search](#221-sequential-search)
+        - [2.2.2 Binary Search](#222-binary-search)
+      - [2.3 Sort](#23-sort)
+        - [2.3.1 Bubble Sort](#231-bubble-sort)
+        - [2.3.2 Selection Sort](#232-selection-sort)
+        - [2.3.3 Insertion Sort](#233-insertion-sort)
+        - [2.3.4 Shell Sort](#234-shell-sort)
+        - [2.3.5 Merge Sort](#235-merge-sort)
+        - [2.3.6 Quick Sort](#236-quick-sort)
+        - [2.3.7 Heap Sort](#237-heap-sort)
+      - [2.4 Recursion](#24-recursion)
+        - [2.4.1 Recursive function in Python](#241-recursive-function-in-python)
+      - [2.5 Backtracking](#25-backtracking)
+      - [2.6 Dynamic Programming](#26-dynamic-programming)
+      - [2.7 Divide and Conquer](#27-divide-and-conquer)
+      - [2.8 Greedy](#28-greedy)
+      - [2.9 Branch and Bound](#29-branch-and-bound)
     - [Chapter 3: Frequently Used Technics and Algorithms](#chapter-3-frequently-used-technics-and-algorithms)
     - [Summary](#summary)
   - [Section 2: System Design](#section-2-system-design)
@@ -103,36 +103,36 @@ Now let's begin our journey!
     - [Chapter 7: System Design Case Study](#chapter-7-system-design-case-study)
   - [Section 3: Transferrable Skills and Offer](#section-3-transferrable-skills-and-offer)
     - [Chapter 8: Behavioral Questions (BQ)](#chapter-8-behavioral-questions-bq)
-      - [4 things to remember for the BQ](#4-things-to-remember-for-the-bq)
-      - [How to prepare for BQ](#how-to-prepare-for-bq)
+      - [8.1 Four things to remember for the BQ](#81-four-things-to-remember-for-the-bq)
+      - [8.2 How to prepare for BQ](#82-how-to-prepare-for-bq)
     - [Chapter 9: Offer Negotiation](#chapter-9-offer-negotiation)
   - [Appendix 1: Question & Answer](#appendix-1-question--answer)
-    - [Large Company VS Small Company](#large-company-vs-small-company)
-    - [What's the interview process look like](#whats-the-interview-process-look-like)
-    - [How to use LeetCode as a beginner](#how-to-use-leetcode-as-a-beginner)
-    - [How to solve LeetCode problem EFFECTIVELY](#how-to-solve-leetcode-problem-effectively)
-    - [How to solve LeetCode problem EFFICIENTLY](#how-to-solve-leetcode-problem-efficiently)
-    - [Pay close attention to these when solving problem (gain max value of leetcode problem)](#pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
-    - [Why you should use a template for the algorithm and data structures](#why-you-should-use-a-template-for-the-algorithm-and-data-structures)
-    - [What should I do if I lost confident when practicing leetcode](#what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
-    - [I still can't solve new problems even if I finished x number of problems on LeetCode](#i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
-    - [How to write an effective resume](#how-to-write-an-effective-resume)
-    - [I have applied to many jobs but still no interview](#i-have-applied-to-many-jobs-but-still-no-interview)
-    - [How to solve an algorithm/data structure problem in interview](#how-to-solve-an-algorithmdata-structure-problem-in-interview)
-    - [How to get your FIRST job! (How to become more competitive among the candidates)](#how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
+    - [A1.1 Large Company VS Small Company](#a11-large-company-vs-small-company)
+    - [A1.2 What's the interview process look like](#a12-whats-the-interview-process-look-like)
+    - [A1.3 How to use LeetCode as a beginner](#a13-how-to-use-leetcode-as-a-beginner)
+    - [A1.4 How to solve LeetCode problem EFFECTIVELY](#a14-how-to-solve-leetcode-problem-effectively)
+    - [A1.5 How to solve LeetCode problem EFFICIENTLY](#a15-how-to-solve-leetcode-problem-efficiently)
+    - [A1.6 Pay close attention to these when solving problem (gain max value of leetcode problem)](#a16-pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
+    - [A1.7 Why you should use a template for the algorithm and data structures](#a17-why-you-should-use-a-template-for-the-algorithm-and-data-structures)
+    - [A1.8 What should I do if I lost confident when practicing leetcode](#a18-what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
+    - [A1.9 I still can't solve new problems even if I finished x number of problems on LeetCode](#a19-i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
+    - [A1.10 How to write an effective resume](#a110-how-to-write-an-effective-resume)
+    - [A1.11 I have applied to many jobs but still no interview](#a111-i-have-applied-to-many-jobs-but-still-no-interview)
+    - [A1.12 How to solve an algorithm/data structure problem in interview](#a112-how-to-solve-an-algorithmdata-structure-problem-in-interview)
+    - [A1.13 How to get your FIRST job! (How to become more competitive among the candidates)](#a113-how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
-    - [Learning Experience](#learning-experience)
-    - [How to solve Algorithm Questions](#how-to-solve-algorithm-questions)
-    - [OOD (Object Oriented Design)](#ood-object-oriented-design)
-      - [SOLID Principals](#solid-principals)
-      - [Clean Code - Uncle Bob lessons](#clean-code---uncle-bob-lessons)
-    - [Design Patterns](#design-patterns)
-    - [Async in Python](#async-in-python)
-    - [System Design](#system-design)
-    - [Machine Learning](#machine-learning)
-    - [Reinforcement Learning](#reinforcement-learning)
+    - [A2.1 Learning Experience](#a21-learning-experience)
+    - [A2.2 How to solve Algorithm Questions](#a22-how-to-solve-algorithm-questions)
+    - [A2.3 OOD (Object Oriented Design)](#a23-ood-object-oriented-design)
+      - [A2.3.1 SOLID Principals](#a231-solid-principals)
+      - [A2.3.2 Clean Code - Uncle Bob lessons](#a232-clean-code---uncle-bob-lessons)
+    - [A2.4 Design Patterns](#a24-design-patterns)
+    - [A2.5 Async in Python](#a25-async-in-python)
+    - [A2.6 System Design](#a26-system-design)
+    - [A2.7 Machine Learning](#a27-machine-learning)
+    - [A2.8 Reinforcement Learning](#a28-reinforcement-learning)
 
-
+---
 
 ## Section 1: Data Structures and Algorithms
 
@@ -184,24 +184,24 @@ Now let's begin our journey!
 
 ### Chapter 1: Data Structures
 
-#### Array
+#### 1.1 Array
 
 - An array (in Python its called *list*) is a collection of items where each item holds a relative position with respect to the others.
 
-#### Linked List
+#### 1.2 Linked List
 
 - Similar to array, but requires O(N) time on average to visit an element by index
 - Linked list utilize memory better than array, since it can use discrete memory space, whereas array must use continuous memory space
 - [Details and Templates](./Templates/linked_list.md)
 
-#### Stack
+#### 1.3 Stack
 
 - Stacks are fundamentally important, as they can be used to reverse the order of items. 
 - The order of insertion is the reverse of the order of removal.
 - Stack maintain a FILO (first in last out) ordering property.
 - When pop is called on the end of the list it takes O(1) but when pop is called on the first element in the list or anywhere in the middle it is O(n) (in Python).
 
-#### Queue
+#### 1.4 Queue
 
 - A queue is structured as an ordered collection of items which are added at one end, called the “rear,” and removed from the other end, called the “front.” 
 - Queues maintain a FIFO ordering property.
@@ -210,7 +210,7 @@ Now let's begin our journey!
     - New items can be added at either the front or the rear. 
     - Likewise, existing items can be removed from either end.
 
-#### Hash Table
+#### 1.5 Hash Table
 
 - A **hash table** is a collection of items which are stored in such a way as to make it easy to find them later. 
 - Each position of the hash table, often called a slot, can hold an item and is named by an integer value starting at 0.
@@ -231,7 +231,7 @@ Now let's begin our journey!
 	![](http://interactivepython.org/runestone/static/pythonds/_images/chaining.png)
 - The initial size for the hash table has to be a prime number so that the collision resolution algorithm can be as efficient as possible.
 
-#### Trees
+#### 1.6 Trees
 
 * A tree data structure has its root at the top and its leaves on the bottom.
 * Three properties of tree:
@@ -241,7 +241,7 @@ Now let's begin our journey!
 * **binary tree:** each node in the tree has a maximum of two children.
     * A **balanced binary tree** has roughly the same number of nodes in the left and right subtrees of the root.
 
-##### Tree Traversal: access the nodes of the tree
+##### 1.6.1 Tree Traversal: access the nodes of the tree
 
 - Tree traversal is the foundation of all tree related problems.
 - Here are a few different ways to traverse a tree:
@@ -250,7 +250,7 @@ Now let's begin our journey!
     - [Details and Templates](./Templates/tree_traversal.md)
 
 
-##### Binary Search Tree (BST)
+##### 1.6.2 Binary Search Tree (BST)
 
 - BST Property (left subtree < root < right subtree):
     1. The value in each node must be `greater than (or equal to)` any values stored in its left subtree.
@@ -260,7 +260,7 @@ Now let's begin our journey!
     - it has no more than one child
 - You could go over the [Leetcode Binary Search Tree topic](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/) for details
 
-##### Heap / Priority Queue / Binary Heap
+##### 1.6.3 Heap / Priority Queue / Binary Heap
 
 - **Priority Queue:**
     - the logical order of items inside a queue is determined by their priority.
@@ -282,7 +282,7 @@ Now let's begin our journey!
             - insertions are fast, allow in-place sorting
         - More details can be seen in [this discussion](https://stackoverflow.com/questions/749199/when-would-i-want-to-use-a-heap)
 
-##### More Trees
+##### 1.6.4 More Trees
 
 - ***Parse tree*** can be used to represent real-world constructions like sentences or mathematical expressions.
     - A simple solution to keeping track of parents as we traverse the tree is to use a stack. 
@@ -307,7 +307,7 @@ Now let's begin our journey!
     - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 
 
-#### Graph
+#### 1.7 Graph
 
 - Directed Graph
 - Undirected Graph
@@ -332,64 +332,64 @@ Now let's begin our journey!
 
 ### Chapter 2: Common Algorithm Types
 
-#### Brute Force
+#### 2.1 Brute Force
 
 - Most common algorithm
 - Whenever you are facing a problem without many clues, you should solve it using brute force first, and observe the process and try to optimize your solution 
 
-#### Search
+#### 2.2 Search
 
-##### Sequential Search
+##### 2.2.1 Sequential Search
 
 - Sequential Search: visit the stored value in a sequence (use loop)
 
-##### Binary Search
+##### 2.2.2 Binary Search
 
 - Examine the middle item of an ordered list
 - KEY is the search interval
 - [Template](./Templates/binary_search.md)
 
-#### Sort
+#### 2.3 Sort
 
-##### Bubble Sort
+##### 2.3.1 Bubble Sort
 
 - Compares adjacent items and exchanges those that are out of order.
 - **Short bubble:** stop early if it finds that the list has become sorted.
 - time complexity: O(n2)
 
-##### Selection Sort
+##### 2.3.2 Selection Sort
 
 - Looks for the largest value as it makes a pass and, after completing the pass, places it in the proper location.
 - time complexity: O(n2)
 
-##### Insertion Sort
+##### 2.3.3 Insertion Sort
 
 - Maintains a sorted sub-list in the lower positions of the list. 
 - Each new item is then “inserted” back into the previous sub-list such that the sorted sub-list is one item larger.
 - time complexity: O(n2)
 
-##### Shell Sort
+##### 2.3.4 Shell Sort
 
 - Breaks the original list into a number of smaller sub-lists, each of which is sorted using an insertion sort. 
 	- the shell sort uses an increment *i*, sometimes called the **gap**, to create a sub-list by choosing all items that are *i* items apart.
 	- After all the sub-lists are sorted, it finally does a standard insertion sort
 	- time complexity goes between O(n) and O(n2), by changing the increment, a shell sort can perform at O(n^(3/2)).
 
-##### Merge Sort
+##### 2.3.5 Merge Sort
 
 - A recursive algorithm that continually splits a list in half. 
 - [Details and Templates](./Templates/merge_sort.md)
 
-##### Quick Sort
+##### 2.3.6 Quick Sort
 
 - First selects a value (**pivot value**), and then use this value to assist with splitting the list. 
 - [Details and Templates](./Templates/quick_sort.md)
 
-##### Heap Sort
+##### 2.3.7 Heap Sort
 
 - Use the property of heap to sort the list
 
-#### Recursion
+#### 2.4 Recursion
 
 **Recursion** is a method of solving problems that involves breaking a problem down into smaller and smaller sub-problems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself.
 
@@ -399,32 +399,32 @@ Three Laws of Recursion:
 2. A recursive algorithm must change its state and move toward the base case.
 3. A recursive algorithm must call itself, recursively.
 
-##### Recursive function in Python
+##### 2.4.1 Recursive function in Python
 
 * When a function is called in Python, a stack frame is allocated to handle the local variables of the function. 
 * When the function returns, the return value is left on top of the stack for the calling function to access. 
 * Even though we are calling the same function over and over, each call creates a new scope for the variables that are local to the function.
 
-#### Backtracking 
+#### 2.5 Backtracking 
 
 - a general algorithm for finding all (or some) solutions to constraint satisfaction problems (i.e. chess, puzzles, crosswords, verbal arithmetic, Sudoku, etc)
 - [Template](./Templates/backtrack.md)
 
 
-#### Dynamic Programming
+#### 2.6 Dynamic Programming
 
 **Dynamic Programming (DP)** is an algorithm technique which is usually based on a recurrent formula and one (or some) starting states.
 	- A sub-solution of the problem is constructed from previously found ones.
 	- Usually used to find the extreme cases such as shortest path, best fit, smallest set, etc.
 
-#### Divide and Conquer
+#### 2.7 Divide and Conquer
 
 - **Divide**: break into non-overlapping sub-problems of the same type (of problem)
 - **Conquer**: solve sub-problems
 - the algorithm is to keep dividing and conquering, and finally combine them to get the solution
 - the algorithm can be written in recursive or loop 
 
-#### Greedy
+#### 2.8 Greedy
 
 **Greedy algorithm:**
 
@@ -441,7 +441,7 @@ Three Laws of Recursion:
 
 - [More details](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
 
-#### Branch and Bound
+#### 2.9 Branch and Bound
 
 ### Chapter 3: Frequently Used Technics and Algorithms
 
@@ -473,6 +473,7 @@ Three Laws of Recursion:
 
 ### Summary
 
+---
 
 ## Section 2: System Design
 
@@ -682,11 +683,13 @@ Now put them together, here is something you should know:
 - search auto-completion system
 - file system (dropbox, google drive)
 
+---
+
 ## Section 3: Transferrable Skills and Offer
 
 ### Chapter 8: Behavioral Questions (BQ)
 
-#### 4 things to remember for the BQ
+#### 8.1 Four things to remember for the BQ
 
 - Behavioral Questions have been evaluated more and more in interviews, so make sure you are well prepared before you go to an interview
 - There are many many articles online talking about behavioral questions, so if you are looking for an answer to a specific question, just go ahead and search that question on Google and YouTube. 
@@ -698,7 +701,7 @@ Now put them together, here is something you should know:
     - action: describe what you did, focus on what YOU did
     - results: show the results, especially YOUR impact
 
-#### How to prepare for BQ
+#### 8.2 How to prepare for BQ
 
 Follow these steps:
 
@@ -765,6 +768,7 @@ Follow these steps:
 - It is really unlikely that the company revoke the offer if you negotiated, but it is possible. Frankly speaking, do you really want to work at a place where you can't ask for anything?
 - There is really only ONE resource that I'd like to share: [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/). Read it carefully and thoroughly, and you are good to go
 
+---
 
 ## Appendix 1: Question & Answer
 
@@ -772,7 +776,7 @@ Follow these steps:
 
 **NOTE:** You should read these QAs first before jumping into the content and resources, since these answers may save you lots time preparing the interview and potentially help you ace the interview. 
 
-### Large Company VS Small Company
+### A1.1 Large Company VS Small Company
 
 The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which makes the majority of the market. 
 
@@ -805,7 +809,7 @@ I've created a table for you. (It is subjective and depending on different teams
 | Interview Content | Mostly focus on algorithm/data structure problems | Mostly about hands on experience on the company tech stack |
 | Career Path | Clear but take longer time | Not super clear but could be promoted to high level (c-level is also possible) |
 
-### What's the interview process look like
+### A1.2 What's the interview process look like
 
 The interview process normally follows the following steps, but of course each company is different:
 
@@ -826,7 +830,7 @@ Above steps is just a summary from my own experience (and from what I learnt fro
 
 DO ask the interviewer/hr the interview process when you got contacted!
 
-### How to use LeetCode as a beginner
+### A1.3 How to use LeetCode as a beginner
 
 - First of all, if you don't know what LeetCode is, google it and thank me later.
 
@@ -841,7 +845,7 @@ DO ask the interviewer/hr the interview process when you got contacted!
 
 - If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions (LeetCode premium feature)
 
-### How to solve LeetCode problem EFFECTIVELY
+### A1.4 How to solve LeetCode problem EFFECTIVELY
 
 **Rule of thumb: make every question count!**
 
@@ -870,7 +874,7 @@ After solving the question (again whether you solved it yourself or looked at so
 
 If you strictly do above things when you are working on the problem and after you solved it, its just a matter of time until you are an expert.
 
-### How to solve LeetCode problem EFFICIENTLY
+### A1.5 How to solve LeetCode problem EFFICIENTLY
 
 **Rule of thumb: Don't work on a single problem for too long, and don't be afraid to look at the solution!**
 
@@ -891,7 +895,7 @@ To summarize, there are really just two points:
 1. Don't be afraid at looking at the solution
 2. If you are blocked, see point 1
 
-### Pay close attention to these when solving problem (gain max value of leetcode problem)
+### A1.6 Pay close attention to these when solving problem (gain max value of leetcode problem)
 
 **Rule of thumb: Consider edge cases, explain it step by step, analyze complexities, walk through code for test case**
 
@@ -911,7 +915,7 @@ Here are a few things you need to pay close attention when solving the problem, 
     - Believe it or not, a lot people cannot debug their own code!
     - Doing so will also show a sign that you review your code first before pushing it out, which is something you should do on your daily job 
 
-### Why you should use a template for the algorithm and data structures
+### A1.7 Why you should use a template for the algorithm and data structures
 
 Should you use templates? Many people have asked this question, and the answer is always YES.
 
@@ -924,7 +928,7 @@ Here are the reasons:
 - Some algorithms are difficult to implement, or at least to implement nicely. Having a good template will make your code looks much better
 - Templates are the main reason for this repo :)
 
-### What should I do if I lost confident when practicing leetcode
+### A1.8 What should I do if I lost confident when practicing leetcode
 
 I know it can be super frustrating when you first started on the algorithm and data structure problems. 
 
@@ -941,7 +945,7 @@ Here is the things you must know:
 
 You should also refer to other QA questions for more details.
 
-### I still can't solve new problems even if I finished x number of problems on LeetCode
+### A1.9 I still can't solve new problems even if I finished x number of problems on LeetCode
 
 This can be a common thing, and it means you weren't using Leetcode very effectively and efficiently.
 
@@ -955,7 +959,7 @@ Here is a short summary:
 - Start with templates, and go beyond the templates so you can solve slightly varied problems but in the same category
 - Once you are familiar with the basic algorithms and data structures, medium and hard problems and just combination of two or three algorithms/data structures 
 
-### How to write an effective resume
+### A1.10 How to write an effective resume
 
 Well it's all about years of experience (YOE). Here are some tips you should know:
 
@@ -967,7 +971,7 @@ Well it's all about years of experience (YOE). Here are some tips you should kno
 - Highlight your skills and achievements
 - DOUBLE CHECK SPELLING AND GRAMMAR, have another person proofread for you
 
-### I have applied to many jobs but still no interview
+### A1.11 I have applied to many jobs but still no interview
 
 - If you are a new grad, this is common. It's difficult for a new grad to find job pretty much in any industries. My advise is to work on your resume as much as you can, make sure each resume is targeted to the job posting really well, write cover letter to further show your enthusiastic about the job, and keep applying.
 - If you have a few years of experience, make sure your resume is great. 
@@ -977,7 +981,7 @@ Well it's all about years of experience (YOE). Here are some tips you should kno
     - Maybe find a professional service to help you with your resume if it's still not as polished as you want it to be
     - keep applying, you'll never know if there is a good opportunity waiting for you
 
-### How to solve an algorithm/data structure problem in interview
+### A1.12 How to solve an algorithm/data structure problem in interview
 
 In other QAs I explained how to grind Leetcode efficiently and effectively. 
 
@@ -992,7 +996,7 @@ With enough practice, you got an interview, here are some tips that can increase
 - Be ready to discuss time and space complexity
 - Be ready for the follow up questions
 
-### How to get your FIRST job! (How to become more competitive among the candidates)
+### A1.13 How to get your FIRST job! (How to become more competitive among the candidates)
 
 To begin with, this is not limited to how to get the first job, but is meant to show you how to stand out of the crowd.
 
@@ -1026,12 +1030,12 @@ Good luck!!!
 
 ## Appendix 2: Resources
 
-### Learning Experience
+### A2.1 Learning Experience
 
 - [Everything About Python — Beginner To Advanced](https://medium.com/fintechexplained/everything-about-python-from-beginner-to-advance-level-227d52ef32d2)
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
-### How to solve Algorithm Questions
+### A2.2 How to solve Algorithm Questions
 
 - [Fucking Algorithm - Algorithm template - Java, Python - English, Chinese](https://github.com/labuladong/fucking-algorithm/tree/english)
 - [Algorithm Pattern - Algorithm template - Go - Chinese](https://github.com/greyireland/algorithm-pattern)
@@ -1041,9 +1045,9 @@ Good luck!!!
 - [CHEATSHEET: LEETCODE COMMON TEMPLATES & COMMON CODE PROBLEMS - English](https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4)
 - [LeetCode 101 - A LeetCode Grinding Guide (C++ Version) - Chinese](https://github.com/changgyhub/leetcode_101/blob/master/LeetCode%20101%20-%20A%20LeetCode%20Grinding%20Guide%20(C%2B%2B%20Version).pdf)
 
-### OOD (Object Oriented Design)
+### A2.3 OOD (Object Oriented Design)
 
-#### SOLID Principals
+#### A2.3.1 SOLID Principals
 
 - [S.O.L.I.D. Principles of Object-Oriented Design - A Tutorial on Object-Oriented Design](https://www.youtube.com/watch?v=GtZtQ2VFweA&ab_channel=LaraconEU)
 - [Understanding the Single Responsibility Principle](https://www.youtube.com/watch?v=L2m-S0Pj_Xk&ab_channel=edutechional)
@@ -1053,7 +1057,7 @@ Good luck!!!
 - [OOP Design Principles: Dependency Inversion Principle](https://www.youtube.com/watch?v=qL2-5g_lJTs&ab_channel=edutechional)
 - [Refactoring From Trash to SOLID](https://medium.com/swlh/refactoring-from-trash-to-solid-74b10005ccd3)
 
-#### Clean Code - Uncle Bob lessons
+#### A2.3.2 Clean Code - Uncle Bob lessons
 
 Uncle Bob, whose a software engineer and introduced teh S.O.L.I.D. principals for clean code writing. 
 
@@ -1068,21 +1072,21 @@ If you don't want to read the book, at least you should watch this series
 - [Clean Code - Uncle Bob / Lesson 5: Architecture, project development](https://www.youtube.com/watch?v=sn0aFEMVTpA&ab_channel=UnityCoin)
 - [Clean Code - Uncle Bob / Lesson 6: project management](https://www.youtube.com/watch?v=l-gF0vDhJVI&ab_channel=UnityCoin)
 
-### Design Patterns
+### A2.4 Design Patterns
 
 - [Design Patterns](https://www.tutorialspoint.com/design_pattern/filter_pattern.htm)
     - You all need to learn the design patterns eventually
 - [Design Patterns in Python](https://github.com/faif/python-patterns)
 
 
-### Async in Python
+### A2.5 Async in Python
 
 - [Demystifying Python's Async and Await Keywords](https://www.youtube.com/watch?v=F19R_M4Nay4&ab_channel=JetBrainsTV)
 - [Thinking Outside the GIL with AsyncIO and Multiprocessing - PyCon 2018](https://www.youtube.com/watch?v=0kXaLh8Fz3k&ab_channel=PyCon2018)
 - [Advanced asyncio: Solving Real-world Production Problems - PyCon 2019](https://www.youtube.com/watch?v=bckD_GK80oY&ab_channel=PyCon2019)
 
 
-### System Design
+### A2.6 System Design
 
 - [System Design Interview](https://www.youtube.com/c/SystemDesignInterview/videos)
     - MUST see thoroughly, greatly explained by a Senior Amazon engineer, this is what you should expect in an interview
@@ -1110,11 +1114,11 @@ Papers:
 - [TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
 - [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
-### Machine Learning
+### A2.7 Machine Learning
 
 - [100 Days of Machine Learning Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
 
 
-### Reinforcement Learning
+### A2.8 Reinforcement Learning
 
 - [Reinforcement Learning Methods and Tutorials](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
