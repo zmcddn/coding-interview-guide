@@ -448,6 +448,11 @@ Three Laws of Recursion:
 2. A recursive algorithm must change its state and move toward the base case.
 3. A recursive algorithm must call itself, recursively.
 
+Recursive visualization: Fractal tree
+
+- A **fractal** is something that looks the same at all different levels of magnification.
+- A fractal tree: a small twig has the same shape and characteristics as a whole tree. 
+
 ##### 2.4.1 Recursive function in Python
 
 * When a function is called in Python, a stack frame is allocated to handle the local variables of the function. 
