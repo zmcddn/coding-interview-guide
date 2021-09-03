@@ -75,9 +75,9 @@ Now let's begin our journey!
         - [1.6.3 Heap / Priority Queue / Binary Heap](#163-heap--priority-queue--binary-heap)
         - [1.6.4 More Trees](#164-more-trees)
       - [1.7 Graph](#17-graph)
-      - [1.7.1 Vocabulary and Definitions](#171-vocabulary-and-definitions)
-      - [1.7.2 Graph Representation](#172-graph-representation)
-      - [1.7.3 Graph Algorithms](#173-graph-algorithms)
+        - [1.7.1 Vocabulary and Definitions](#171-vocabulary-and-definitions)
+        - [1.7.2 Graph Representation](#172-graph-representation)
+        - [1.7.3 Graph Algorithms](#173-graph-algorithms)
     - [Chapter 2: Common Algorithm Types](#chapter-2-common-algorithm-types)
       - [2.1 Brute Force](#21-brute-force)
       - [2.2 Search](#22-search)
@@ -99,6 +99,8 @@ Now let's begin our journey!
       - [2.8 Greedy](#28-greedy)
       - [2.9 Branch and Bound](#29-branch-and-bound)
     - [Chapter 3: Frequently Used Technics and Algorithms](#chapter-3-frequently-used-technics-and-algorithms)
+      - [3.1 Must know for interview](#31-must-know-for-interview)
+      - [3.2 Good to know but can be skipped](#32-good-to-know-but-can-be-skipped)
     - [Summary](#summary)
   - [Section 2: System Design](#section-2-system-design)
     - [Chapter 4: System Design Interview Template](#chapter-4-system-design-interview-template)
@@ -335,7 +337,7 @@ Now let's begin our journey!
 
 #### 1.7 Graph
 
-#### 1.7.1 Vocabulary and Definitions
+##### 1.7.1 Vocabulary and Definitions
 
 - **Vertex (or Node):** the name is called "key" and the additional information is called "payload"
 - **Edge (or arc):** it connects two vertices to show that there is a relationship between them. 
@@ -349,7 +351,7 @@ Now let's begin our journey!
     - A directed graph with no cycles is called a **directed acyclic graph (or DAG)**
 - **Graph:** a graph (G) is composed with a set of vertices (V) and edges (E) Each edge is a tuple of vertex and weight (v,w). G=(V,E) where w,v∈V
 
-#### 1.7.2 Graph Representation
+##### 1.7.2 Graph Representation
 
 - Adjacency Matrix (2D matrix)
     - Good when number of edges is large
@@ -363,7 +365,7 @@ Now let's begin our journey!
     - keep a master list of all the vertices in the Graph object. each vertex is an element of the list with the vertex as ID and a list of its adjacent vertices as value
         ![](http://interactivepython.org/runestone/static/pythonds/_images/adjlist.png)
 
-#### 1.7.3 Graph Algorithms
+##### 1.7.3 Graph Algorithms
 
 - Graph traversal: BFS & DFS
     - [Template](./Templates/graph_traversal.md)
@@ -500,7 +502,7 @@ Recursive visualization: Fractal tree
 
 ### Chapter 3: Frequently Used Technics and Algorithms
 
-**Must know for interview:**
+#### 3.1 Must know for interview
 
 - Matrix Traversal
     - Focusing on various ways of traversing 2D matrix
@@ -516,7 +518,7 @@ Recursive visualization: Fractal tree
 - monotonic stack/queue
     - [Monotonic Stack template](./Templates/monotonic_stack.md)
 
-**Good to know but can be skipped:**
+#### 3.2 Good to know but can be skipped
 
 - Segment Tree
 - Kadane's algorithm
