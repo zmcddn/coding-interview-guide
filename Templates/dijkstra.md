@@ -8,6 +8,9 @@
 - The PriorityQueue class stores tuples of key, value pairs
     - the key in the priority queue must match the key of the vertex in the graph
     - the value is used for deciding the priority, and thus the position of the key in the priority queue
+- Dijkstra’s algorithm works only when the weights are all positive, otherwise the algorithm enters infinity loop
+- time complexity: O((V+E)log(V))
+
 
 
 ***Essentially, this is a BFS using priority queue instead of queue***

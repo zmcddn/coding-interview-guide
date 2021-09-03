@@ -75,6 +75,9 @@ Now let's begin our journey!
         - [1.6.3 Heap / Priority Queue / Binary Heap](#163-heap--priority-queue--binary-heap)
         - [1.6.4 More Trees](#164-more-trees)
       - [1.7 Graph](#17-graph)
+      - [1.7.1 Vocabulary and Definitions](#171-vocabulary-and-definitions)
+      - [1.7.2 Graph Representation](#172-graph-representation)
+      - [1.7.3 Graph Algorithms](#173-graph-algorithms)
     - [Chapter 2: Common Algorithm Types](#chapter-2-common-algorithm-types)
       - [2.1 Brute Force](#21-brute-force)
       - [2.2 Search](#22-search)
@@ -331,15 +334,36 @@ Now let's begin our journey!
 
 #### 1.7 Graph
 
-- Directed Graph
-- Undirected Graph
-- Graph Representation
-    - Adjacency Matrix (2D matrix)
-        - Good when number of edges is large
-        - Each of the rows and columns represent a vertex in the graph. 
-    - Adjacency List
-        - space-efficient way for implementation
-        - Each vertix is an element of the list with the vertix as ID and a list of its adjacent vertices as value
+#### 1.7.1 Vocabulary and Definitions
+
+- **Vertex (or Node):** the name is called "key" and the additional information is called "payload"
+- **Edge (or arc):** it connects two vertices to show that there is a relationship between them. 
+    - One way edge is called **directed graph (or digraph)**
+- **Weight:** edges maybe weighted to show that there is a coset to fo from one vertex to another.
+- **Path:** a sequence of vertices that are connected bny edges
+    - Unweighted path length is the number of edges in the path, specifically n-
+    - Weighted path is the sum of the weights of all the edges in the path
+- **Cycle:** a path that starts and ends at the same vertex
+    - A graph with no cycles is called an **acyclic graph**. 
+    - A directed graph with no cycles is called a **directed acyclic graph (or DAG)**
+- **Graph:** a graph (G) is composed with a set of vertices (V) and edges (E) Each edge is a tuple of vertex and weight (v,w). G=(V,E) where w,v∈V
+
+#### 1.7.2 Graph Representation
+
+- Adjacency Matrix (2D matrix)
+    - Good when number of edges is large
+    - Each of the rows and columns represent a vertex in the graph. 
+    - The value in the cell at the intersection of row v and column w indicates if there is an edge from vertex v to vertex w. It also represents the weight of the edge from vertex v to vertex w.
+    - When two vertices are connected by an edge, we say that they are **adjacent**
+        ![](http://interactivepython.org/runestone/static/pythonds/_images/adjMat.png)
+    - **sparse:** most of the cells in the matrix are empty
+- Adjacency List
+    - space-efficient way for implementation
+    - keep a master list of all the vertices in the Graph object. each vertex is an element of the list with the vertex as ID and a list of its adjacent vertices as value
+        ![](http://interactivepython.org/runestone/static/pythonds/_images/adjlist.png)
+
+#### 1.7.3 Graph Algorithms
+
 - Graph traversal: BFS & DFS
     - [Template](./Templates/graph_traversal.md)
 - Graph Algorithms:
@@ -350,7 +374,10 @@ Now let's begin our journey!
         - Floyd Warshall Algorithm (Multiple source point)
     - Topological Sort
         - [Template](./Templates/topological_sort.md)
+    - Strongly Connected Components
+        - [More Info](./Templates/graph_SCC.md)
     - Prim’s Spanning Tree Algorithm
+        - [More Info](./Templates/prim_spanning_tree.md)
 
 ### Chapter 2: Common Algorithm Types
 
