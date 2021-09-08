@@ -138,6 +138,7 @@ Now let's begin our journey!
     - [A2.6 System Design](#a26-system-design)
     - [A2.7 Machine Learning](#a27-machine-learning)
     - [A2.8 Reinforcement Learning](#a28-reinforcement-learning)
+  - [Postface](#postface)
 
 ---
 
@@ -1190,3 +1191,15 @@ Papers:
 ### A2.8 Reinforcement Learning
 
 - [Reinforcement Learning Methods and Tutorials](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
+
+---
+
+## Postface
+
+The content ends here, but the learn never stops.
+
+If you like my content, feel free to star/like/fork on github.
+
+[Here is my patron page](https://www.patreon.com/CZTechHut), any support is much appreciated and will motivate me a lot in creating more content.
+
+Thanks again and best wishes.
