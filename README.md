@@ -121,15 +121,14 @@ Now let's begin our journey!
       - [A1.1.5 Why you should use a template for the algorithm and data structures](#a115-why-you-should-use-a-template-for-the-algorithm-and-data-structures)
       - [A1.1.6 What should I do if I lost confident when practicing leetcode](#a116-what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
       - [A1.1.7 I still can't solve new problems even if I finished x number of problems on LeetCode](#a117-i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
-    - [A1.2 Behavioral Questions](#a12-behavioral-questions)
-    - [A1.3 Interview Questions](#a13-interview-questions)
-      - [A1.3.1 What's the interview process look like](#a131-whats-the-interview-process-look-like)
-      - [A1.3.2 How to write an effective resume](#a132-how-to-write-an-effective-resume)
-      - [A1.3.3 I have applied to many jobs but still no interview](#a133-i-have-applied-to-many-jobs-but-still-no-interview)
-      - [A1.3.4 How to solve an algorithm/data structure problem in interview](#a134-how-to-solve-an-algorithmdata-structure-problem-in-interview)
-    - [A1.4 General Questions](#a14-general-questions)
-      - [A1.4.1 Large Company VS Small Company](#a141-large-company-vs-small-company)
-      - [A1.4.2 How to get your FIRST job! (How to become more competitive among the candidates)](#a142-how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
+    - [A1.2 Interview Questions](#a12-interview-questions)
+      - [A1.2.1 What's the interview process look like](#a121-whats-the-interview-process-look-like)
+      - [A1.2.2 How to write an effective resume](#a122-how-to-write-an-effective-resume)
+      - [A1.2.3 I have applied to many jobs but still no interview](#a123-i-have-applied-to-many-jobs-but-still-no-interview)
+      - [A1.2.4 How to solve an algorithm/data structure problem in interview](#a124-how-to-solve-an-algorithmdata-structure-problem-in-interview)
+    - [A1.3 General Questions](#a13-general-questions)
+      - [A1.3.1 Large Company VS Small Company](#a131-large-company-vs-small-company)
+      - [A1.3.2 How to get your FIRST job! (How to become more competitive among the candidates)](#a132-how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
     - [A2.1 Learning Experience](#a21-learning-experience)
       - [A2.1.1 Online MOOC courses](#a211-online-mooc-courses)
@@ -822,6 +821,8 @@ Follow these steps:
     - [How to sell yourself in interviews — Interview Genie](https://interviewgenie.com/blog-1/2018/6/6/how-to-sell-yourself-in-interviews)
     - [How to answer interview questions about the Amazon leadership principle “Frugality” — Interview Genie](https://interviewgenie.com/blog-1/2019/4/9/how-to-answer-amazon-frugality-interview-questions)
 
+- At last, one thing to note is that during your daily work, make notes on the achievements you had. Especially write down the details in the STAR format as mentioned above, but make sure you don't leak any sensitive data!
+
 ### Chapter 9: Offer Negotiation
 
 - Congratulations you got an offer!! But should you accept it immediately?
@@ -969,11 +970,9 @@ Here is a short summary:
 - Start with templates, and go beyond the templates so you can solve slightly varied problems but in the same category
 - Once you are familiar with the basic algorithms and data structures, medium and hard problems and just combination of two or three algorithms/data structures 
 
-### A1.2 Behavioral Questions
+### A1.2 Interview Questions
 
-### A1.3 Interview Questions
-
-#### A1.3.1 What's the interview process look like
+#### A1.2.1 What's the interview process look like
 
 The interview process normally follows the following steps, but of course each company is different:
 
@@ -994,7 +993,7 @@ Above steps is just a summary from my own experience (and from what I learnt fro
 
 DO ask the interviewer/hr the interview process when you got contacted!
 
-#### A1.3.2 How to write an effective resume
+#### A1.2.2 How to write an effective resume
 
 Well it's all about years of experience (YOE). Here are some tips you should know:
 
@@ -1006,7 +1005,7 @@ Well it's all about years of experience (YOE). Here are some tips you should kno
 - Highlight your skills and achievements
 - DOUBLE CHECK SPELLING AND GRAMMAR, have another person proofread for you
 
-#### A1.3.3 I have applied to many jobs but still no interview
+#### A1.2.3 I have applied to many jobs but still no interview
 
 - If you are a new grad, this is common. It's difficult for a new grad to find job pretty much in any industries. My advise is to work on your resume as much as you can, make sure each resume is targeted to the job posting really well, write cover letter to further show your enthusiastic about the job, and keep applying.
 - If you have a few years of experience, make sure your resume is great. 
@@ -1016,7 +1015,7 @@ Well it's all about years of experience (YOE). Here are some tips you should kno
     - Maybe find a professional service to help you with your resume if it's still not as polished as you want it to be
     - keep applying, you'll never know if there is a good opportunity waiting for you
 
-#### A1.3.4 How to solve an algorithm/data structure problem in interview
+#### A1.2.4 How to solve an algorithm/data structure problem in interview
 
 In other QAs I explained how to grind Leetcode efficiently and effectively. 
 
@@ -1031,9 +1030,9 @@ With enough practice, you got an interview, here are some tips that can increase
 - Be ready to discuss time and space complexity
 - Be ready for the follow up questions
 
-### A1.4 General Questions
+### A1.3 General Questions
 
-#### A1.4.1 Large Company VS Small Company
+#### A1.3.1 Large Company VS Small Company
 
 The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which makes the majority of the market. 
 
@@ -1068,7 +1067,7 @@ I've created a table for you. (It is subjective and depending on different teams
 
 
 
-#### A1.4.2 How to get your FIRST job! (How to become more competitive among the candidates)
+#### A1.3.2 How to get your FIRST job! (How to become more competitive among the candidates)
 
 To begin with, this is not limited to how to get the first job, but is meant to show you how to stand out of the crowd.
 
@@ -1080,7 +1079,7 @@ Essentially, you'll need to build your reputation. How to do that? There are a f
     - Meetups, especially local meetups give you the opportunities to directly talk to a person who has a job, and whose company might be hiring. So if you go to meetups frequently and make connections, job opportunities will come to you!
 
 - Make sure you resume and **LinkedIn profile** (especially this one!) is up-to-date!
-    - The recruiters and agents are quite active on linkedin, and I received a lot of interests from them.
+    - The recruiters and agents are quite active on LinkedIn, and I received a lot of interests from them.
 
 - Gain more project experience. **Either contribute to open source project or make your own personal project.**
     - This is not only for new grads, but also for those who have a few years of experience but has no project to show.
