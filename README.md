@@ -113,19 +113,23 @@ Now let's begin our journey!
       - [8.2 How to prepare for BQ](#82-how-to-prepare-for-bq)
     - [Chapter 9: Offer Negotiation](#chapter-9-offer-negotiation)
   - [Appendix 1: Question & Answer](#appendix-1-question--answer)
-    - [A1.1 Large Company VS Small Company](#a11-large-company-vs-small-company)
-    - [A1.2 What's the interview process look like](#a12-whats-the-interview-process-look-like)
-    - [A1.3 How to use LeetCode as a beginner](#a13-how-to-use-leetcode-as-a-beginner)
-    - [A1.4 How to solve LeetCode problem EFFECTIVELY](#a14-how-to-solve-leetcode-problem-effectively)
-    - [A1.5 How to solve LeetCode problem EFFICIENTLY](#a15-how-to-solve-leetcode-problem-efficiently)
-    - [A1.6 Pay close attention to these when solving problem (gain max value of leetcode problem)](#a16-pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
-    - [A1.7 Why you should use a template for the algorithm and data structures](#a17-why-you-should-use-a-template-for-the-algorithm-and-data-structures)
-    - [A1.8 What should I do if I lost confident when practicing leetcode](#a18-what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
-    - [A1.9 I still can't solve new problems even if I finished x number of problems on LeetCode](#a19-i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
-    - [A1.10 How to write an effective resume](#a110-how-to-write-an-effective-resume)
-    - [A1.11 I have applied to many jobs but still no interview](#a111-i-have-applied-to-many-jobs-but-still-no-interview)
-    - [A1.12 How to solve an algorithm/data structure problem in interview](#a112-how-to-solve-an-algorithmdata-structure-problem-in-interview)
-    - [A1.13 How to get your FIRST job! (How to become more competitive among the candidates)](#a113-how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
+    - [A1.1 Technical Questions](#a11-technical-questions)
+      - [A1.1.1 How to use LeetCode as a beginner](#a111-how-to-use-leetcode-as-a-beginner)
+      - [A1.1.2 How to solve LeetCode problem EFFECTIVELY](#a112-how-to-solve-leetcode-problem-effectively)
+      - [A1.1.3 How to solve LeetCode problem EFFICIENTLY](#a113-how-to-solve-leetcode-problem-efficiently)
+      - [A1.1.4 Pay close attention to these when solving problem (gain max value of leetcode problem)](#a114-pay-close-attention-to-these-when-solving-problem-gain-max-value-of-leetcode-problem)
+      - [A1.1.5 Why you should use a template for the algorithm and data structures](#a115-why-you-should-use-a-template-for-the-algorithm-and-data-structures)
+      - [A1.1.6 What should I do if I lost confident when practicing leetcode](#a116-what-should-i-do-if-i-lost-confident-when-practicing-leetcode)
+      - [A1.1.7 I still can't solve new problems even if I finished x number of problems on LeetCode](#a117-i-still-cant-solve-new-problems-even-if-i-finished-x-number-of-problems-on-leetcode)
+    - [A1.2 Behavioral Questions](#a12-behavioral-questions)
+    - [A1.3 Interview Questions](#a13-interview-questions)
+      - [A1.3.1 What's the interview process look like](#a131-whats-the-interview-process-look-like)
+      - [A1.3.2 How to write an effective resume](#a132-how-to-write-an-effective-resume)
+      - [A1.3.3 I have applied to many jobs but still no interview](#a133-i-have-applied-to-many-jobs-but-still-no-interview)
+      - [A1.3.4 How to solve an algorithm/data structure problem in interview](#a134-how-to-solve-an-algorithmdata-structure-problem-in-interview)
+    - [A1.4 General Questions](#a14-general-questions)
+      - [A1.4.1 Large Company VS Small Company](#a141-large-company-vs-small-company)
+      - [A1.4.2 How to get your FIRST job! (How to become more competitive among the candidates)](#a142-how-to-get-your-first-job-how-to-become-more-competitive-among-the-candidates)
   - [Appendix 2: Resources](#appendix-2-resources)
     - [A2.1 Learning Experience](#a21-learning-experience)
       - [A2.1.1 Online MOOC courses](#a211-online-mooc-courses)
@@ -834,7 +838,202 @@ Follow these steps:
 
 **NOTE:** You should read these QAs first before jumping into the content and resources, since these answers may save you lots time preparing the interview and potentially help you ace the interview. 
 
-### A1.1 Large Company VS Small Company
+### A1.1 Technical Questions
+
+#### A1.1.1 How to use LeetCode as a beginner
+
+- First of all, if you don't know what LeetCode is, google it and thank me later.
+
+- As a beginner or new to algorithm questions, LeetCode can get overwhelming because there are almost 2000 (at the time of writing) problems!
+
+- If you are new to algorithm and data structure, go the "**Explore**" tab on the top navigation bar, and go to the "**Learn**" row and learn all of them.
+
+- If you already know all the data structures, and would like to practice, do the questions from the tags, and do them from easy to hard
+    - Note that most of the companies rarely test hard ones, but some highly frequent hard problems come up more often recently
+
+- If you are really familiar with all the data structures and common algorithms, do the problems randomly, so you can think the best data structure for solving the problems most efficiently
+
+- If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions (LeetCode premium feature)
+
+#### A1.1.2 How to solve LeetCode problem EFFECTIVELY
+
+**Rule of thumb: make every question count!**
+
+What I mean is that you have to really understand the question after you've solved it.
+
+It doesn't really matter if you solved it by yourself or looked at the answers. 
+
+Here are a list of ***CRITICAL*** things you have to always think about when you are working on problems:
+
+- What's the best data structure/s to solve this problem
+- What's the time and space complexity (Big O's)
+- What's the tradeoff for the current approach (i.e. more space or more time)
+
+After solving the question (again whether you solved it yourself or looked at solution/discussion):
+
+- Is your solution the best way to solve it, if not is there a way to optimize your solution
+- If you can't solve it yourself, what was the reason?
+    - Have you seen the data structure/algorithm before? 
+        - If not you should stop working on more problems and study that immediately
+        - If so you should practice more on this type of problems
+    - Is there any tricks when solving the problem? 
+        - If not just keep practicing
+        - If so NOTE it!
+    - Did you have no clue when seeing the problem? 
+        - Practice more of this type of problems, and summarize the solution for each problem solved
+
+If you strictly do above things when you are working on the problem and after you solved it, its just a matter of time until you are an expert.
+
+#### A1.1.3 How to solve LeetCode problem EFFICIENTLY
+
+**Rule of thumb: Don't work on a single problem for too long, and don't be afraid to look at the solution!**
+
+I know many people don't wanna look for a solution if they can't solve the problem, but spending too much time (i.e hours) on a single problem isn't efficient at all! After all you only have 24 hours a day.
+
+So here is what you should do:
+
+- If you have no clue at all after reading the question, look at solution directly
+    - It may sounds a little cheese but this is the most efficient way cause you'll probably have no clue after 1 hour. Once you have solved enough questions this won't happen
+- If you have some clue but not sure how to do it, then spend some time work on it
+    - Normally spend like 15 - 30 mins, and if you still can't solve it, look at the solution
+- If you have an idea on how to solve it, do it!
+    - For this case, spend as much time as you need, even its one hour!
+    - The reason for that is you know how to solve it, but you are not really familiar on the approach so you need more practice. By solving it on your own after many try and errors, you should be very familiar with this question and you should be able to solve it very quickly next time
+
+To summarize, there are really just two points:
+
+1. Don't be afraid at looking at the solution
+2. If you are blocked, see point 1
+
+#### A1.1.4 Pay close attention to these when solving problem (gain max value of leetcode problem)
+
+**Rule of thumb: Consider edge cases, explain it step by step, analyze complexities, walk through code for test case**
+
+To gain the max value of leetcode problems, you need to do more than just solve the problem. 
+
+Here are a few things you need to pay close attention when solving the problem, because doing so will get you prepared for an interview better:
+
+- When first see the problem, ask many questions like boundaries, some edge case etc.
+    - Leetcode problems are quite straightforward, it shows you pretty much everything. However in the interview you'll have to work with the interviewer to get all the details of the problem you are about to solve. Make sure you fully understand the question and is aware of the boundaries and any possible edge cases
+- When solving the problem, don't just jump right in writing the code, but try to explain what you are about to do first by writing some pseudo code to illustrate your thinking process. 
+    - Doing so will allow your interviewer to understand your approach, and possibly correct you (or guide you) to the right path
+    - You can actually follow this process when working on the leetcode problems. For example, you can first write down the pseudo code as comments, and then fill in the actual code
+    - Since communication is also a really important factor in the interview process, this explanation step will greatly prepare you for an actual interview
+- You can ask for the space and time complexities prior to solving the problem, but most of the time you should mention this after finishing the problem. 
+    - Make sure you analyze both time and space complexity
+- Last but not least, once you have the solution, make sure to walk through your code with an test case. 
+    - Believe it or not, a lot people cannot debug their own code!
+    - Doing so will also show a sign that you review your code first before pushing it out, which is something you should do on your daily job 
+
+#### A1.1.5 Why you should use a template for the algorithm and data structures
+
+Should you use templates? Many people have asked this question, and the answer is always YES.
+
+Here are the reasons:
+
+- Interview is a stress process and time restricted, remember its time restricted, so knowing the template will enable you to focus on solving the problem and communicating with the interviewer about your thinking process
+- Some the algorithms may look easy, but really difficult to implement correct due to the various boundary/edge cases (such as binary search), so knowing a template will enable you to write some bug-free code more easily
+- Templates are summarized from solving many problems, so it's easier and more efficient to learn from the templates
+- It is also easier to pick up and get prepared for interview if you haven't had one for more than a year when you have some templates
+- Some algorithms are difficult to implement, or at least to implement nicely. Having a good template will make your code looks much better
+- Templates are the main reason for this repo :)
+
+#### A1.1.6 What should I do if I lost confident when practicing leetcode
+
+I know it can be super frustrating when you first started on the algorithm and data structure problems. 
+
+I've been there and I know how it feels.
+
+Here is the things you must know:
+
+- Any algorithms with names, they are not meant to be figured out by yourself easily. Check out those algorithms on wiki, you can see the history. This is why we need the template, and why we need to study for them.
+- Think of the algorithms and data structures as a math course, and the interview to be a final exam. You need to learn the formula (i.e. each algorithm and data structure) one by one, and interview is just a way to test some of them. It is totally fine not to know all of them at first, what's important is to learn them step by step
+- Build your confidence step by step
+    - this is why you need to solve problems based on TAGs, and solve them from easy to hard
+    - know a template, so you can start programming at least
+- You are not alone, we all feel the same, so don't worry, just keep working!
+
+You should also refer to other QA questions for more details.
+
+#### A1.1.7 I still can't solve new problems even if I finished x number of problems on LeetCode
+
+This can be a common thing, and it means you weren't using Leetcode very effectively and efficiently.
+
+Basically you should refer to other QA questions for more details.
+
+Here is a short summary:
+
+- Make notes on the problem you solved, and revisit them later
+- Its ok to work on the same problem multiple times in different time, practice makes perfect after all
+- AGAIN, solve problems by tags, so you can master one type at a time
+- Start with templates, and go beyond the templates so you can solve slightly varied problems but in the same category
+- Once you are familiar with the basic algorithms and data structures, medium and hard problems and just combination of two or three algorithms/data structures 
+
+### A1.2 Behavioral Questions
+
+### A1.3 Interview Questions
+
+#### A1.3.1 What's the interview process look like
+
+The interview process normally follows the following steps, but of course each company is different:
+
+1. You'll get an email asking you to finish an Online Assessment (OA) quiz, normally algorithm questions or simple knowledge test for the company's tech stack
+    - Note this is mostly used by large companies (and some mid-size companies). Small companies rarely has it.
+2. You got contacted by the company that there will be a screening phone interview
+    - This step normally is just talking about yourself and go over your resume/experience, and learn more about the company and position
+3. A technical phone interview. 
+    - This could be anything, from algorithm questions, to language/framework features.
+    - Each company is different.
+4. Another round of technical phone interview or take home quiz/project
+    - If this is not a take home quiz/project, then its referred as the "On-site" where you spend many hours to finish many rounds of interviews (3-5 rounds depending on the company and experience level)
+5. This step varies, could be another technical interview, or company culture interview
+    - Again not all company has this step, but if you got one then its mostly just to check the candidate with the company culture, or some high level open technical discussions.
+6. Offer!
+
+Above steps is just a summary from my own experience (and from what I learnt from my friends). 
+
+DO ask the interviewer/hr the interview process when you got contacted!
+
+#### A1.3.2 How to write an effective resume
+
+Well it's all about years of experience (YOE). Here are some tips you should know:
+
+- If you have less experience, you should keep your resume in 1 page. If you have lots of experience, you should keep it in 2 pages. just don't go over two pages.
+- You can have more details in the more recent experience, and less details in the early-year experience.
+- Try tailor your resume towards the job posting requirements, especially making sure you have the KEYWORDS aligned with the job posting.
+- Make sure you emphasize what YOU did and YOUR contribution to the projects listed
+- I know it's often hard, but try give specific analytical numbers (i.e. improved efficiency by 200%)
+- Highlight your skills and achievements
+- DOUBLE CHECK SPELLING AND GRAMMAR, have another person proofread for you
+
+#### A1.3.3 I have applied to many jobs but still no interview
+
+- If you are a new grad, this is common. It's difficult for a new grad to find job pretty much in any industries. My advise is to work on your resume as much as you can, make sure each resume is targeted to the job posting really well, write cover letter to further show your enthusiastic about the job, and keep applying.
+- If you have a few years of experience, make sure your resume is great. 
+    - Make sure your resume is up-to-date, no silly spell and grammar issues
+    - Make sure you have concentrated on your contributions in your resume
+    - Make sure you have highlighted your skills and achievements
+    - Maybe find a professional service to help you with your resume if it's still not as polished as you want it to be
+    - keep applying, you'll never know if there is a good opportunity waiting for you
+
+#### A1.3.4 How to solve an algorithm/data structure problem in interview
+
+In other QAs I explained how to grind Leetcode efficiently and effectively. 
+
+With enough practice, you got an interview, here are some tips that can increase your success rate.
+
+- Make sure you ask clarifications at the beginning. What are the inputs, input types, what are given, what should be the output etc
+- Before writing code, THINK OUT LOUD
+    - Discuss your thinking process with your interviewer
+    - what data structures you choose, why you choose them, what are the steps to implement
+    - During the process, write them down. For example, write them as comments, step by step
+- Once you interviewer knows your thoughts, ask if its ok to code, then code. Sometime you may even able to skip the coding entirely.
+- Be ready to discuss time and space complexity
+- Be ready for the follow up questions
+
+### A1.4 General Questions
+
+#### A1.4.1 Large Company VS Small Company
 
 The large companies such as the "Big Five" (Google, Amazon, Facebook, Apple, Microsoft) or the FAANG (Facebook, Amazon, Apple, Netflix, Google) is very attractive to developers, but there are also many smaller companies and startups which makes the majority of the market. 
 
@@ -867,194 +1066,9 @@ I've created a table for you. (It is subjective and depending on different teams
 | Interview Content | Mostly focus on algorithm/data structure problems | Mostly about hands on experience on the company tech stack |
 | Career Path | Clear but take longer time | Not super clear but could be promoted to high level (c-level is also possible) |
 
-### A1.2 What's the interview process look like
 
-The interview process normally follows the following steps, but of course each company is different:
 
-1. You'll get an email asking you to finish an Online Assessment (OA) quiz, normally algorithm questions or simple knowledge test for the company's tech stack
-    - Note this is mostly used by large companies (and some mid-size companies). Small companies rarely has it.
-2. You got contacted by the company that there will be a screening phone interview
-    - This step normally is just talking about yourself and go over your resume/experience, and learn more about the company and position
-3. A technical phone interview. 
-    - This could be anything, from algorithm questions, to language/framework features.
-    - Each company is different.
-4. Another round of technical phone interview or take home quiz/project
-    - If this is not a take home quiz/project, then its referred as the "On-site" where you spend many hours to finish many rounds of interviews (3-5 rounds depending on the company and experience level)
-5. This step varies, could be another technical interview, or company culture interview
-    - Again not all company has this step, but if you got one then its mostly just to check the candidate with the company culture, or some high level open technical discussions.
-6. Offer!
-
-Above steps is just a summary from my own experience (and from what I learnt from my friends). 
-
-DO ask the interviewer/hr the interview process when you got contacted!
-
-### A1.3 How to use LeetCode as a beginner
-
-- First of all, if you don't know what LeetCode is, google it and thank me later.
-
-- As a beginner or new to algorithm questions, LeetCode can get overwhelming because there are almost 2000 (at the time of writing) problems!
-
-- If you are new to algorithm and data structure, go the "**Explore**" tab on the top navigation bar, and go to the "**Learn**" row and learn all of them.
-
-- If you already know all the data structures, and would like to practice, do the questions from the tags, and do them from easy to hard
-    - Note that most of the companies rarely test hard ones, but some highly frequent hard problems come up more often recently
-
-- If you are really familiar with all the data structures and common algorithms, do the problems randomly, so you can think the best data structure for solving the problems most efficiently
-
-- If you are time sensitive/critical (i.e. you have an interview in the near future or you are actively looking for jobs), do the company based questions (LeetCode premium feature)
-
-### A1.4 How to solve LeetCode problem EFFECTIVELY
-
-**Rule of thumb: make every question count!**
-
-What I mean is that you have to really understand the question after you've solved it.
-
-It doesn't really matter if you solved it by yourself or looked at the answers. 
-
-Here are a list of ***CRITICAL*** things you have to always think about when you are working on problems:
-
-- What's the best data structure/s to solve this problem
-- What's the time and space complexity (Big O's)
-- What's the tradeoff for the current approach (i.e. more space or more time)
-
-After solving the question (again whether you solved it yourself or looked at solution/discussion):
-
-- Is your solution the best way to solve it, if not is there a way to optimize your solution
-- If you can't solve it yourself, what was the reason?
-    - Have you seen the data structure/algorithm before? 
-        - If not you should stop working on more problems and study that immediately
-        - If so you should practice more on this type of problems
-    - Is there any tricks when solving the problem? 
-        - If not just keep practicing
-        - If so NOTE it!
-    - Did you have no clue when seeing the problem? 
-        - Practice more of this type of problems, and summarize the solution for each problem solved
-
-If you strictly do above things when you are working on the problem and after you solved it, its just a matter of time until you are an expert.
-
-### A1.5 How to solve LeetCode problem EFFICIENTLY
-
-**Rule of thumb: Don't work on a single problem for too long, and don't be afraid to look at the solution!**
-
-I know many people don't wanna look for a solution if they can't solve the problem, but spending too much time (i.e hours) on a single problem isn't efficient at all! After all you only have 24 hours a day.
-
-So here is what you should do:
-
-- If you have no clue at all after reading the question, look at solution directly
-    - It may sounds a little cheese but this is the most efficient way cause you'll probably have no clue after 1 hour. Once you have solved enough questions this won't happen
-- If you have some clue but not sure how to do it, then spend some time work on it
-    - Normally spend like 15 - 30 mins, and if you still can't solve it, look at the solution
-- If you have an idea on how to solve it, do it!
-    - For this case, spend as much time as you need, even its one hour!
-    - The reason for that is you know how to solve it, but you are not really familiar on the approach so you need more practice. By solving it on your own after many try and errors, you should be very familiar with this question and you should be able to solve it very quickly next time
-
-To summarize, there are really just two points:
-
-1. Don't be afraid at looking at the solution
-2. If you are blocked, see point 1
-
-### A1.6 Pay close attention to these when solving problem (gain max value of leetcode problem)
-
-**Rule of thumb: Consider edge cases, explain it step by step, analyze complexities, walk through code for test case**
-
-To gain the max value of leetcode problems, you need to do more than just solve the problem. 
-
-Here are a few things you need to pay close attention when solving the problem, because doing so will get you prepared for an interview better:
-
-- When first see the problem, ask many questions like boundaries, some edge case etc.
-    - Leetcode problems are quite straightforward, it shows you pretty much everything. However in the interview you'll have to work with the interviewer to get all the details of the problem you are about to solve. Make sure you fully understand the question and is aware of the boundaries and any possible edge cases
-- When solving the problem, don't just jump right in writing the code, but try to explain what you are about to do first by writing some pseudo code to illustrate your thinking process. 
-    - Doing so will allow your interviewer to understand your approach, and possibly correct you (or guide you) to the right path
-    - You can actually follow this process when working on the leetcode problems. For example, you can first write down the pseudo code as comments, and then fill in the actual code
-    - Since communication is also a really important factor in the interview process, this explanation step will greatly prepare you for an actual interview
-- You can ask for the space and time complexities prior to solving the problem, but most of the time you should mention this after finishing the problem. 
-    - Make sure you analyze both time and space complexity
-- Last but not least, once you have the solution, make sure to walk through your code with an test case. 
-    - Believe it or not, a lot people cannot debug their own code!
-    - Doing so will also show a sign that you review your code first before pushing it out, which is something you should do on your daily job 
-
-### A1.7 Why you should use a template for the algorithm and data structures
-
-Should you use templates? Many people have asked this question, and the answer is always YES.
-
-Here are the reasons:
-
-- Interview is a stress process and time restricted, remember its time restricted, so knowing the template will enable you to focus on solving the problem and communicating with the interviewer about your thinking process
-- Some the algorithms may look easy, but really difficult to implement correct due to the various boundary/edge cases (such as binary search), so knowing a template will enable you to write some bug-free code more easily
-- Templates are summarized from solving many problems, so it's easier and more efficient to learn from the templates
-- It is also easier to pick up and get prepared for interview if you haven't had one for more than a year when you have some templates
-- Some algorithms are difficult to implement, or at least to implement nicely. Having a good template will make your code looks much better
-- Templates are the main reason for this repo :)
-
-### A1.8 What should I do if I lost confident when practicing leetcode
-
-I know it can be super frustrating when you first started on the algorithm and data structure problems. 
-
-I've been there and I know how it feels.
-
-Here is the things you must know:
-
-- Any algorithms with names, they are not meant to be figured out by yourself easily. Check out those algorithms on wiki, you can see the history. This is why we need the template, and why we need to study for them.
-- Think of the algorithms and data structures as a math course, and the interview to be a final exam. You need to learn the formula (i.e. each algorithm and data structure) one by one, and interview is just a way to test some of them. It is totally fine not to know all of them at first, what's important is to learn them step by step
-- Build your confidence step by step
-    - this is why you need to solve problems based on TAGs, and solve them from easy to hard
-    - know a template, so you can start programming at least
-- You are not alone, we all feel the same, so don't worry, just keep working!
-
-You should also refer to other QA questions for more details.
-
-### A1.9 I still can't solve new problems even if I finished x number of problems on LeetCode
-
-This can be a common thing, and it means you weren't using Leetcode very effectively and efficiently.
-
-Basically you should refer to other QA questions for more details.
-
-Here is a short summary:
-
-- Make notes on the problem you solved, and revisit them later
-- Its ok to work on the same problem multiple times in different time, practice makes perfect after all
-- AGAIN, solve problems by tags, so you can master one type at a time
-- Start with templates, and go beyond the templates so you can solve slightly varied problems but in the same category
-- Once you are familiar with the basic algorithms and data structures, medium and hard problems and just combination of two or three algorithms/data structures 
-
-### A1.10 How to write an effective resume
-
-Well it's all about years of experience (YOE). Here are some tips you should know:
-
-- If you have less experience, you should keep your resume in 1 page. If you have lots of experience, you should keep it in 2 pages. just don't go over two pages.
-- You can have more details in the more recent experience, and less details in the early-year experience.
-- Try tailor your resume towards the job posting requirements, especially making sure you have the KEYWORDS aligned with the job posting.
-- Make sure you emphasize what YOU did and YOUR contribution to the projects listed
-- I know it's often hard, but try give specific analytical numbers (i.e. improved efficiency by 200%)
-- Highlight your skills and achievements
-- DOUBLE CHECK SPELLING AND GRAMMAR, have another person proofread for you
-
-### A1.11 I have applied to many jobs but still no interview
-
-- If you are a new grad, this is common. It's difficult for a new grad to find job pretty much in any industries. My advise is to work on your resume as much as you can, make sure each resume is targeted to the job posting really well, write cover letter to further show your enthusiastic about the job, and keep applying.
-- If you have a few years of experience, make sure your resume is great. 
-    - Make sure your resume is up-to-date, no silly spell and grammar issues
-    - Make sure you have concentrated on your contributions in your resume
-    - Make sure you have highlighted your skills and achievements
-    - Maybe find a professional service to help you with your resume if it's still not as polished as you want it to be
-    - keep applying, you'll never know if there is a good opportunity waiting for you
-
-### A1.12 How to solve an algorithm/data structure problem in interview
-
-In other QAs I explained how to grind Leetcode efficiently and effectively. 
-
-With enough practice, you got an interview, here are some tips that can increase your success rate.
-
-- Make sure you ask clarifications at the beginning. What are the inputs, input types, what are given, what should be the output etc
-- Before writing code, THINK OUT LOUD
-    - Discuss your thinking process with your interviewer
-    - what data structures you choose, why you choose them, what are the steps to implement
-    - During the process, write them down. For example, write them as comments, step by step
-- Once you interviewer knows your thoughts, ask if its ok to code, then code. Sometime you may even able to skip the coding entirely.
-- Be ready to discuss time and space complexity
-- Be ready for the follow up questions
-
-### A1.13 How to get your FIRST job! (How to become more competitive among the candidates)
+#### A1.4.2 How to get your FIRST job! (How to become more competitive among the candidates)
 
 To begin with, this is not limited to how to get the first job, but is meant to show you how to stand out of the crowd.
 
