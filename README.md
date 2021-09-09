@@ -813,6 +813,9 @@ Follow these steps:
         - This article shows you [How to predict your interview questions](https://interviewgenie.com/blog-1/2020/5/4/how-to-predict-your-interview-questions)
     - Ask any questions that you might be interested through your interview
         - For example, when certain technologies were mention in your interview, you may ask your interview how those technologies are used in the company
+    - **NOTE** this step is quite important, it will not only show that you are interested in the company and the position, but also a chance for you to learn the company culture and tech stack, and decide if you really want to work for this company or not.
+        - From the technical perspective, ask the tech stack and even specific versions will let you know if the team has lots of tech debt. Discussing certain technologies will also show that you are strong in the area
+        - From the company culture perspective, how your interviewers dealing with certain situations will give you a sneak peak of how company operates and what the company culture looks like
 
 - Here are some really good resources for you to prepare:
     - AGAIN if you wanna prepare for certain questions, there are lots examples online, just google, and use Youtube
@@ -821,7 +824,7 @@ Follow these steps:
     - [How to sell yourself in interviews — Interview Genie](https://interviewgenie.com/blog-1/2018/6/6/how-to-sell-yourself-in-interviews)
     - [How to answer interview questions about the Amazon leadership principle “Frugality” — Interview Genie](https://interviewgenie.com/blog-1/2019/4/9/how-to-answer-amazon-frugality-interview-questions)
 
-- At last, one thing to note is that during your daily work, make notes on the achievements you had. Especially write down the details in the STAR format as mentioned above, but make sure you don't leak any sensitive data!
+- **One more thing**. During your daily work, make notes on the achievements you had. Especially write down the details in the STAR format as mentioned above, but make sure you don't leak any sensitive data!
 
 ### Chapter 9: Offer Negotiation
 
