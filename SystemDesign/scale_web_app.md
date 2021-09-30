@@ -20,7 +20,7 @@ MVC Design:
 
 - **Health Checks** make sure that our actual server is still up and running
 - **Routing** forwards a request to the right endpoint
-- **Authentication** makes sure that a user is actually permissioned to access the server
+- **Authentication** makes sure that a user is actually permitted to access the server
 - **Firewalling** ensure that users only have access to the parts of our network they are allowed to use ... and more
 
 ## 3. Add a Load Balancer with multiple servers
@@ -48,7 +48,7 @@ How to ensure data consistency:
 
 ![06-cdn-700.png](https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/06-cdn-700.png)
 
-- cahce the static content
+- cache the static content
 
 ## 7. Message Queues
 

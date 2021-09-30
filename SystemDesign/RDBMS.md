@@ -8,7 +8,7 @@
 - Postgres:
     - object-relational database
     - open source, easy to install, highly extensible
-    - implements Multiversion Concurrency Control (MVCC) without read locks
+    - implements Multi-version Concurrency Control (MVCC) without read locks
     - protecting data integrity at the transaction level
 - MySQL
     - purely relational database

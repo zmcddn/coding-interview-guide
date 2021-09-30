@@ -248,11 +248,11 @@ Now let's begin our journey!
 - Each position of the hash table, often called a slot, can hold an item and is named by an integer value starting at 0.
 - The mapping between an item and the slot where that item belongs in the hash table is called the **hash function**.
 	- **Remainder method** takes an item and divides it by the table size, returning the remainder as its hash value (i.e. `h(item) = item % 11`)
-	- **load factor** is the number of items devided by the table size
+	- **load factor** is the number of items divided by the table size
 	- **collision** refers to the situation that multiple items have the same hash value
 	- **folding method** for constructing hash functions begins by dividing the item into equal-size pieces (the last piece may not be of equal size). These pieces are then added together to give the resulting hash value. 
 	- **mid-square method** first squares the item, and then extract some portion of the resulting digits. For example, 44^2 = 1936, extract middle two digits 93, then perform remainder step (93%11=5).
-- **Collision Resolution** is the process to systemacticly place the second item in the hash table when two items hash to the same slot.
+- **Collision Resolution** is the process to systematically place the second item in the hash table when two items hash to the same slot.
 - **Open addressing (linear probing):** sequentially find the next open slot or address in the hash table 
 	- A disadvantage to linear probing is the tendency for clustering; items become clustered in the table.
 	- **Rehashing** is one way to deal with clustering, which is to skip the slot when looking  sequentially for the next open slot, thereby more evenly distributing the items that have caused collisions.
@@ -589,7 +589,7 @@ Here is a template I use for the system design interview:
         - Load Balancer/Reverse Proxy
             - LB types
             - LB algorithms
-        - Application layer scaling (Microservices, Service Discovery, Service Mesh)
+        - Application layer scaling (Microservice, Service Discovery, Service Mesh)
         - Database (RDBMS vs NoSQL)
             - RDBMS:
                 - Leader-follower, Multi-leader, Leaderless, Federation, Sharding, Denormalization, SQL Tuning
@@ -803,7 +803,7 @@ Follow these steps:
         - Frameworks (Django, Spring, etc) and their versions (from the versions you'll know how up-to-date their tech stack is )
         - development tools (IDEs, OS, Cloud providers, etc)
     - Generic questions
-        - What is a day like in your company (this may seem too generic, but is quite important). For example, what's the sprint like (do you have sprints), do you have standups, how many working hours per week, when do you start your day, and much more. Pick those that you are most interested in
+        - What is a day like in your company (this may seem too generic, but is quite important). For example, what's the sprint like (do you have sprints), do you have standup (frequency and time), how many working hours per week, when do you start your day, and much more. Pick those that you are most interested in
         - What's the team like, what's the tech stack for the team, how many BE/FE/QA etc
         - These kinda questions show that you are really interested in the job and team. You'll need to know this info anyway if there will be an offer and you choose to accept it
     - Interview related questions

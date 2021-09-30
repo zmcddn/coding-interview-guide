@@ -1,4 +1,4 @@
-# Merge Sort
+# Quick Sort
 
 ## Implementation:
 
@@ -55,7 +55,7 @@ class Solution:
         """
         Quick sort with 3 partition
         The main idea is that we still have the same pivot point, but 
-        instead of comparing with just smaller and greated or equal,
+        instead of comparing with just smaller and greater or equal,
         we take out the equal case and process it individually.
         a[lo,lt-1] < pivot
         a[lt, i-1] = pivot
