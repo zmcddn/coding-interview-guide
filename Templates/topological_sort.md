@@ -29,19 +29,19 @@ def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int
     adj_list = defaultdict(list)
     
     # Build map to put the child into parent's list
-    for current_course, prev_course in prerequisites:
-        adj_list[prev_course].append(current_course)
-        in_degree[current_course] += 1  # a directed edge
+    for current, previous in prerequisites:
+        adj_list[previous].append(current)
+        in_degree[current] += 1  # a directed edge
     
     #  a queue of all vertices with no incoming edge
-    queue = []
+    queue = deque([])
     for node in range(numCourses):
         if node not in in_degree:
             queue.append(node)
 
     res = []
     while queue:
-        node = queue.pop(0)  # BFS, pops vertex
+        node = queue.popleft()  # BFS, pops vertex
         res.append(node)
         for neighbor in adj_list[node]:
             # for each descendant of current vertex, reduce its in-degree by 1
