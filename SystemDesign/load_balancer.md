@@ -62,9 +62,10 @@ Layer 7 load balancing:
 - Besides this pure routing task, an API gateway can also be the part that performs **authentication**, **input validation**, **load balancing** and **centralized middleware** functionality, among other tasks.
 - It often makes sense to deploy a reverse proxy even with just one web server or application server.
 - Drawbacks for API gateway are:
-    - It creates a tight coupling between the client and the backend.
     - It has limited choice of communication protocols for services.
     - It could becomes a bottleneck for your application
+- A variation of API Gateway is **Backends for frontends** (BFF), which defines a separate API gateway for each kind of client (i.e. mobile, public, webapp, etc)
+
 
 ## An example: The Architecture of Uber’s API gateway
 
@@ -88,4 +89,6 @@ Components in a request lifecycle:
 - [What is a Reverse Proxy vs. Load Balancer? - NGINX](https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/)
 - [Stupid question of the day: What is an API Gateway and what it has to do with a Serverless model? \| by Gabry Martinez | Medium](https://gabrymartinez.medium.com/stupid-question-of-the-day-what-is-an-api-gateway-and-what-it-has-to-do-with-a-serverless-model-2acee3e3eeba)
 - [What is API Gateway?. In microservices architecture, there… \| by Vivek Kumar Singh | System Design Blog | Medium](https://medium.com/system-design-blog/what-is-api-gateway-68a11d4ab322)
+- [API gateway pattern](https://microservices.io/patterns/apigateway.html)
+- [Design patterns in microservices: API Gateway, Backend for Frontend](https://tsh.io/blog/design-patterns-in-microservices-api-gateway-bff-and-more/)
 - [The Architecture of Uber's API gateway \| Uber Engineering Blog](https://eng.uber.com/architecture-api-gateway/)
