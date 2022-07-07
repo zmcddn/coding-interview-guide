@@ -475,8 +475,9 @@ Recursive visualization: Fractal tree
 #### 2.6 Dynamic Programming
 
 **Dynamic Programming (DP)** is an algorithm technique which is usually based on a recurrent formula and one (or some) starting states.
-	- A sub-solution of the problem is constructed from previously found ones.
-	- Usually used to find the extreme cases such as shortest path, best fit, smallest set, etc.
+
+- [Details and Templates](./Templates/dynamic_programming.md)
+
 
 #### 2.7 Divide and Conquer
 
