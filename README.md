@@ -529,7 +529,9 @@ Recursive visualization: Fractal tree
 - [Kadane's algorithm](./Templates/kadane.md)
 - Reservoir Sampling
 - Line sweep
-- KMP algorithm (pattern match)
+- Pattern Match
+    - KMP algorithm
+    - Rabin-Karp
 - Manacher (Longest Palindromic Substring)
 - Skip List
 
