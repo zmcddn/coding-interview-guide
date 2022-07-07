@@ -526,7 +526,7 @@ Recursive visualization: Fractal tree
 #### 3.2 Good to know but can be skipped
 
 - Segment Tree
-- Kadane's algorithm
+- [Kadane's algorithm](./Templates/kadane.md)
 - Reservoir Sampling
 - Line sweep
 - KMP algorithm (pattern match)
