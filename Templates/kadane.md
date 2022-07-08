@@ -38,3 +38,6 @@ Reference:
 Practice:
 
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- [918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+- [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)
