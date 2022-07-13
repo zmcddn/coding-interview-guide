@@ -51,3 +51,4 @@ Practice:
 - [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 - [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
 - [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
+- [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
