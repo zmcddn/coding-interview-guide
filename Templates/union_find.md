@@ -3,14 +3,14 @@
 - Union Find (or disjoint-set) is a very elegant data structure
 - Essentially it utilizes a list representation for the joint data points
     - the index of the data point indicates its linkage status
-- For detailed explanation, please see this [Lecture Notes](https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf)
+- For detailed explanation, please see this [Lecture Notes](https://sedgewick.io/wp-content/uploads/2022/04/Algs01-UnionFind.pdf)
 
 ## Template
 
 ```python
 class UnionFind:
     def __init__(self, n):
-        self.count = n
+        self.count = n  # Number of Connected Components
         self.parent = list(range(n))  # root list
         self.size = [1] * n  # weight
         
