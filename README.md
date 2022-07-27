@@ -261,7 +261,7 @@ Now let's begin our journey!
 - **Chaining** allows many items to exist at the same location in the hash table. 
 	- When collisions happen, the item is still placed in the proper slot of the hash table. 
 	- As more and more items hash to the same location, the difficulty of searching for the item in the collection increases.    
-	![](http://interactivepython.org/runestone/static/pythonds/_images/chaining.png)
+	![](https://runestone.academy/ns/books/published/pythonds/_images/chaining.png)
 - The initial size for the hash table has to be a prime number so that the collision resolution algorithm can be as efficient as possible.
 
 #### 1.6 Trees
@@ -307,7 +307,7 @@ Now let's begin our journey!
     - **complete binary tree:** a tree in which each level has all of its nodes (except the bottom level)
         - can be implemented using a single list
         - Because the tree is complete, the left child of a parent (at position **p**) is the node that is found in position **2p** in the list. Similarly, the right child of the parent is at position **2p+1** in the list.
-        ![](http://interactivepython.org/runestone/static/pythonds/_images/heapOrder.png)
+        ![](https://runestone.academy/ns/books/published/pythonds/_images/heapOrder.png)
     - **heap order property:** In a heap, for every node **x** with parent **p**, the key in **p** is smaller than or equal to the key in **x**.
         * For example, the root of the tree must be the smallest item in the tree
     - When to use heap:
@@ -365,12 +365,12 @@ Now let's begin our journey!
     - Each of the rows and columns represent a vertex in the graph. 
     - The value in the cell at the intersection of row v and column w indicates if there is an edge from vertex v to vertex w. It also represents the weight of the edge from vertex v to vertex w.
     - When two vertices are connected by an edge, we say that they are **adjacent**
-        ![](http://interactivepython.org/runestone/static/pythonds/_images/adjMat.png)
+        ![](https://runestone.academy/ns/books/published/pythonds/_images/adjMat.png)
     - **sparse:** most of the cells in the matrix are empty
 - Adjacency List
     - space-efficient way for implementation
     - keep a master list of all the vertices in the Graph object. each vertex is an element of the list with the vertex as ID and a list of its adjacent vertices as value
-        ![](http://interactivepython.org/runestone/static/pythonds/_images/adjlist.png)
+        ![](https://runestone.academy/ns/books/published/pythonds/_images/adjlist.png)
 
 ##### 1.7.3 Graph Algorithms
 
