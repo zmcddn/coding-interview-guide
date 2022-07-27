@@ -92,7 +92,7 @@ Now let's begin our journey!
         - [2.3.6 Quick Sort](#236-quick-sort)
         - [2.3.7 Heap Sort](#237-heap-sort)
       - [2.4 Recursion](#24-recursion)
-        - [2.4.1 Recursive function in Python](#241-recursive-function-in-python)
+        - [2.4.1 How recursion works](#241-how-recursion-works)
       - [2.5 Backtracking](#25-backtracking)
       - [2.6 Dynamic Programming](#26-dynamic-programming)
       - [2.7 Divide and Conquer](#27-divide-and-conquer)
@@ -204,6 +204,7 @@ Now let's begin our journey!
 - Similar to array, but requires O(N) time on average to visit an element by index
 - Linked list utilize memory better than array, since it can use discrete memory space, whereas array must use continuous memory space
 - [Details and Templates](./Templates/linked_list.md)
+- For recursion implementation/instruction, check the recursion section
 
 #### 1.3 Stack
 
@@ -265,13 +266,13 @@ Now let's begin our journey!
 
 #### 1.6 Trees
 
-* A tree data structure has its root at the top and its leaves on the bottom.
-* Three properties of tree:
+- A tree data structure has its root at the top and its leaves on the bottom.
+- Three properties of tree:
     1. we start at the top of the tree and follow a path made of circles and arrows all the way to the bottom.
     2. all of the children of one node are independent of the children of another node.
     3. each leaf node is unique. 
-* **binary tree:** each node in the tree has a maximum of two children.
-    * A **balanced binary tree** has roughly the same number of nodes in the left and right subtrees of the root.
+- **binary tree:** each node in the tree has a maximum of two children.
+    - A **balanced binary tree** has roughly the same number of nodes in the left and right subtrees of the root.
 
 ##### 1.6.1 Tree Traversal: access the nodes of the tree
 
@@ -291,6 +292,8 @@ Now let's begin our journey!
 - **successor:** the node that has the next-largest key in the tree
     - it has no more than one child
 - You could go over the [Leetcode Binary Search Tree topic](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/) for details
+- For recursion implementation/instruction, check the recursion section
+
 
 ##### 1.6.3 Heap / Priority Queue / Binary Heap
 
@@ -385,6 +388,7 @@ Now let's begin our journey!
         - [More Info](./Templates/graph_SCC.md)
     - Prim’s Spanning Tree Algorithm
         - [More Info](./Templates/prim_spanning_tree.md)
+- For recursion implementation/instruction, check the recursion section
 
 ### Chapter 2: Common Algorithm Types
 
@@ -460,9 +464,13 @@ Recursive visualization: Fractal tree
 - A **fractal** is something that looks the same at all different levels of magnification.
 - A fractal tree: a small twig has the same shape and characteristics as a whole tree. 
 
-##### 2.4.1 Recursive function in Python
+For a more detailed explanation, you can [watch this video](https://www.youtube.com/watch?v=IJDJ0kBx2LM)
 
-* When a function is called in Python, a stack frame is allocated to handle the local variables of the function. 
+- Note that try to draw recursion stack or recursion tree if the recursion looks confusing
+
+##### 2.4.1 How recursion works
+
+* When a function is called in a programming language, a stack frame is allocated to handle the local variables of the function. 
 * When the function returns, the return value is left on top of the stack for the calling function to access. 
 * Even though we are calling the same function over and over, each call creates a new scope for the variables that are local to the function.
 
