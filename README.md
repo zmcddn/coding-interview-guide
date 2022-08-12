@@ -77,7 +77,7 @@ Now let's begin our journey!
       - [1.7 Graph](#17-graph)
         - [1.7.1 Vocabulary and Definitions](#171-vocabulary-and-definitions)
         - [1.7.2 Graph Representation](#172-graph-representation)
-        - [1.7.3 Graph Algorithms](#173-graph-algorithms)
+        - [1.7.3 Common Approaches and Graph Algorithms](#173-common-approaches-and-graph-algorithms)
     - [Chapter 2: Common Algorithm Types](#chapter-2-common-algorithm-types)
       - [2.1 Brute Force](#21-brute-force)
       - [2.2 Search](#22-search)
@@ -372,10 +372,16 @@ Now let's begin our journey!
     - keep a master list of all the vertices in the Graph object. each vertex is an element of the list with the vertex as ID and a list of its adjacent vertices as value
         ![](https://runestone.academy/ns/books/published/pythonds/_images/adjlist.png)
 
-##### 1.7.3 Graph Algorithms
+##### 1.7.3 Common Approaches and Graph Algorithms
 
-- Graph traversal: BFS & DFS
-    - [Template](./Templates/graph_traversal.md)
+- When solving the graph based questions, the following **three approaches** are most widely used:
+    1. Graph traversal: BFS & DFS *(Must know)* 
+        - [Template](./Templates/graph_traversal.md)
+    2. Adjacency list conversion. 
+        - We could convert a graph into a adjacency list representation, and then iterating through each node to do some processing.
+        - A widely used practical example is the **Topological Sort Algorithm** (see below)
+    3. The last but definitely not the least approach is to find the connected components, which can be efficient solved by the **Union Find Algorithm** (see section 3.1 for details)
+- [This video is an awesome introduction and illustration for graph questions](https://www.youtube.com/watch?v=2_Uuixtc5i0)
 - Graph Algorithms:
     - Shortest Path:
         - Dijkstra’s Algorithm (Single source point)
